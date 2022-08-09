@@ -1,0 +1,59 @@
+/* Home */
+
+#home {
+    width: 100%;
+    max-width: calc(700px + 3rem);
+    margin: 100px auto;
+    padding: 0 18.7px;
+}
+
+.horizontalLine {
+    margin: 40px 0;
+}
+
+/* Hero */
+
+#heroName {
+    font-weight: 400;
+    font-size: 33px;
+}
+
+#heroTitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #d3d3d3;
+}
+
+#hero-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* border: 2px solid lightgray; */
+}
+
+/* Navigation */
+
+#navigation {
+    font-size: 14px;
+    margin: 50px 0;
+}
+
+.navigationItem {
+    margin: 30px 0;
+}
+
+.navigationTitle {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon {
+    margin: 0 10px;
+}
+
+.navigationSubtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #d3d3d3;
+}
