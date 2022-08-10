@@ -14,21 +14,20 @@
 /* Hero */
 
 #heroName {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 33px;
 }
 
 #heroTitle {
     font-size: 18px;
     font-weight: 300;
-    color: #d3d3d3;
+    opacity: 0.7;
 }
 
 #hero-image {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    /* border: 2px solid lightgray; */
 }
 
 /* Navigation */
@@ -42,14 +41,16 @@
     margin: 30px 0;
 }
 
-.navigationTitle {
-    font-weight: 400;
-    display: flex;
-    align-items: center;
+.forHover:hover {
+    opacity: 0.7;
 }
 
-.arrow-icon {
-    margin: 0 10px;
+.navigationTitle {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    text-decoration: none;
 }
 
 .navigationSubtitle {

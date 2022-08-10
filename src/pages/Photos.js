@@ -1,18 +1,17 @@
-import '../assets/css/about.css';
+import '../assets/css/photos.css';
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 
 
-function About() {
-
+function Photos() {
     return (
-        <main id='about'>
+        <main id='photos'>
 
             <Navigation />
 
             <section id="intro">
-                <h1 id="pageTitle">About</h1>
-                <h2 id="pageSubtitle">About me and what I do.</h2>
+                <h1 id="pageTitle">Photos</h1>
+                <h2 id="pageSubtitle">Photos from my travels</h2>
             </section>
 
             <Footer />
@@ -20,4 +19,4 @@ function About() {
         </main>)
 }
 
-export default About
+export default Photos
