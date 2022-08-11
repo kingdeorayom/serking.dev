@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #131418;
+    background-color: #243940;
     color: #ffffff;
 }
 
@@ -82,7 +82,6 @@ body {
     height: 70px;
     border-radius: 50%;
     margin: 12px 0;
-    border: 0.5px solid #131418;
 }
 
 /*--------------------- Navigation ---------------------*/

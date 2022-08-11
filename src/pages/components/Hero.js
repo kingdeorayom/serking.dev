@@ -1,4 +1,4 @@
-import SerkingImage from '../../assets/images/serking-cartoon-circle.png'
+import SerkingImage from '../../assets/images/serking/serking-cartoon-circle.png'
 
 const Hero = () => {
     return (
