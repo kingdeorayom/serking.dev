@@ -7,8 +7,8 @@ import Notes from './pages/Notes';
 import Photos from './pages/Photos';
 import NoPage from './pages/NoPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './assets/css/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
