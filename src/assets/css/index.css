@@ -45,6 +45,18 @@ body {
     margin: 40px 0;
 }
 
+.card {
+    width: 30rem;
+    transition: transform ease 100ms;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card:hover {
+    transform: translate(0, -7px);
+}
+
 /*--------------------- Icons ---------------------*/
 
 /* .FaArrowRight { 
