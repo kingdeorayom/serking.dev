@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-// import { FaArrowRight } from 'react-icons/fa'
-{/* <FaArrowRight className='FaArrowRight' /> */ }
 
-function Navigation() {
+const Navigation = () => {
     return (
         <section id="navigation">
             <div className="navigationItem">

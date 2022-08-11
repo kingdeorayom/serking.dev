@@ -1,5 +1,5 @@
 
-function NoPage() {
+const NoPage = () => {
     return (
         <div>NoPage</div>
     )

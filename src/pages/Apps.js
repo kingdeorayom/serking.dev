@@ -2,7 +2,7 @@ import Footer from './components/Footer'
 import BackButton from './components/BackButton'
 
 
-function Apps() {
+const Apps = () => {
 
     return (
         <main id='apps'>

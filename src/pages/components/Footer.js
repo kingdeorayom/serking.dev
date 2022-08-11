@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
     return (
 
         <section id='footer'>

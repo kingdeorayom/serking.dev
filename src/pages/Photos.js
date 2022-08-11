@@ -1,7 +1,7 @@
 import Footer from './components/Footer'
 import BackButton from './components/BackButton'
 
-function Photos() {
+const Photos = () => {
     return (
         <main id='photos'>
 

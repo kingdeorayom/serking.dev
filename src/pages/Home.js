@@ -2,7 +2,7 @@ import Hero from './components/Hero'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
-function Home() {
+const Home = () => {
 
   return (
 

@@ -2,7 +2,7 @@ import Footer from './components/Footer'
 import BackButton from './components/BackButton'
 
 
-function About() {
+const About = () => {
 
     return (
         <main id='about'>
