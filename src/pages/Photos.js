@@ -1,13 +1,11 @@
-import '../assets/css/photos.css';
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
-
+import BackButton from './components/BackButton'
 
 function Photos() {
     return (
         <main id='photos'>
 
-            <Navigation />
+            <BackButton />
 
             <section id="intro">
                 <h1 id="pageTitle">Photos</h1>
@@ -16,7 +14,8 @@ function Photos() {
 
             <Footer />
 
-        </main>)
+        </main>
+    );
 }
 
 export default Photos

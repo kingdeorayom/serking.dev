@@ -1,6 +1,5 @@
-import '../assets/css/about.css';
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
+import BackButton from './components/BackButton'
 
 
 function About() {
@@ -8,7 +7,7 @@ function About() {
     return (
         <main id='about'>
 
-            <Navigation />
+            <BackButton />
 
             <section id="intro">
                 <h1 id="pageTitle">About</h1>

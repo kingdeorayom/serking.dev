@@ -1,6 +1,5 @@
-import '../assets/css/apps.css';
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
+import BackButton from './components/BackButton'
 
 
 function Apps() {
@@ -8,7 +7,7 @@ function Apps() {
     return (
         <main id='apps'>
 
-            <Navigation />
+            <BackButton />
 
             <section id="intro">
                 <h1 id="pageTitle">Apps</h1>
@@ -17,7 +16,7 @@ function Apps() {
 
             <Footer />
 
-        </main>)
+        </main >)
 }
 
 export default Apps

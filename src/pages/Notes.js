@@ -1,13 +1,12 @@
-import '../assets/css/notes.css';
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
+import BackButton from './components/BackButton'
 
 
 function Notes() {
     return (
         <main id='notes'>
 
-            <Navigation />
+            <BackButton />
 
             <section id="intro">
                 <h1 id="pageTitle">Notes</h1>
@@ -16,7 +15,8 @@ function Notes() {
 
             <Footer />
 
-        </main>)
+        </main>
+    );
 }
 
 export default Notes
