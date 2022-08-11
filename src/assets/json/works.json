@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "SALIKSIK: UPHSL Research Repository",
+        "description": "The Official Institutional Repository of University of Perpetual Help System Laguna",
+        "image_path": "../../images/apps/saliksikuphsl.png",
+        "image_desc": "SALIKSIK: UPHSL Research Repository",
+        "link": "https://saliksik-uphsl.com"
+    },
+    {
+        "id": 2,
+        "title": "Account Manager",
+        "description": "Store and manage your accounts all in one place",
+        "image_path": "../../images/apps/saliksikuphsl.png",
+        "image_desc": "Account Manager",
+        "link": "https://account-manager.online"
+    },
+    {
+        "id": 3,
+        "title": "Barangay Malaban Resident Information Management System",
+        "description": "A desktop application for storing and managing resident information of Barangay Malaban in Biñan City, Laguna",
+        "image_path": "../../images/apps/saliksikuphsl.png",
+        "image_desc": "Barangay Malaban Resident Information Management System"
+    }
+]

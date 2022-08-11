@@ -103,7 +103,7 @@ body {
 }
 
 .navigationTitle {
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     align-items: center;
     font-size: 21px;
