@@ -20,11 +20,15 @@ const Apps = () => {
                         works.map((work) => {
                             return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={work.id}>
                                 <div className="card">
-                                    <img src={work.image_path} className="card-img-top" alt={work.image_desc} />
-                                    <div className="card-body">
-                                        <h5>{work.title}</h5>
-                                        <p className="card-text">{work.description}</p>
-                                    </div>
+                                    <a href={work.link} target="_blank">
+                                        <div className="cardImage">
+                                            <img src={work.image_path} className="card-img-top img-fluid" alt={work.image_desc} />
+                                        </div>
+                                        <div className="card-body">
+                                            <h5>{work.title}</h5>
+                                            <p className="card-text">{work.description}</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         })
