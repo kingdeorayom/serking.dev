@@ -1,0 +1,23 @@
+/* .FaArrowRight { 
+    margin: 0 10px;
+    font-size: 18px;
+} */
+
+.FaChevronCircleLeft {
+    font-size: 35px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.FaChevronCircleLeft:hover {
+    color: #c0c0c7;
+}
+
+.HiExternalLink {
+    margin-left: 5px;
+}
+
+/* .MdEmail {
+    font-size: 25px;
+    margin-right: 5px;
+} */

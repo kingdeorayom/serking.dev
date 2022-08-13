@@ -1,0 +1,23 @@
+.navigationItem {
+    margin: 30px 0;
+}
+
+.navigationTitle {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.navigationTitle:hover {
+    color: #c0c0c7;
+}
+
+.navigationSubtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #d3d3d3;
+}

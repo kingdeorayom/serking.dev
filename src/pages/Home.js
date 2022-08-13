@@ -8,9 +8,7 @@ const Home = () => {
 
     <main id='home'>
       <Hero />
-      <hr className='horizontalLine' />
       <Navigation />
-      <hr className='horizontalLine' />
       <Footer />
     </main>
 

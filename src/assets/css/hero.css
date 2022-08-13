@@ -1,0 +1,19 @@
+#heroName {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#heroTitle {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    opacity: 0.7;
+}
+
+#hero-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 12px 0;
+}

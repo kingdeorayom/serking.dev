@@ -1,0 +1,24 @@
+#footer {
+    text-align: center;
+}
+
+#footerText {
+    font-size: 14px;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+
+.socials-icon {
+    font-size: 27px;
+    margin: 0 15px;
+}
+
+.socials-icon-link {
+    color: #fff;
+}
+
+.socials-icon-link:hover {
+    color: #fff;
+    transform: translate(0, -7px);
+    transition: transform ease 200ms;
+}

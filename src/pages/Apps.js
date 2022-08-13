@@ -10,8 +10,9 @@ const Apps = () => {
             <BackButton />
 
             <section id="intro">
-                <h1 id="pageTitle">Apps</h1>
-                <h2 id="pageSubtitle">Personal apps &amp; works</h2>
+                <h1 className="pageTitle">Apps</h1>
+                <h2 className="pageSubtitle">Below are the projects &amp; personal apps I've worked on.</h2>
+                <hr className='horizontalLine' />
             </section>
 
             <section className='my-5'>
@@ -19,8 +20,8 @@ const Apps = () => {
                     {
                         works.map((work) => {
                             return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={work.id}>
-                                <div className="card">
-                                    <a href={work.link} target="_blank">
+                                <div className="card card-app">
+                                    <a href={work.link} target="_blank" rel='noreferrer'>
                                         <div className="cardImage">
                                             <img src={work.image_path} className="card-img-top img-fluid" alt={work.image_desc} />
                                         </div>

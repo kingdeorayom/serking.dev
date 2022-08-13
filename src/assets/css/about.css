@@ -1,0 +1,22 @@
+.aboutAltTitle {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+#gradPic {
+    width: 300px;
+    margin: 40px 0;
+    border: 1px solid rgb(184, 194, 184);
+}
+
+.linkText {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+.linkText:hover {
+    color: #d3d3d3;
+    text-decoration: underline;
+}
