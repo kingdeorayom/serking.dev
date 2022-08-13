@@ -13,11 +13,7 @@ const Navigation = () => {
             </div>
             <div className="navigationItem">
                 <Link to="/notes" className="navigationTitle">Notes</Link>
-                <h1 className="navigationSubtitle">About my web development journey</h1>
-            </div>
-            <div className="navigationItem">
-                <Link to="/photos" className="navigationTitle">Photos</Link>
-                <h1 className="navigationSubtitle">Photos from my travels</h1>
+                <h1 className="navigationSubtitle">Words and random thoughts</h1>
             </div>
         </section>)
 }

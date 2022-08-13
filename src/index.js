@@ -4,9 +4,9 @@ import Home from './pages/Home';
 import Apps from './pages/Apps';
 import About from './pages/About';
 import Notes from './pages/Notes';
-import Photos from './pages/Photos';
 import NoPage from './pages/NoPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'animate.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './assets/css/index.css';
@@ -20,7 +20,6 @@ root.render(
         <Route path="apps" element={<Apps />} />
         <Route path="about" element={<About />} />
         <Route path="notes" element={<Notes />} />
-        <Route path="photos" element={<Photos />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

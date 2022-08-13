@@ -43,7 +43,7 @@
     {
         "id": 6,
         "title": "Shutdown Timer",
-        "description": "A simple shutdown scheduler application for Windows",
+        "description": "A simple shutdown scheduler application for Windows created using C# .NET Windows Forms App",
         "image_path": "../../images/apps/placeholder.png",
         "image_desc": "Shutdown Timer",
         "link": "https://github.com/kingdeorayom/shutdown-manager"
