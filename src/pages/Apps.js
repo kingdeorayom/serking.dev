@@ -1,8 +1,13 @@
 import Footer from './components/Footer'
 import BackButton from './components/BackButton'
 import works from '../assets/json/works.json'
+import { useEffect } from 'react'
 
 const Apps = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <main id='apps'>

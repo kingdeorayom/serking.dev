@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
 import { FaChevronCircleLeft } from 'react-icons/fa'
+import { useNavigate } from "react-router-dom";
 
 const BackButton = () => {
 
+    let back = useNavigate();
+
     return (
-        <Link to="/"><FaChevronCircleLeft className="FaChevronCircleLeft" /></Link>
+        <FaChevronCircleLeft className="FaChevronCircleLeft" onClick={() => back(-1)} />
     )
 }
 

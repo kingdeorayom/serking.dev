@@ -11,13 +11,9 @@
 
 .FaChevronCircleLeft:hover {
     color: #c0c0c7;
+    cursor: pointer;
 }
 
 .HiExternalLink {
     margin-left: 5px;
 }
-
-/* .MdEmail {
-    font-size: 25px;
-    margin-right: 5px;
-} */

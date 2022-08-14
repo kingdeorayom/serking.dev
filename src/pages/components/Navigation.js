@@ -13,10 +13,6 @@ const Navigation = () => {
                 <h1 className="navigationSubtitle">About me and what I do</h1>
             </div>
             <div className="navigationItem">
-                <Link to="/notes" className="navigationTitle">Notes</Link>
-                <h1 className="navigationSubtitle">Words and thoughts</h1>
-            </div>
-            <div className="navigationItem">
                 <Link to="/photos" className="navigationTitle">Photo Album</Link>
                 <h1 className="navigationSubtitle">Photographs and memories</h1>
             </div>

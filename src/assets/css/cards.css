@@ -1,44 +1,21 @@
-/*--------------------- Cards - Apps ---------------------*/
-
-.card-app {
-    width: 30rem;
-    transition: transform ease 100ms;
-    border: 0;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-        rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-.card-app:hover {
-    transform: translate(0, -7px);
-}
-
-.card a {
-    text-decoration: none;
-    color: #000000;
-}
-
-/*--------------------- Cards - Notes ---------------------*/
-
-.card-note {
-    width: 30rem;
-    transition: transform ease 100ms;
-    border: 0;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-        rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-.card-note:hover {
-    transform: translate(0, -7px);
-}
-
-/*--------------------- Cards - Quotes ---------------------*/
-
+.card-app,
+.card-photos,
 .card-quotes {
     width: 30rem;
     transition: transform ease 100ms;
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
         rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-app:hover,
+.card-photos:hover {
+    transform: translate(0, -7px);
+}
+
+.card a {
+    text-decoration: none;
+    color: #000000;
 }
 
 #quoteTitle {

@@ -3,8 +3,13 @@ import Footer from './components/Footer'
 import BackButton from './components/BackButton'
 import quotes from '../assets/json/quotes.json'
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
 
 const Quotes = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const randomlyGeneratedNumber = Math.floor((Math.random() * 4))
 

@@ -1,13 +1,14 @@
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import Footer from './components/Footer'
 import BackButton from './components/BackButton'
-import { Fancybox } from "@fancyapps/ui";
-import "@fancyapps/ui/dist/fancybox.css";
+import photo_album from '../assets/json/photo-album.json';
 
 const Photos = () => {
 
-    Fancybox.bind("[data-fancybox]", {
-        infinite: true
-    });
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <main id='photos'>
@@ -22,9 +23,25 @@ const Photos = () => {
 
             <section className='my-5'>
 
-                <div className="gallery mb-2">
-                    <a href="../../images/photo-album/king/banner.png" data-fancybox="gallery"><img src="../../images/photo-album/king/banner.png" className='img-fluid galleryImage' alt="" /></a>
-                    <a href="../../images/photo-album/king/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/king/4.jpg" className='img-fluid galleryImage' alt="" /></a>
+                <div className="row text-dark">
+                    {
+                        photo_album.map((album) => {
+                            return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={album.id}>
+                                <div className="card card-photos">
+                                    <Link to={album.path}>
+                                        <div className="cardImage">
+                                            <img src={album.image_path} className="card-img-top img-fluid" alt={album.image_desc} />
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">{album.title}</h5>
+                                            <p className="card-text">{album.description}</p>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+
+                        })
+                    }
                 </div>
 
             </section>
