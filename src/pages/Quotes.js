@@ -11,17 +11,19 @@ const Quotes = () => {
         window.scrollTo(0, 0)
     }, [])
 
-    const randomlyGeneratedNumber = Math.floor((Math.random() * 4))
+    const randomlyGeneratedNumber = Math.floor((Math.random() * 68))
 
     const [quote, setQuote] = useState(quotes[randomlyGeneratedNumber].quote_content);
     const [author, setQuoteAuthor] = useState(quotes[randomlyGeneratedNumber].quote_author);
+    const [image, setQuoteAuthorImage] = useState(quotes[randomlyGeneratedNumber].quote_author_image);
 
     const handleClick = () => {
 
-        const randomlyGeneratedNumber = Math.floor((Math.random() * 4))
+        const randomlyGeneratedNumber = Math.floor((Math.random() * 68))
 
         setQuote(quotes[randomlyGeneratedNumber].quote_content);
         setQuoteAuthor(quotes[randomlyGeneratedNumber].quote_author);
+        setQuoteAuthorImage(quotes[randomlyGeneratedNumber].quote_author_image);
     }
 
     return (
@@ -41,6 +43,9 @@ const Quotes = () => {
                     <div className="col-sm-12 mb-4 d-flex justify-content-center">
                         <div className="card card-quotes">
                             <div className="card-body p-4">
+                                <div className="text-center">
+                                    <img src={image} id="quoteAuthorImage" alt="Quote Author" />
+                                </div>
                                 <p className="card-title my-3" id="quoteTitle">&ldquo;{quote}&rdquo;</p>
                                 <p className="card-text my-3" id="quoteAuthor">&mdash; {author}</p>
                             </div>
