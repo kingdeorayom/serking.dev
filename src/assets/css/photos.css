@@ -1,0 +1,18 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7px;
+    background-color: #fff;
+    padding: 7px;
+}
+
+.galleryImage {
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 2px solid grey;
+}
+
+.galleryImage:hover {
+    transform: scale(0.9);
+    transition: transform linear 200ms;
+}

@@ -9,6 +9,7 @@ import Photos from './pages/Photos';
 import Quotes from './pages//Quotes';
 import NoPage from './pages/NoPage';
 import 'animate.css'
+import 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './assets/css/index.css';
