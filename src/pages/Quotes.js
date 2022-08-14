@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Footer from './components/Footer'
-import BackButton from './components/BackButton'
+import BackToHome from './components/BackToHome'
 import quotes from '../assets/json/quotes.json'
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
@@ -27,7 +27,7 @@ const Quotes = () => {
     return (
         <main id='quotes'>
 
-            <BackButton />
+            <BackToHome />
 
             <section id="intro">
                 <h1 className="pageTitle">Quotes</h1>

@@ -1,5 +1,5 @@
 import Footer from './components/Footer'
-import BackButton from './components/BackButton'
+import BackToHome from './components/BackToHome'
 import works from '../assets/json/works.json'
 import { useEffect } from 'react'
 
@@ -12,7 +12,7 @@ const Apps = () => {
     return (
         <main id='apps'>
 
-            <BackButton />
+            <BackToHome />
 
             <section id="intro">
                 <h1 className="pageTitle">Apps</h1>

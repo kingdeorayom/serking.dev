@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Family",
         "description": "Family pictures",
-        "image_path": "../../images/photo-album/family/1.jpg",
+        "image_path": "../../images/photo-album/family/banner.jpg",
         "image_desc": "Family",
         "path": "/family"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Group Study",
         "description": "My College friends",
-        "image_path": "../../images/photo-album/group-study/banner.png",
+        "image_path": "../../images/photo-album/group-study/banner.jpg",
         "image_desc": "Group Study",
         "path": "/group-study"
     },

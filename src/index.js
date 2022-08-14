@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Apps from './pages/Apps';
 import About from './pages/About';
-import Photos from './pages/Photos';
+import PhotoAlbum from './pages/PhotoAlbum';
 import Quotes from './pages//Quotes';
 import NoPage from './pages/NoPage';
 import Family from './pages/components/photo_album/Family'
@@ -33,7 +33,7 @@ root.render(
         <Route index element={<Home />} />
         <Route path="apps" element={<Apps />} />
         <Route path="about" element={<About />} />
-        <Route path="photos" element={<Photos />} />
+        <Route path="photo-album" element={<PhotoAlbum />} />
         <Route path="quotes" element={<Quotes />} />
         <Route path="family" element={<Family />} />
         <Route path="socofam" element={<SoCoFam />} />
