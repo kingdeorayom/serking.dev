@@ -1,6 +1,6 @@
 import Footer from './components/Footer'
 import BackToHome from './components/BackToHome'
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const About = () => {
 

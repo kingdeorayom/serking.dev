@@ -30,7 +30,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path="apps" element={<Apps />} />
         <Route path="about" element={<About />} />
         <Route path="photo-album" element={<PhotoAlbum />} />
