@@ -1,5 +1,6 @@
 import Footer from '../../components/Footer'
 import BackToPhotoAlbum from '../../components/BackToPhotoAlbum'
+import images from '../../../assets/scripts/image-directories/groupstudy.dir.js'
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
 
@@ -8,24 +9,6 @@ const GroupStudy = () => {
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
     });
-
-    const images = [
-        "../../images/photo-album/group-study/banner.jpg",
-        "../../images/photo-album/group-study/1.jpg",
-        "../../images/photo-album/group-study/2.jpg",
-        "../../images/photo-album/group-study/3.jpg",
-        "../../images/photo-album/group-study/4.jpg",
-        "../../images/photo-album/group-study/5.jpg",
-        "../../images/photo-album/group-study/6.jpg",
-        "../../images/photo-album/group-study/7.jpg",
-        "../../images/photo-album/group-study/8.jpg",
-        "../../images/photo-album/group-study/9.jpg",
-        "../../images/photo-album/group-study/10.jpg",
-        "../../images/photo-album/group-study/11.jpg",
-        "../../images/photo-album/group-study/12.jpg",
-        "../../images/photo-album/group-study/13.jpg",
-        "../../images/photo-album/group-study/14.jpg",
-    ]
 
     return (
         <main id='group-study'>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Footer from './components/Footer'
 import BackToHome from './components/BackToHome'
-import quotes from '../assets/json/quotes.json'
+import quotes from '../assets/scripts/quotes.js'
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
 

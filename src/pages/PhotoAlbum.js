@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import Footer from './components/Footer'
 import BackToHome from './components/BackToHome'
-import photo_album from '../assets/json/photo-album.json';
+import photo_album from '../assets/scripts/photo-album.js';
 
 const Photos = () => {
 

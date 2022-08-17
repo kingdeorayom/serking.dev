@@ -1,5 +1,6 @@
 import Footer from '../../components/Footer'
 import BackToPhotoAlbum from '../../components/BackToPhotoAlbum'
+import images from '../../../assets/scripts/image-directories/powerpuff.dir.js'
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
 
@@ -8,16 +9,6 @@ const PowerPuff = () => {
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
     });
-
-    const images = [
-        "../../images/photo-album/power-puff/banner.jpg",
-        "../../images/photo-album/power-puff/1.jpg",
-        "../../images/photo-album/power-puff/2.jpg",
-        "../../images/photo-album/power-puff/3.jpg",
-        "../../images/photo-album/power-puff/4.jpg",
-        "../../images/photo-album/power-puff/5.jpg",
-        "../../images/photo-album/power-puff/6.jpg",
-    ]
 
     return (
         <main id='power-puff'>

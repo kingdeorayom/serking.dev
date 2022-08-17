@@ -1,5 +1,6 @@
 import Footer from '../Footer'
 import BackToPhotoAlbum from '../BackToPhotoAlbum'
+import images from '../../../assets/scripts/image-directories/truepafeets.dir.js'
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
 
@@ -8,21 +9,6 @@ const TruePaFeets = () => {
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
     });
-
-    const images = [
-        "../../images/photo-album/truepa-feets/banner.jpg",
-        "../../images/photo-album/truepa-feets/1.jpg",
-        "../../images/photo-album/truepa-feets/2.jpg",
-        "../../images/photo-album/truepa-feets/3.jpg",
-        "../../images/photo-album/truepa-feets/4.jpg",
-        "../../images/photo-album/truepa-feets/5.jpg",
-        "../../images/photo-album/truepa-feets/6.jpg",
-        "../../images/photo-album/truepa-feets/7.jpg",
-        "../../images/photo-album/truepa-feets/8.jpg",
-        "../../images/photo-album/truepa-feets/9.jpg",
-        "../../images/photo-album/truepa-feets/10.jpg",
-        "../../images/photo-album/truepa-feets/11.jpg",
-    ]
 
     return (
         <main id='truepa-feets'>

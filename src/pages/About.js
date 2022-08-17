@@ -1,5 +1,6 @@
 import Footer from './components/Footer'
 import BackToHome from './components/BackToHome'
+import gradPic from '../assets/images/self/serking-grad-pic.jpg'
 import { useEffect } from 'react';
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
                 <h2 className="pageSubtitle">I'm Serking, a software developer.</h2>
 
                 <div className="imageHolder text-center">
-                    <img src="../images/self/serking-grad-pic.jpg" id='gradPic' className='img-fluid' alt="Serking Graduation Formal" />
+                    <img src={gradPic} id='gradPic' className='img-fluid' alt="Serking Graduation Formal" />
                 </div>
 
                 <h2 className="pageSubtitle">It is sometimes hard for me to identify and recognize how the things I do affect the person I am today and how I respond to everything that's happening around me. That being the case, I am not very good at introducing myself so please bear with me here.</h2>
@@ -31,9 +32,9 @@ const About = () => {
 
                 <section className='my-5'>
                     <div className="gallery mb-2">
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
                     </div>
                 </section>
 
@@ -49,9 +50,9 @@ const About = () => {
 
                 <section className='my-5'>
                     <div className="gallery mb-2">
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
-                        <a href="../../images/photo-album/family/4.jpg" data-fancybox="gallery"><img src="../../images/photo-album/family/4.jpg" className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
+                        <a href={require("../assets/images/photo-album/family/4.jpg")} data-fancybox="gallery"><img src={require("../assets/images/photo-album/family/4.jpg")} className='img-fluid galleryImageAbout' alt="" /></a>
                     </div>
                 </section>
 

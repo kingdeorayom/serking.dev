@@ -1,6 +1,6 @@
 import Footer from './components/Footer'
 import BackToHome from './components/BackToHome'
-import works from '../assets/json/works.json'
+import works from '../assets/scripts/works.js'
 import { useEffect } from 'react'
 
 const Apps = () => {
@@ -23,16 +23,16 @@ const Apps = () => {
             <section className='my-5'>
                 <div className="row text-dark">
                     {
-                        works.map((work) => {
-                            return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={work.id}>
+                        works.map((item) => {
+                            return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={item.id}>
                                 <div className="card card-app">
-                                    <a href={work.link} target="_blank" rel='noreferrer'>
+                                    <a href={item.link} target="_blank" rel='noreferrer'>
                                         <div className="cardImage">
-                                            <img src={work.image_path} className="card-img-top img-fluid" alt={work.image_desc} />
+                                            <img src={item.image_path} className="card-img-top img-fluid" alt={item.image_desc} />
                                         </div>
                                         <div className="card-body">
-                                            <h5>{work.title}</h5>
-                                            <p className="card-text">{work.description}</p>
+                                            <h5>{item.title}</h5>
+                                            <p className="card-text">{item.description}</p>
                                         </div>
                                     </a>
                                 </div>
