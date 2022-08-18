@@ -11,7 +11,7 @@ const photo_album = [
         "description": "Family pictures",
         "image_path": family,
         "image_desc": "Family",
-        "path": "/family"
+        "path": "/photo-album/family"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@ const photo_album = [
         "description": "My College friends",
         "image_path": groupStudy,
         "image_desc": "Group Study",
-        "path": "/group-study"
+        "path": "/photo-album/group-study"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@ const photo_album = [
         "description": "My Senior High School friends",
         "image_path": socoFam,
         "image_desc": "Soco Fam",
-        "path": "/socofam"
+        "path": "/photo-album/socofam"
     },
     {
         "id": 4,
@@ -35,7 +35,7 @@ const photo_album = [
         "description": "Friends for life",
         "image_path": truepaFeets,
         "image_desc": "TruePa Feets",
-        "path": "/truepa-feets"
+        "path": "/photo-album/truepa-feets"
     },
     {
         "id": 5,
@@ -43,7 +43,7 @@ const photo_album = [
         "description": "My Junior High School friends",
         "image_path": powerPuff,
         "image_desc": "Power Puff",
-        "path": "/power-puff"
+        "path": "/photo-album/power-puff"
     }
 ]
 

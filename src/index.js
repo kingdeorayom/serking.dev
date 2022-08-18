@@ -35,11 +35,11 @@ root.render(
         <Route path="about" element={<About />} />
         <Route path="photo-album" element={<PhotoAlbum />} />
         <Route path="quotes" element={<Quotes />} />
-        <Route path="family" element={<Family />} />
-        <Route path="socofam" element={<SoCoFam />} />
-        <Route path="truepa-feets" element={<TruePaFeets />} />
-        <Route path="power-puff" element={<PowerPuff />} />
-        <Route path="group-study" element={<GroupStudy />} />
+        <Route path="photo-album/family" element={<Family />} />
+        <Route path="photo-album/socofam" element={<SoCoFam />} />
+        <Route path="photo-album/truepa-feets" element={<TruePaFeets />} />
+        <Route path="photo-album/power-puff" element={<PowerPuff />} />
+        <Route path="photo-album/group-study" element={<GroupStudy />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
