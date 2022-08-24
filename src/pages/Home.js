@@ -1,9 +1,14 @@
 import Hero from './components/Hero'
 import { Link } from "react-router-dom";
 import { HiExternalLink } from 'react-icons/hi'
-import '../assets/css/navigation.css'
+import '../assets/css/home.css'
+import { useEffect } from 'react';
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = 'Serking | Software Developer';
+  });
 
   return (
 

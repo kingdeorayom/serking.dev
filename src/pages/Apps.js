@@ -1,14 +1,23 @@
 import Header from './components/Header'
+import { useEffect } from 'react';
 
 const Apps = () => {
 
+    useEffect(() => {
+        document.title = 'Apps | Serking | Software Developer';
+    });
+
     return (
-        <main id='apps'>
+        <main id='wrapper'>
 
-            <Header />
+            <section id="header">
+                <Header pageTitle="apps" />
+            </section>
 
-            <h1 className="pageTitle">Apps</h1>
-            <h2 className="pageSubtitle">Below are the projects &amp; personal apps I've worked on.</h2>
+            <section id="apps">
+                <h1 className="pageTitle">Apps</h1>
+                <h2 className="pageSubtitle">Below are the projects &amp; personal apps I've worked on.</h2>
+            </section>
 
         </main >
     )
