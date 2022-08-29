@@ -23,7 +23,8 @@ body {
 
 #home,
 #about,
-#apps {
+#apps,
+#notes {
     width: 100%;
     max-width: calc(700px + 3rem);
     margin: 50px auto;
@@ -33,15 +34,21 @@ body {
 /* global page title and subtitle */
 
 .pageTitle {
-    font-size: 33px;
-    font-weight: 500;
-    margin: 30px 0;
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 
 .pageSubtitle {
-    color: #d3d3d3;
-    font-size: 18px;
-    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.pageContent {
+    margin-top: 1.2em;
+    color: rgba(242, 244, 255, 0.8);
+    font-size: 1.05rem;
     line-height: 35px;
 }
 
@@ -86,7 +93,8 @@ img {
 }
 
 #headerName {
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 #headerName:hover {
@@ -104,20 +112,25 @@ img {
     background-color: #1a1e2e;
     color: #fff;
     font-size: 17px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .dropdown-menu {
     background-color: #2b3047;
     padding: 7px;
+    border-radius: 12px;
 }
 
 .dropdown-item {
     color: #fff;
     padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .dropdown-item:hover {
     background-color: #363b50;
     color: #fff;
-    border-radius: 6%;
+    border-radius: 8px;
 }

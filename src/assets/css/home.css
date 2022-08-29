@@ -1,27 +1,82 @@
 #navigation {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .navigationItem {
-    margin: 30px 0;
+    border-radius: 22px;
+    padding: 38.4px 25.6px 32px;
+}
+
+.navigationItem:hover {
+    transform: translate(0, -7px);
+    /* transition: linear 100ms; */
+    transition: all 0.1s linear;
 }
 
 .navigationTitle {
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    text-decoration: none;
+    font-size: 28.8px;
+    font-weight: 700;
     color: #fff;
-    margin: 15px 0;
-}
-
-.navigationTitle:hover {
-    color: #c0c0c7;
 }
 
 .navigationSubtitle {
     font-size: 18px;
-    font-weight: 300;
-    color: #d3d3d3;
+    color: #fff;
+}
+
+.navigationLinkText {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigationLinkText:hover {
+    color: #fff;
+}
+
+.apps {
+    background: linear-gradient(0, #9761a9, #4a4f9c);
+}
+
+.notes {
+    background: linear-gradient(-5deg, #479aa5, #5473cb 60%, #3e509d);
+}
+
+.twitter {
+    background: linear-gradient(
+        144deg,
+        #84d0ff,
+        #19a7ff 50%,
+        #1da1f2 60%,
+        #1a7ee9
+    );
+    padding: 50px;
+    color: #fff;
+}
+
+.github {
+    background: linear-gradient(144deg, #fff, #c3cbff 60%, #af99ff);
+    padding: 50px;
+    color: #343434;
+}
+
+.linkedin {
+    background: linear-gradient(144deg, #fff, #b8d3ff 70%, #8fceff);
+    padding: 50px;
+    color: #0077b5;
+}
+
+#mountainImage {
+    max-width: 80%;
+    margin: 2.5rem 0 0 auto;
+    width: 240px;
+}
+
+#notesImage {
+    max-width: 60%;
+    margin: 0.5rem auto 1.6rem;
+    width: 160px;
+}
+
+.socialImage {
+    font-size: 58px;
 }

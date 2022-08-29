@@ -1,0 +1,29 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+    padding: 12px;
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 425px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #toDisappear {
+        display: none;
+    }
+}
+
+.galleryImage {
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 12px;
+    width: 400px;
+}
+
+/* .galleryImage:hover {
+    transform: translate(0, -7px);
+    transition: all 0.1s linear;
+} */
