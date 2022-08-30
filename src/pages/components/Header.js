@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import HeaderImage from '../../assets/images/self/serking-cartoon.png'
+import '../../assets/css/header.css'
 
 const Header = (currentTitle) => {
 
@@ -7,9 +8,9 @@ const Header = (currentTitle) => {
         <main id="header">
 
             <div className="navControl d-flex align-items-center">
-                <Link to="/" id='headerNav' className='d-flex align-items-center'>
-                    <img src={HeaderImage} alt="Serking de Orayom" id='headerImage' />
-                    <p className='ms-2 my-2' id='headerName'>serking</p>
+                <Link to="/" className='d-flex align-items-center header__navigation'>
+                    <img src={HeaderImage} alt="Serking de Orayom" className='header__image' />
+                    <p className='ms-2 my-2 header__name'>serking</p>
                     <p className='ms-1 my-2 text-secondary fw-bold'>/</p>
                 </Link>
                 <div className="dropdown">

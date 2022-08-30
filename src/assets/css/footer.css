@@ -1,13 +1,14 @@
+/* global footer */
+
 #footer {
     text-align: center;
-    /* margin: 40px 0; */
     margin-top: 40px;
     margin-bottom: 60px;
     margin-left: 0;
     margin-right: 0;
 }
 
-#footerText {
+.footer__text {
     font-size: 0.88rem;
     color: rgba(228, 232, 250, 0.55);
     font-weight: 500;

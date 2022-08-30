@@ -16,14 +16,14 @@
     }
 }
 
-.galleryImage {
+.about__gallery__image {
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 12px;
     width: 400px;
 }
 
-/* .galleryImage:hover {
+/* .about__gallery__image:hover {
     transform: translate(0, -7px);
     transition: all 0.1s linear;
 } */

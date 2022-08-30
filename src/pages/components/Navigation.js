@@ -11,10 +11,10 @@ const Navigation = () => {
 
             <div className="row">
                 <div className="col-sm-12 col-md-6 mb-4">
-                    <Link to="/apps" className='navigationLinkText'>
-                        <div className="navigationItem apps">
-                            <h1 className="navigationTitle">Apps</h1>
-                            <h1 className="navigationSubtitle">Personal apps &amp; works</h1>
+                    <Link to="/apps" className='navigation__link__text'>
+                        <div className="navigation__item apps">
+                            <h1 className="navigation__title">Apps</h1>
+                            <h1 className="navigation__subtitle">Personal apps &amp; works</h1>
                             <div className="navImageContainer text-end">
                                 <img src={mountain} id='mountainImage' alt="mountain" />
                             </div>
@@ -22,13 +22,13 @@ const Navigation = () => {
                     </Link>
                 </div>
                 <div className="col-sm-12 col-md-6 mb-4">
-                    <Link to="/notes" className='navigationLinkText'>
-                        <div className="navigationItem notes">
+                    <Link to="/notes" className='navigation__link__text'>
+                        <div className="navigation__item notes">
                             <div className="navImageContainer text-center">
                                 <img src={notes} id='notesImage' alt="notes" />
                             </div>
-                            <h1 className="navigationTitle">Notes</h1>
-                            <h1 className="navigationSubtitle">My personal space</h1>
+                            <h1 className="navigation__title">Notes</h1>
+                            <h1 className="navigation__subtitle">My personal space</h1>
                         </div>
                     </Link>
                 </div>
@@ -38,9 +38,9 @@ const Navigation = () => {
 
                 <div className="col-6 col-md-3 mb-4">
                     <a href='https://twitter.com/kingdeorayom' target={"_blank"} rel="noreferrer">
-                        <div className="navigationItem twitter">
+                        <div className="navigation__item twitter">
                             <div className="d-flex align-items-center justify-content-center">
-                                <FaTwitter className="socialImage" />
+                                <FaTwitter className="navigation__social__image" />
                             </div>
                         </div>
                     </a>
@@ -48,9 +48,9 @@ const Navigation = () => {
 
                 <div className="col-6 col-md-3 mb-4">
                     <a href='https://github.com/kingdeorayom' target={"_blank"} rel="noreferrer">
-                        <div className="navigationItem github">
+                        <div className="navigation__item github">
                             <div className="d-flex align-items-center justify-content-center">
-                                <FaGithub className="socialImage" />
+                                <FaGithub className="navigation__social__image" />
                             </div>
                         </div>
                     </a>
@@ -58,9 +58,9 @@ const Navigation = () => {
 
                 <div className="col-6 col-md-3 mb-4">
                     <a href='https://www.linkedin.com/in/kingdeorayom/' target={"_blank"} rel="noreferrer">
-                        <div className="navigationItem linkedin">
+                        <div className="navigation__item linkedin">
                             <div className="d-flex align-items-center justify-content-center">
-                                <FaLinkedin className="socialImage" />
+                                <FaLinkedin className="navigation__social__image" />
                             </div>
                         </div>
                     </a>

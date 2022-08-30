@@ -28,42 +28,42 @@ const About = () => {
             </section>
 
             <section id='about'>
-                <h1 className="pageTitle">About</h1>
-                <h2 className="pageContent">Hello, I'm Serking. I'm a software developer.</h2>
-                <h2 className="pageContent">I earned my bachelor's degree in Information Technology at the University of Perpetual Help System Laguna with an academic honor of distinction: <em>Magna Cum Laude</em>.</h2>
-                <h2 className="pageContent">I am currently looking for a job.</h2>
+                <h1 className="page__title">About</h1>
+                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero magni, placeat unde ab reiciendis dolorem quibusdam dolor aliquam culpa: <em>lorem ipsum</em>.</h2>
+                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur.</h2>
 
-                <h1 className="pageSubtitle">Outside of work</h1>
-                <h2 className="pageContent">I spend most of my free time hanging out &#40;if time permits&#41; with my friends and family, reading books, playing video games or watching movies and TV series.</h2>
-
-                <section className="gallery">
-                    <img src={image_1} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_2} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_3} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_4} className='img-fluid galleryImage' alt="About" />
-                </section>
-
-                <h2 className="pageContent">I spend most of my free time hanging out &#40;if time permits&#41; with my friends and family, reading books, playing video games or watching movies and TV series.</h2>
+                <h1 className="page__subtitle">Outside of work</h1>
+                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum quis dolorem eum veniam sequi quod culpa ad optio suscipit explicabo, nulla voluptas ullam voluptates numquam totam inventore. Iusto, atque?.</h2>
 
                 <section className="gallery">
+                    <img src={image_1} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_2} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_3} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_4} className='img-fluid about__gallery__image' alt="About" />
+                </section>
 
-                    <img src={image_1} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_2} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_3} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_4} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_5} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_6} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_7} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_8} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_9} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_10} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_11} className='img-fluid galleryImage' alt="About" />
-                    <img src={image_12} className='img-fluid galleryImage' alt="About" />
+                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum quis dolorem eum veniam sequi quod culpa ad optio suscipit explicabo, nulla voluptas ullam voluptates numquam totam inventore. Iusto, atque?.</h2>
+
+                <section className="gallery">
+
+                    <img src={image_1} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_2} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_3} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_4} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_5} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_6} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_7} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_8} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_9} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_10} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_11} className='img-fluid about__gallery__image' alt="About" />
+                    <img src={image_12} className='img-fluid about__gallery__image' alt="About" />
 
                 </section>
 
-                <h1 className="pageSubtitle">Outside of work</h1>
-                <h2 className="pageContent">Contact me at kingdeorayom@gmail.com or Twitter.</h2>
+                <h1 className="page__subtitle">Outside of work</h1>
+                <h2 className="page__content">Contact me at kingdeorayom@gmail.com or Twitter.</h2>
 
             </section>
 

@@ -1,16 +1,19 @@
-.notesItem {
+.notes__item {
     border-radius: 26px;
-    padding: 38.4px 25.6px 32px;
     line-height: 1.5;
+    background-color: #2b3047;
+    text-align: center;
+    padding: 1rem 1.2rem 1.3rem;
+    max-width: 100%;
 }
 
-.notesItem:hover {
+.notes__item:hover {
     transform: translate(0, -7px);
     /* transition: linear 100ms; */
     transition: all 0.1s linear;
 }
 
-.notesSubtitle {
+.notes__subtitle {
     font-size: 1em;
     color: #fff;
     font-weight: 700;
@@ -18,25 +21,18 @@
     text-align: center;
 }
 
-.notesDate {
+.notes__date {
     font-size: 0.87em;
     color: rgba(228, 232, 250, 0.55);
 }
 
-.notesLinkText {
+.notes__link__text {
     text-decoration: none;
     color: #fff;
 }
 
-.notesLinkText:hover {
+.notes__link__text:hover {
     color: #fff;
-}
-
-.notesItem {
-    background-color: #2b3047;
-    text-align: center;
-    padding: 1rem 1.2rem 1.3rem;
-    max-width: 100%;
 }
 
 .emoji {

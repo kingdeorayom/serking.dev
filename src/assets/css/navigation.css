@@ -2,34 +2,33 @@
     margin: 50px 0;
 }
 
-.navigationItem {
+.navigation__item {
     border-radius: 22px;
     padding: 38.4px 25.6px 32px;
 }
 
-.navigationItem:hover {
+.navigation__item:hover {
     transform: translate(0, -7px);
-    /* transition: linear 100ms; */
     transition: all 0.1s linear;
 }
 
-.navigationTitle {
+.navigation__title {
     font-size: 28.8px;
     font-weight: 700;
     color: #fff;
 }
 
-.navigationSubtitle {
+.navigation__subtitle {
     font-size: 18px;
     color: #fff;
 }
 
-.navigationLinkText {
+.navigation__link__text {
     text-decoration: none;
     color: #fff;
 }
 
-.navigationLinkText:hover {
+.navigation__link__text:hover {
     color: #fff;
 }
 
@@ -77,6 +76,6 @@
     width: 160px;
 }
 
-.socialImage {
+.navigation__social__image {
     font-size: 58px;
 }

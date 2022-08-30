@@ -15,8 +15,8 @@ const Apps = () => {
             </section>
 
             <section id="apps">
-                <h1 className="pageTitle">Apps</h1>
-                <h2 className="pageContent">Below are the projects &amp; personal apps I've worked on.</h2>
+                <h1 className="page__title">Apps</h1>
+                <h2 className="page__content">Below are the projects &amp; personal apps I've worked on.</h2>
             </section>
 
         </main >

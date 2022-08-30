@@ -6,10 +6,10 @@ import '../../assets/css/hero.css';
 const Hero = () => {
     return (
         <section id="hero">
-            <Link to="/"><img src={HeroImage} alt="Serking de Orayom" id='heroImage' title='Contact IG: @zelpixels for commissions' /></Link>
-            <h1 id="heroName">serking</h1>
-            <h2 id="heroTitle">Welcome to my personal page. Feel free to look around.</h2>
-            <Link to="/about" id="readMore"><h6>Read more <FaArrowRight className='FaArrowRight' /></h6></Link>
+            <Link to="/"><img src={HeroImage} alt="Serking de Orayom" className='hero__image' title='Contact IG: @zelpixels for commissions' /></Link>
+            <h1 className="hero__name">serking</h1>
+            <h2 className="hero__title">Welcome to my personal page. Feel free to look around.</h2>
+            <Link to="/about" className="hero__read__more"><h6>Read more <FaArrowRight className='FaArrowRight' /></h6></Link>
         </section>
     )
 }
