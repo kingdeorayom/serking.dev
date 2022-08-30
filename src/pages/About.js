@@ -29,12 +29,12 @@ const About = () => {
 
             <section id='about'>
                 <h1 className="page__title">About</h1>
-                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero magni, placeat unde ab reiciendis dolorem quibusdam dolor aliquam culpa: <em>lorem ipsum</em>.</h2>
-                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <h2 className="page__content">Hello, I'm Serking. I'm a software developer.</h2>
+                <h2 className="page__content">I earned my bachelor's degree in Information Technology at the University of Perpetual Help System Laguna with an academic honor of distinction: <em>Magna Cum Laude</em>.</h2>
+                <h2 className="page__content">I am currently looking for a job.</h2>
 
                 <h1 className="page__subtitle">Outside of work</h1>
-                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum quis dolorem eum veniam sequi quod culpa ad optio suscipit explicabo, nulla voluptas ullam voluptates numquam totam inventore. Iusto, atque?.</h2>
+                <h2 className="page__content">I spend most of my free time hanging out (if time permits) with my friends and family, reading books, playing video games or watching movies and TV series.</h2>
 
                 <section className="gallery">
                     <img src={image_1} className='img-fluid about__gallery__image' alt="About" />
@@ -43,7 +43,7 @@ const About = () => {
                     <img src={image_4} className='img-fluid about__gallery__image' alt="About" />
                 </section>
 
-                <h2 className="page__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum quis dolorem eum veniam sequi quod culpa ad optio suscipit explicabo, nulla voluptas ullam voluptates numquam totam inventore. Iusto, atque?.</h2>
+                <h2 className="page__content">I spend most of my free time hanging out (if time permits) with my friends and family, reading books, playing video games or watching movies and TV series.</h2>
 
                 <section className="gallery">
 

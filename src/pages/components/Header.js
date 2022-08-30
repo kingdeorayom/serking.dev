@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import HeaderImage from '../../assets/images/self/serking-cartoon.png'
-import '../../assets/css/header.css'
 
 const Header = (currentTitle) => {
 

@@ -4,7 +4,7 @@ import Header from './components/Header'
 import notes from '../assets/scripts/notes'
 import '../assets/css/notes.css'
 
-const Notes = () => {
+const Notes = ({ setDisplay }) => {
 
     useEffect(() => {
         document.title = 'Notes | Serking';
@@ -24,7 +24,7 @@ const Notes = () => {
                 <div className="row my-5">
                     {notes.map((note) => {
                         return <div className="col-sm-6 col-md-4 mb-4" key={note.note_id}>
-                            <Link to={note.note_link} className='notes__link__text'>
+                            <Link onClick={() => setDisplay(note.note_id)} to={note.note_link} className='notes__link__text'>
                                 <div className="notes__item">
                                     <img src={note.note_image} className="emoji" alt="notes" />
                                     <h1 className="notes__subtitle">{note.note_title}</h1>

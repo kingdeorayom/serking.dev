@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import MarkDown from 'markdown-to-jsx'
 import notes from '../../assets/scripts/notes'
 
-const Post = () => {
+const Post = ({ display }) => {
 
-    const file_name = notes[1].note_file_name
+    const file_name = notes[display].note_file_name
 
     const [post, setPost] = useState('')
 
