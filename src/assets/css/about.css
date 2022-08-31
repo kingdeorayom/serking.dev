@@ -11,7 +11,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #toDisappear {
+    .image__disappear {
         display: none;
     }
 }
@@ -24,6 +24,15 @@
 }
 
 /* .about__gallery__image:hover {
-    transform: translate(0, -7px);
+    transform: translate(0, -2px);
     transition: all 0.1s linear;
 } */
+
+.link__text__twitter {
+    text-decoration: underline;
+    color: rgba(242, 244, 255, 0.8);
+}
+
+.link__text__twitter:hover {
+    color: #fff;
+}

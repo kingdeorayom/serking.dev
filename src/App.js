@@ -4,7 +4,8 @@ import Home from './pages/Home';
 import Apps from './pages/Apps';
 import About from './pages/About';
 import Notes from './pages/Notes';
-import Post from './pages/components/Post';
+import Posts from './pages/components/Posts';
+import Works from './pages/components/Works';
 import PageNotFound from './pages/PageNotFound';
 import Footer from './pages/components/Footer'
 import 'animate.css'
@@ -14,16 +15,18 @@ import './assets/css/index.css';
 
 function App() {
 
-    const [display, setDisplay] = useState(0);
+    const [post, setPost] = useState(null);
+    const [work, setWork] = useState(null);
 
     return (
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path="apps" element={<Apps />} />
+                <Route path="apps" element={<Apps setWork={setWork} />} />
                 <Route path="about" element={<About />} />
-                <Route path="notes" element={(<Notes setDisplay={setDisplay} />)} />
-                <Route path="notes/post" element={(<Post display={display} />)} />
+                <Route path="notes" element={(<Notes setPost={setPost} />)} />
+                <Route path="notes/post" element={(<Posts post={post} />)} />
+                <Route path="apps/work" element={(<Works work={work} />)} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
             <Footer />

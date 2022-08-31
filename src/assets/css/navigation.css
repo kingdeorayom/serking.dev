@@ -8,7 +8,7 @@
 }
 
 .navigation__item:hover {
-    transform: translate(0, -7px);
+    transform: scale(1.01);
     transition: all 0.1s linear;
 }
 

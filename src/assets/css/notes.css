@@ -2,14 +2,15 @@
     border-radius: 26px;
     line-height: 1.5;
     background-color: #2b3047;
-    text-align: center;
     padding: 1rem 1.2rem 1.3rem;
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .notes__item:hover {
-    transform: translate(0, -7px);
-    /* transition: linear 100ms; */
+    /* transform: translate(0, -7px); */
+    transform: scale(1.03);
     transition: all 0.1s linear;
 }
 
@@ -35,7 +36,7 @@
     color: #fff;
 }
 
-.emoji {
-    max-width: 110px;
-    max-height: 110px;
+.notes__emoji {
+    max-width: 90px;
+    max-height: 90px;
 }
