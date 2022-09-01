@@ -26,7 +26,8 @@ body {
 #apps,
 #notes,
 #post,
-#work {
+#work,
+#pageNotFound {
     width: 100%;
     max-width: calc(700px + 3rem);
     margin: 50px auto;
@@ -155,4 +156,13 @@ img {
     font-size: 0.88rem;
     color: rgba(228, 232, 250, 0.55);
     font-weight: 500;
+}
+
+/* page not found */
+
+.page__not__found__link {
+    color: #fff;
+}
+.page__not__found__link:hover {
+    color: rgba(228, 232, 250, 0.55);
 }
