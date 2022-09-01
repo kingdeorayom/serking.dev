@@ -29,8 +29,8 @@ const Apps = ({ setWork }) => {
                                 <Link onClick={() => setWork(work.work_id)} to={work.work_link} className='apps__link__text'>
                                     <img src={work.work_image} className="img-fluid" style={{ borderTopLeftRadius: "0.5em", borderTopRightRadius: "0.5em" }} alt="works" />
                                     <div className="apps__text">
-                                        <h5 class="apps_title">{work.work_title}</h5>
-                                        <p class="apps__subtitle">{work.work_description}</p>
+                                        <h5 className="apps_title">{work.work_title}</h5>
+                                        <p className="apps__subtitle">{work.work_description}</p>
                                     </div>
                                 </Link>
                             </div>

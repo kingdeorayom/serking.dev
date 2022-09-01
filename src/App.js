@@ -8,7 +8,6 @@ import Posts from './pages/components/Posts';
 import Works from './pages/components/Works';
 import PageNotFound from './pages/PageNotFound';
 import Footer from './pages/components/Footer'
-import 'animate.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './assets/css/index.css';

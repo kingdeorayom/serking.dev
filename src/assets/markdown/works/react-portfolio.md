@@ -7,8 +7,6 @@
 <span className="page__content">
 I was using the traditional HTML and CSS (with Bootstrap) for my portfolio site. This was fine, but I didn't like having to deal with the staticity of the site every time I will add new data to it. Everything is hardcoded and I was getting frustrated every time I make changes to the site.
 
-Most of the design and the concept are borrowed from the portfolio site of Catnose, a software developer, designer and maker based in Japan.
-
 As a way to study, I also incorporated in this portfolio the use of markdowns, such as the one I used writing this note and the use of JSON for dynamicity.
 
 I'm planning on recreating this portfolio website using Next.js once I get the hang of React.

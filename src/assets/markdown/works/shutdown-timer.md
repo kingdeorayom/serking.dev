@@ -17,6 +17,6 @@ C# Windows Forms
 
 **Source code:**
 
-<a href="https://github.com/kingdeorayom/shutdown-manager" target="_blank" style="color: white;">https://github.com/kingdeorayom/shutdown-manager</a>
+<a href="https://github.com/kingdeorayom/shutdown-manager" target="_blank" style="color: white;">GitHub</a>
 
 </span>
