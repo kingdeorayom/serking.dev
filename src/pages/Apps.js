@@ -22,15 +22,18 @@ const Apps = ({ setWork }) => {
                 <h2 className="page__content">Below are the projects &amp; personal apps I've worked on.</h2>
 
                 <div className="row my-5">
+
                     {works.map((work) => {
-                        return <div className="col-sm-12 col-md-6 mb-4" key={work.work_id}>
-                            <Link onClick={() => setWork(work.work_id)} to={work.work_link} className='apps__link__text'>
-                                <div className="apps__item">
-                                    <img src={work.work_image} className="app__image img-fluid mt-3 mb-4" alt="notes" />
-                                    <h1 className="apps__title"><span>{work.work_title}</span></h1>
-                                    <h1 className="apps__subtitle"><span>{work.work_description}</span></h1>
-                                </div>
-                            </Link>
+                        return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center">
+                            <div class="apps__item">
+                                <Link onClick={() => setWork(work.work_id)} to={work.work_link} className='apps__link__text'>
+                                    <img src={work.work_image} className="img-fluid" style={{ borderTopLeftRadius: "0.5em", borderTopRightRadius: "0.5em" }} alt="works" />
+                                    <div className="apps__text">
+                                        <h5 class="apps_title">{work.work_title}</h5>
+                                        <p class="apps__subtitle">{work.work_description}</p>
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
                     })}
 

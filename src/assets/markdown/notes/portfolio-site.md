@@ -1,4 +1,4 @@
-# <span className="page__title">Made a new portfolio site with React</span>
+# <span className="page__title"> Made a new portfolio site with React</span>
 
 <span style="color: lightgrey">August 29, 2022</span>
 

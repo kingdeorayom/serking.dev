@@ -1,16 +1,22 @@
-# <span className="page__title">SALIKSIK: Research Repository</span>
+# <span className="page__title"> SALIKSIK: UPHSL Research Repository</span>
+
+<span style="color: lightgrey">Capstone Project</span>
 
 &nbsp;
 
 <span className="page__content">
-I was using the traditional HTML and CSS (with Bootstrap) for my portfolio site. This was fine, but I didn't like having to deal with the staticity of the site every time I will add new data to it. Everything is hardcoded and I was getting frustrated every time I make changes to the site.
+The **SALIKSIK: UPHSL Research Repository** is a web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of the **University of Perpetual Help System Laguna - Biñan Campus**.
 
-Like many others, I needed to improve my skills so I started learning React. I immediately saw how extremely competent it is and how creating dynamic websites become easier due to its features. So I decided to redesign and replace the technology I used on my portfolio site with React.
+This is my Capstone Project during my senior year in college and is currently planned on being implemented for the use of the University.
 
-Most of the design and the concept are borrowed from the portfolio site of Catnose, a software developer, designer and maker based in Japan.
+I served as the main front-end developer of the system project, but I also did some of its backend such as the **login system**.
 
-As a way to study, I also incorporated in this portfolio the use of markdowns, such as the one I used writing this note and the use of JSON for dynamicity.
+**Technology used:**
 
-I'm planning on recreating this portfolio website using Next.js once I get the hang of React.
+HTML, CSS, JavaScript, Bootstrap, jQuery, AJAX, PHP, MySQL
+
+**Visit website:**
+
+<a href="https://www.saliksik-uphsl.com" target="_blank" style="color: white;">https://www.saliksik-uphsl.com</a>
 
 </span>

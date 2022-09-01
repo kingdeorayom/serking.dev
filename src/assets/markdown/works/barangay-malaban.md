@@ -1,16 +1,18 @@
-# <span className="page__title">Barangay Malaban Resident Information Management System</span>
+# <span className="page__title"> Barangay Malaban Resident Information Management System</span>
+
+<span style="color: lightgrey">Course Project</span>
 
 &nbsp;
 
 <span className="page__content">
-I was using the traditional HTML and CSS (with Bootstrap) for my portfolio site. This was fine, but I didn't like having to deal with the staticity of the site every time I will add new data to it. Everything is hardcoded and I was getting frustrated every time I make changes to the site.
+This project is developed during my 3rd year in college and is a requirement for one of my subjects for the course. It is a simple CRUD application for the residents of Barangay Malaban in Biñan, Laguna.
 
-Like many others, I needed to improve my skills so I started learning React. I immediately saw how extremely competent it is and how creating dynamic websites become easier due to its features. So I decided to redesign and replace the technology I used on my portfolio site with React.
+This is the first-ever system project that I worked on, and I managed to develop this system project all by myself without having prior knowledge to software development.
 
-Most of the design and the concept are borrowed from the portfolio site of Catnose, a software developer, designer and maker based in Japan.
+Unfortunately, I have lost the source code for this project due to a storage failure, and I was not yet aware of version control system such as **Git** and **GitHub** at the time for backup.
 
-As a way to study, I also incorporated in this portfolio the use of markdowns, such as the one I used writing this note and the use of JSON for dynamicity.
+**Technology used:**
 
-I'm planning on recreating this portfolio website using Next.js once I get the hang of React.
+C# Windows Forms, Microsoft SQL Server
 
 </span>

@@ -1,17 +1,16 @@
 .apps__item {
-    border-radius: 26px;
     line-height: 1.5;
     background-color: #2b3047;
-    padding: 1rem 1.2rem 1.3rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    border-radius: 0.5em;
 }
 
 .apps__item:hover {
     transform: translate(0, -7px);
-    /* transform: scale(1.03); */
     transition: all 0.1s linear;
+}
+
+.apps__text {
+    margin: 20px 10px;
 }
 
 .apps__title {
@@ -35,8 +34,4 @@
 
 .apps__link__text:hover {
     color: #fff;
-}
-
-.app__image {
-    border-radius: 5px;
 }

@@ -1,16 +1,22 @@
-# <span className="page__title">Shutdown Timer</span>
+# <span className="page__title"> Shutdown Timer</span>
+
+<span style="color: lightgrey">Personal Project</span>
 
 &nbsp;
 
 <span className="page__content">
-I was using the traditional HTML and CSS (with Bootstrap) for my portfolio site. This was fine, but I didn't like having to deal with the staticity of the site every time I will add new data to it. Everything is hardcoded and I was getting frustrated every time I make changes to the site.
+A very simple application that I developed for personal use.
 
-Like many others, I needed to improve my skills so I started learning React. I immediately saw how extremely competent it is and how creating dynamic websites become easier due to its features. So I decided to redesign and replace the technology I used on my portfolio site with React.
+It turns the computer off after a certain amount of time (in seconds, but time converter is provided).
 
-Most of the design and the concept are borrowed from the portfolio site of Catnose, a software developer, designer and maker based in Japan.
+Some of my friends use this application and they find it very helpful.
 
-As a way to study, I also incorporated in this portfolio the use of markdowns, such as the one I used writing this note and the use of JSON for dynamicity.
+**Technology used:**
 
-I'm planning on recreating this portfolio website using Next.js once I get the hang of React.
+C# Windows Forms
+
+**Source code:**
+
+<a href="https://github.com/kingdeorayom/shutdown-manager" target="_blank" style="color: white;">https://github.com/kingdeorayom/shutdown-manager</a>
 
 </span>

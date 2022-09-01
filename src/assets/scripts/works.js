@@ -3,12 +3,12 @@ import account_manager from '../images/apps/account-manager.png'
 import react_portfolio from '../images/apps/react-portfolio.png'
 import group_study_gallery from '../images/apps/group-study-gallery.png'
 import barangay_malaban from '../images/apps/barangay-malaban.png'
-import shutdown_timer from '../images/apps/placeholder.png'
+// import placeholder from '../images/apps/placeholder.png'
 
 const works = [
     {
         "work_id": 0,
-        "work_title": "SALIKSIK: Research Repository",
+        "work_title": "SALIKSIK: UPHSL Research Repository",
         "work_description": "The Official Institutional Repository of the University of Perpetual Help System Laguna",
         "work_link": "work",
         "work_image": saliksik,
@@ -17,7 +17,7 @@ const works = [
     {
         "work_id": 1,
         "work_title": "React Portfolio",
-        "work_description": "Personal page of Serking de Orayom created using React JS. Feel free to look around",
+        "work_description": "Improved version of Serking de Orayom's portfolio website created using React",
         "work_link": "work",
         "work_image": react_portfolio,
         "work_file_name": "react-portfolio.md",
@@ -49,9 +49,9 @@ const works = [
     {
         "work_id": 5,
         "work_title": "Shutdown Timer",
-        "work_description": "A simple shutdown scheduler application for Windows",
+        "work_description": "A simple shutdown scheduler application for Windows made using C# Windows Form Application",
         "work_link": "work",
-        "work_image": shutdown_timer,
+        "work_image": "https://via.placeholder.com/1205x715.png/4C9195/FFFFFF?text=Shutdown+Timer",
         "work_file_name": "shutdown-timer.md",
     },
 ]
