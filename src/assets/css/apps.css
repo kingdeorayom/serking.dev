@@ -27,6 +27,12 @@
     line-height: 1.6;
 }
 
+/* .apps__image {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+} */
+
 .apps__link__text {
     text-decoration: none;
     color: #fff;

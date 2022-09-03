@@ -24,10 +24,10 @@ const Apps = ({ setWork }) => {
                 <div className="row my-5">
 
                     {works.map((work) => {
-                        return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center">
-                            <div class="apps__item">
+                        return <div className="col-sm-12 col-md-6 mb-4 d-flex justify-content-center" key={work.work_id}>
+                            <div className="apps__item">
                                 <Link onClick={() => setWork(work.work_id)} to={work.work_link} className='apps__link__text'>
-                                    <img src={work.work_image} className="img-fluid" style={{ borderTopLeftRadius: "0.5em", borderTopRightRadius: "0.5em" }} alt="works" />
+                                    <img src={work.work_image} className="img-fluid apps__image" style={{ borderTopLeftRadius: "0.5em", borderTopRightRadius: "0.5em" }} alt="works" />
                                     <div className="apps__text">
                                         <h5 className="apps_title">{work.work_title}</h5>
                                         <p className="apps__subtitle">{work.work_description}</p>
