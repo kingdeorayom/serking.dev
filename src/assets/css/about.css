@@ -28,11 +28,11 @@
     transition: all 0.1s linear;
 } */
 
-.link__text__twitter {
+.link__text {
     text-decoration: underline;
     color: rgba(242, 244, 255, 0.8);
 }
 
-.link__text__twitter:hover {
+.link__text:hover {
     color: #fff;
 }
