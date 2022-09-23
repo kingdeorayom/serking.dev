@@ -23,10 +23,11 @@
     width: 400px;
 }
 
-/* .about__gallery__image:hover {
-    transform: translate(0, -2px);
+.about__gallery__image:hover {
+    /* transform: translate(0, -2px); */
+    transform: scale(1.01);
     transition: all 0.1s linear;
-} */
+}
 
 .link__text {
     text-decoration: underline;
