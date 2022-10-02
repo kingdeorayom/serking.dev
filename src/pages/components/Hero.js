@@ -8,7 +8,7 @@ const Hero = () => {
         <section id="hero">
             <Link to="/"><img src={HeroImage} alt="Serking de Orayom" className='hero__image' /></Link>
             <h1 className="hero__name">serking</h1>
-            <h2 className="hero__title">A software developer. Feel free to look around.</h2>
+            <h2 className="hero__title">A software developer focusing on web and mobile applications.</h2>
             <Link to="/about" className="hero__read__more"><h6>Read more <FaArrowRight className='FaArrowRight' /></h6></Link>
         </section>
     )

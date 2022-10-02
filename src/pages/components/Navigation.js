@@ -28,7 +28,7 @@ const Navigation = () => {
                                 <img src={notes} id='notesImage' alt="notes" />
                             </div>
                             <h1 className="navigation__title">Notes</h1>
-                            <h1 className="navigation__subtitle">My personal space</h1>
+                            <h1 className="navigation__subtitle">About software development</h1>
                         </div>
                     </Link>
                 </div>

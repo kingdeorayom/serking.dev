@@ -30,8 +30,9 @@
 }
 
 .link__text {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgba(242, 244, 255, 0.8);
+    font-weight: bold;
 }
 
 .link__text:hover {
