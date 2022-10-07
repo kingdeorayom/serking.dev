@@ -16,10 +16,10 @@ import image_9 from '../assets/images/about/9.jpg'
 import image_10 from '../assets/images/about/10.jpg'
 import image_11 from '../assets/images/about/11.jpg'
 import image_12 from '../assets/images/about/12.jpg'
-import bob_ong_56 from '../assets/images/about/bob_ong_56.jpg'
-import rubber_soul from '../assets/images/about/rubber_soul.jpg'
-import witcher from '../assets/images/about/witcher.jpg'
-import conan from '../assets/images/about/conan.jpg'
+// import bob_ong_56 from '../assets/images/about/bob_ong_56.jpg'
+// import rubber_soul from '../assets/images/about/rubber_soul.jpg'
+// import witcher from '../assets/images/about/witcher.jpg'
+// import conan from '../assets/images/about/conan.jpg'
 
 const About = () => {
 
@@ -47,12 +47,12 @@ const About = () => {
                 <h1 className="page__subtitle">Outside of work</h1>
                 <h2 className="page__content">I spend most of my free time reading books, listening to music, playing video games or watching movies, TV series or anime.</h2>
 
-                <section className="gallery">
+                {/* <section className="gallery">
                     <img src={bob_ong_56} className='img-fluid about__gallery__image' alt="Bob Ong's 56" />
                     <img src={rubber_soul} className='img-fluid about__gallery__image' alt="The Beatles Rubber Soul" />
                     <img src={witcher} className='img-fluid about__gallery__image' alt="The Witcher 3: Wild Hunt" />
                     <img src={conan} className='img-fluid about__gallery__image image__disappear' alt="Detective Conan" />
-                </section>
+                </section> */}
 
                 <h2 className="page__content">If time permits, I also hang out with my friends and family.</h2>
 
