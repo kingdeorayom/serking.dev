@@ -1,4 +1,5 @@
 import claps from '../images/ui/emojis/claps.png'
+import cool from '../images/ui/emojis/cool.png'
 import idea from '../images/ui/emojis/idea.png'
 
 const notes = [
@@ -16,7 +17,7 @@ const notes = [
         "note_date": "September 12, 2022",
         "note_file_name": "going-mobile.md",
         "note_link": "post",
-        "note_image": idea
+        "note_image": cool
     },
     {
         "note_id": 2,
