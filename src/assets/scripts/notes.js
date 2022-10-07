@@ -13,8 +13,16 @@ const notes = [
     {
         "note_id": 1,
         "note_title": "Going mobile with React Native",
-        "note_date": "September 1, 2022",
+        "note_date": "September 12, 2022",
         "note_file_name": "going-mobile.md",
+        "note_link": "post",
+        "note_image": idea
+    },
+    {
+        "note_id": 2,
+        "note_title": "Planning on creating a personal website",
+        "note_date": "September 26, 2022",
+        "note_file_name": "personal-website.md",
         "note_link": "post",
         "note_image": idea
     },
