@@ -41,9 +41,6 @@ Start the server
 
 ## Acknowledgements
 
-Most of the design and the concept are borrowed from the portfolio site of **Catnose** (a software developer in Japan).
-- [Visit website](https://catnose.me)
-
 My cartoon avatar used in the website is created by **zelpixels**. For commissions, contact:
 - [@zelpixels](https://www.instagram.com/zelpixels/)
 ## Authors
