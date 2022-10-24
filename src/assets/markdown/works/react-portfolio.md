@@ -13,7 +13,7 @@ I'm planning on recreating this portfolio website using Next.js once I get the h
 
 **Technology used:**
 
-React JS, JSON, Markdown, Bootstrap, jQuery, animate.css, markdown-to-jsx
+React JS, JSON, Markdown, Bootstrap, jQuery
 
 **Visit website:**
 

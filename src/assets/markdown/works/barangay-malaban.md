@@ -5,7 +5,7 @@
 &nbsp;
 
 <span className="page__content">
-This project is developed during my 3rd year in college and is a requirement for one of my subjects for the course. It is a simple CRUD application for the residents of Barangay Malaban in Biñan, Laguna.
+This project is developed during my third year in college and is a requirement for one of my subjects for the course. It is a simple CRUD application for the residents of Barangay Malaban in Biñan, Laguna.
 
 This is the first-ever system project that I worked on, and I managed to develop this system project all by myself without having prior knowledge to software development.
 

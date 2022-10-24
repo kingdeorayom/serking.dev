@@ -9,7 +9,9 @@
 
 I seem to have a hard time remembering my social media and other accounts’ emails, usernames and passwords so I created the app that stores my login credentials and is accessible anywhere given that it is web-based.
 
-Currently, some of my friends uses the app for storing their other not-so-sensitive accounts.
+Some of my friends uses the app for storing their other not-so-sensitive accounts.
+
+Currenty, I'm reworking the app using the MERN stack. I am also working on a mobile version using React Native.
 
 **Technology used:**
 

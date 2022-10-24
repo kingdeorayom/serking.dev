@@ -65,23 +65,6 @@ img {
     -ms-user-select: none;
 }
 
-/* global icons */
-
-.FaChevronCircleLeft {
-    font-size: 35px;
-    margin-right: 10px;
-    color: #ffffff;
-}
-
-.FaChevronCircleLeft:hover {
-    color: #c0c0c7;
-    cursor: pointer;
-}
-
-.HiExternalLink {
-    margin-left: 5px;
-}
-
 /* global horizontal line */
 
 .horizontalLine {

@@ -65,7 +65,6 @@ const Navigation = () => {
                         </div>
                     </a>
                 </div>
-
             </div>
 
         </section>

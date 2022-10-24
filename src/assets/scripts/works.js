@@ -49,9 +49,9 @@ const works = [
     {
         "work_id": 5,
         "work_title": "Shutdown Timer",
-        "work_description": "A simple shutdown scheduler application for Windows made using C# Windows Form Application",
+        "work_description": "A simple shutdown scheduler application for Windows made using C# Windows Form Application. No image available, using random image placeholders.",
         "work_link": "work",
-        "work_image": "https://via.placeholder.com/1205x715.png/4C9195/FFFFFF?text=Shutdown+Timer",
+        "work_image": "https://picsum.photos/1000/590",
         "work_file_name": "shutdown-timer.md",
     },
 ]

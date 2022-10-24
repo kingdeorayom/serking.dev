@@ -11,7 +11,7 @@ import Footer from './pages/components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './assets/css/index.css';
-
+import "@fancyapps/ui/dist/fancybox.css";
 function App() {
 
     const [post, setPost] = useState(null);
