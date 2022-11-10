@@ -1,0 +1,2 @@
+delete modal
+change password screen (change icon state using 1 state)
