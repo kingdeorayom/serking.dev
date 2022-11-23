@@ -1,5 +1,5 @@
 
-# React Portfolio
+# Portfolio
 
 Improved version of Serking de Orayom's portfolio website created using React.
 
