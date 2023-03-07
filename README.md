@@ -1,49 +1,38 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Portfolio
+## Getting Started
 
-Improved version of Serking de Orayom's portfolio website created using React.
-
-
-
-
-## Demo
-
-- [Visit website](https://kingdeorayom.tech)
-## Screenshots
-
-![App Screenshot](https://kingdeorayom.tech/static/media/react-portfolio.bd491ae784b381a048d1.png)
-## Run Locally
-
-Clone the project
+First, run the development server:
 
 ```bash
-  git clone https://github.com/kingdeorayom/react-portfolio.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-Go to the project directory
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-  cd react-portfolio
-```
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-Install dependencies
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-```bash
-  npm install
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Start the server
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```bash
-  npm run start
-```
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-## Acknowledgements
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-My cartoon avatar used in the website is created by **zelpixels**. For commissions, contact:
-- [@zelpixels](https://www.instagram.com/zelpixels/)
-## Authors
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- [Serking de Orayom](https://www.github.com/kingdeorayom)
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
