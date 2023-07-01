@@ -1,0 +1,21 @@
+# <span className="page__title"> Going mobile with React Native</span>
+
+<span style="color: lightgrey">September 12, 2022</span>
+
+&nbsp;
+
+<span className="page__content">
+Finally land myself a job as a mobile app developer.
+
+The company uses React Native for their projects and luckily, I have experience with the ecosystem of React (as proven in this site using React JS) so I had a bit of advantage while on training.
+
+React Native is similar to React JS, and as someone who experienced using both firsthand, I can say that React JS is the way to go if planning to learn the React ecosystem.
+
+My plan on recreating this website using Next.js has been delayed due to work since I'm more focused lately on learning React Native but hopefully soon I'll be able to do so.
+
+The good thing about learning React Native is that I can finally create a mobile version of Account Manager, one of my simple (but useful for me) project.
+
+After all these, I'm planning on going full with the MERN Stack.
+
+Wish me luck.
+</span>
