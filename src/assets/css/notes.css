@@ -1,0 +1,42 @@
+.notes__item {
+    border-radius: 26px;
+    line-height: 1.5;
+    background-color: #2b3047;
+    padding: 1rem 1.2rem 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes__item:hover {
+    /* transform: translate(0, -7px); */
+    transform: scale(1.03);
+    transition: all 0.1s linear;
+}
+
+.notes__subtitle {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.notes__date {
+    font-size: 0.87em;
+    color: rgba(228, 232, 250, 0.55);
+}
+
+.notes__link__text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.notes__link__text:hover {
+    color: #fff;
+}
+
+.notes__emoji {
+    max-width: 90px;
+    max-height: 90px;
+}

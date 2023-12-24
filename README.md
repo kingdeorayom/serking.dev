@@ -1,57 +1,47 @@
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+# Portfolio
 
+Improved version of Serking de Orayom's portfolio website created using React.
 
-# Spotlight
+## Demo
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+-   [Visit website](https://serking.tech)
 
-## Getting started
+## Screenshots
 
-To get started with this template, first install the npm dependencies:
+![App Screenshot](https://serking.tech/static/media/react-portfolio.bd491ae784b381a048d1.png)
 
-```bash
-npm install
-```
+## Run Locally
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
-
-```
-NEXT_PUBLIC_SITE_URL=https://example.com
-```
-
-Next, run the development server:
+Clone the project
 
 ```bash
-npm run dev
+  git clone https://github.com/kingdeorayom/react-portfolio.git
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+Go to the project directory
 
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## Code Blocks
-extension:filename {highlightLines} showLineNumbers
-```go:document.go {1,3-4} showLineNumbers
-type Document struct {
-	Hash         string
-	Path         string
-	PreviousPath string
-	Operation    *CognitiveOperation
-	Results      *CognitiveReadResponse
-}
+```bash
+  cd react-portfolio
 ```
 
-## License
+Install dependencies
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+```bash
+  npm install
+```
 
-## Learn more
+Start the server
 
-To learn more about the technologies used in this site template, see the following resources:
+```bash
+  npm run start
+```
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com) - the MDX documentation
+## Acknowledgements
+
+My cartoon avatar used in the website is created by **zelpixels**. For commissions, contact:
+
+-   [@zelpixels](https://www.instagram.com/zelpixels/)
+
+## Authors
+
+-   [Serking de Orayom](https://www.github.com/kingdeorayom)

@@ -1,0 +1,43 @@
+.apps__item {
+    line-height: 1.5;
+    background-color: #2b3047;
+    border-radius: 0.5em;
+}
+
+.apps__item:hover {
+    transform: translate(0, -7px);
+    transition: all 0.1s linear;
+}
+
+.apps__text {
+    margin: 20px 10px;
+}
+
+.apps__title {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.apps__subtitle {
+    font-size: 1em;
+    color: rgba(242, 244, 255, 0.8);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* .apps__image {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+} */
+
+.apps__link__text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.apps__link__text:hover {
+    color: #fff;
+}
