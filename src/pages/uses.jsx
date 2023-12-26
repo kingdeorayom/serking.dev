@@ -53,19 +53,19 @@ export default function Uses() {
         <div className="space-y-20">
 
           <ToolsSection title="Workstation">
-            <Tool title="AMD Ryzen™ 5 2600 , GTX 1650 Super, 16 GB RAM powered Desktop Computer">
+            <Tool title="AMD Ryzen™ 5 2600, NVIDIA GTX 1650 Super, 16 GB RAM powered Desktop Computer">
               I mostly do web and mobile app development so this is kinda overkill.
             </Tool>
-            <Tool title='ASUS VP249QGR 24" 144Hz IPS Monitor'>
+            <Tool title='ASUS 24" 144Hz IPS Monitor'>
               My primary display. I use this for coding and well... gaming. A lot.
             </Tool>
-            <Tool title='AOC 22B2H 21.5" 75Hz VA Monitor'>
+            <Tool title='AOC 21.5" 75Hz VA Monitor'>
               A second display (or even third) is a must-have for every developer. I cannot imagine myself working on a single display anymore.
             </Tool>
             <Tool title="ASUS X515JP Laptop">
               An entry-level laptop that offers performance enough to demo projects when meeting with a client. It also gets the job done when using an AVD (Android Emulator from Android Studio), or when just presenting web-based projects.
             </Tool>
-            <Tool title="iPad (6th Generation)">
+            <Tool title="Apple iPad (6th Generation)">
               Enough to run iOS apps I develop. I only use React Native for iOS development anyway.
             </Tool>
             <Tool title="Royal Kludge RK84 75% Wireless Mechanical Keyboard">
@@ -78,7 +78,7 @@ export default function Uses() {
 
           <ToolsSection title="Development tools">
             <Tool title="Visual Studio Code">
-              Used by many so why shoudn’t I?
+              Best text editor I have ever used. Used by many so why shoudn’t I?
             </Tool>
             <Tool title="Postman">
               When you started to create and use APIs, Postman will always be your trusted little friend.
@@ -93,7 +93,7 @@ export default function Uses() {
               I use MongoDB, of course I’d use MongoDB Compass. Free, interactive, and is the easiest way to explore and manipulate your data.
             </Tool>
             <Tool title="GitHub Desktop">
-              I keep all my public and private repositories on GitHub, and have been doing it that way since I started software development. GitHub Desktop maximizes my experience with it.
+              I keep all my public and private repositories on GitHub, and have been doing it that way since I started software development. GitHub Desktop simply maximizes my experience with it.
             </Tool>
             <Tool title="Google Chrome">
               I mostly use Google apps (Google Workspace) anyway so why not use it all in one platform. I’d like to give Firefox and Edge another shot one day but for now still using Chrome for both development and general browsing.
