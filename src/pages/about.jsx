@@ -79,7 +79,13 @@ export default function About() {
               Hi, I’m Serking. I’m a software developer focusing on web and mobile applications.
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
-              <p>
+
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae impedit est assumenda dolores nesciunt earum? Harum quos necessitatibus, eum laborum quae, enim sapiente impedit quia esse, dolores eos unde! Molestiae.</p>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate nemo voluptatum illo temporibus sunt possimus, iure nam corrupti dicta. Omnis, voluptatibus nihil? Culpa facilis animi, hic corrupti voluptatum natus.</p>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam non accusamus magnam asperiores distinctio hic aliquam, ullam exercitationem consequuntur nam aliquid at animi velit quae ea modi perferendis alias veniam!</p>
+              {/* <p>
                 Howdy! Thanks for stopping by. I’m Brian and I’ve been doing technology
                 things since <a href="https://en.wikipedia.org/wiki/Acoustic_coupler">acoustic
                   modem couplers</a> were a thing. I love Open Source and exploring different programming languages.
@@ -105,7 +111,7 @@ export default function About() {
               </p>
               <p>
                 I love Open Source, learning in public, and sharing what I learn with others.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="lg:pl-20">
