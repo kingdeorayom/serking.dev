@@ -62,63 +62,63 @@ export const projects = [
   {
     name: 'SALIKSIK: UPHSL Research Repository',
     description:
-      'Install and manage all the tools you need to be productive.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://saliksikuphsl.org', label: 'https://saliksikuphsl.org' },
     logo: logoFleek,
   },
   {
     name: 'Auto Promo PH',
     description:
-      'Custom Operating System images based on Fedora.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://www.autopromo.ph', label: 'https://www.autopromo.ph' },
     logo: logoUblue,
   },
   {
     name: 'Group Study Gallery',
     description:
-      'The next generation Linux workstation. Built for cloud-native, using cloud-native.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://github.com/kingdeorayom/group-study-gallery-web', label: 'https://github.com/kingdeorayom/group-study-gallery-web' },
     logo: logoUblue,
   },
   {
     name: 'Group Study Secret Santa',
     description:
-      'Vanilla OS is an immutable and atomic Ubuntu Linux-based Point Release distribution, that receives updates at the right time, neither before nor after, without sacrificing security and functionality.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://group-study-secret-santa.vercel.app', label: 'https://group-study-secret-santa.vercel.app' },
     logo: logoVanilla,
   },
   {
     name: 'Barangay Malaban Resident Information Management System',
     description:
-      'Custom commands as webhooks.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: '', label: 'github.com' },
     logo: logoCaptainhook,
   },
   {
     name: 'Passwordify',
     description:
-      'Build fast, reliable, and efficient software at scale',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://passwordify-kingdeorayom.vercel.app', label: 'https://passwordify-kingdeorayom.vercel.app' },
     logo: logoGolang,
   },
   {
     name: 'Jejemonizer',
     description:
-      'Custom commands as webhooks.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://jejemonizer.vercel.app', label: 'https://jejemonizer.vercel.app' },
     logo: logoCaptainhook,
   },
   {
     name: 'Beshy Generator',
     description:
-      'Custom commands as webhooks.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://beshy.vercel.app', label: 'https://beshy.vercel.app' },
     logo: logoCaptainhook,
   },
   {
     name: 'Shutdown Timer',
     description:
-      'Production-Grade Container Scheduling and Management',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: { href: 'https://github.com/kingdeorayom/shutdown-timer', label: 'https://github.com/kingdeorayom/shutdown-timer' },
     logo: logoKubernetes,
   },
