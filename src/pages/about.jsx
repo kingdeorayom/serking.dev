@@ -10,7 +10,7 @@ import {
   LinkedInIcon,
   MastodonIcon
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/brian-head.jpg'
+import portraitImage from '@/images/serking-head.jpg'
 import siteMeta from '@/data/siteMeta'
 import { NextSeo } from 'next-seo';
 
@@ -20,6 +20,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target='_blank'
         className="flex text-sm font-medium transition group text-zinc-800 hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
       >
         <Icon className="flex-none w-6 h-6 transition fill-zinc-500 group-hover:fill-teal-500" />
@@ -44,7 +45,7 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Brian Ketelsen"
+        title="About - Serking de Orayom"
         description={siteMeta.description}
         canonical="https://brian.dev/about"
         openGraph={{
@@ -75,8 +76,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Brian Ketelsen. I live in Florida, where I help people
-              across the world learn the Cloud.
+              Hi, I’m Serking. I’m a software developer focusing on web and mobile applications.
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
@@ -111,10 +111,7 @@ export default function About() {
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink href={siteMeta.author.twitter} icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href={siteMeta.author.mastodon} icon={MastodonIcon} className="mt-4">
-                Follow on Mastodon
+                Follow on X (Twitter)
               </SocialLink>
               <SocialLink href={siteMeta.author.instagram} icon={InstagramIcon} className="mt-4">
                 Follow on Instagram

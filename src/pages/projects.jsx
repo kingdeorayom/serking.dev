@@ -18,28 +18,28 @@ function LinkIcon(props) {
 
 export default function Projects() {
   const headline = "Things I’ve made trying to put my mark on the universe."
-  const intro="I’ve worked on tons of little projects over the years, but these are some of the ones that I’m most proud of. If you see something that piques your interest, check it out via the link below. While you're there, feel free to contribute any ideas that would make it better. Remember: Open source!"
+  const intro = "I’ve worked on tons of little projects over the years, but these are some of the ones that I’m most proud of. If you see something that piques your interest, check it out via the link below. While you're there, feel free to contribute any ideas that would make it better. Remember: some are Open Source."
 
   return (
     <>
-    <NextSeo
-      title="Projects - Brian Ketelsen"
-      description={siteMeta.description}
-      canonical="https://brian.dev/projects"
-      openGraph={{
-        url: 'https://brian.dev/projects',
-        images: [
-          {
-            url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
-            width: 1200,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          }
-        ],
-        siteName: 'brian.dev',
-      }}
-    />
+      <NextSeo
+        title="Projects - Serking de Orayom"
+        description={siteMeta.description}
+        canonical="https://brian.dev/projects"
+        openGraph={{
+          url: 'https://brian.dev/projects',
+          images: [
+            {
+              url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
+              width: 1200,
+              height: 600,
+              alt: 'Og Image Alt',
+              type: 'image/jpeg',
+            }
+          ],
+          siteName: 'brian.dev',
+        }}
+      />
       <SimpleLayout
         title={headline}
         intro={intro}

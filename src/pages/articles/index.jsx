@@ -3,7 +3,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
-import  siteMeta  from '@/data/siteMeta'
+import siteMeta from '@/data/siteMeta'
 
 function Article({ article }) {
   return (
@@ -36,28 +36,28 @@ function Article({ article }) {
 
 export default function ArticlesIndex({ articles }) {
   const headline = 'I write about things I’m learning and things I’m building.'
-  const intro="All of my long-form thoughts on programming, leadership, infrastructure, and more, collected in chronological order."
+  const intro = "All of my thoughts on programming and more, collected in chronological order."
 
   return (
     <>
-    <NextSeo
-      title="Articles - Brian Ketelsen"
-      description={siteMeta.description}
-      canonical="https://brian.dev/articles"
-      openGraph={{
-        url: 'https://brian.dev/articles',
-        images: [
-          {
-            url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
-            width: 1200,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          }
-        ],
-        siteName: 'brian.dev',
-      }}
-    />
+      <NextSeo
+        title="Articles - Serking de Orayom"
+        description={siteMeta.description}
+        canonical="https://brian.dev/articles"
+        openGraph={{
+          url: 'https://brian.dev/articles',
+          images: [
+            {
+              url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
+              width: 1200,
+              height: 600,
+              alt: 'Og Image Alt',
+              type: 'image/jpeg',
+            }
+          ],
+          siteName: 'brian.dev',
+        }}
+      />
       <SimpleLayout
         title={headline}
         intro={intro}
