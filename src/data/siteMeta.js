@@ -62,65 +62,65 @@ export const projects = [
   {
     name: 'SALIKSIK: UPHSL Research Repository',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'A web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of University of Perpetual Help System Laguna - Biñan Campus.',
     link: { href: 'https://saliksikuphsl.org', label: 'https://saliksikuphsl.org' },
-    logo: logoFleek,
+    logo: logoVanilla,
   },
   {
     name: 'Auto Promo PH',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Streamline your car-buying experience with our Auto Promo PH.',
     link: { href: 'https://www.autopromo.ph', label: 'https://www.autopromo.ph' },
-    logo: logoUblue,
+    logo: logoVanilla,
   },
   {
     name: 'Group Study Gallery',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'An online gallery web application for my friends to view and reminisce the memories of our college days.',
     link: { href: 'https://github.com/kingdeorayom/group-study-gallery-web', label: 'https://github.com/kingdeorayom/group-study-gallery-web' },
-    logo: logoUblue,
+    logo: logoVanilla,
   },
   {
     name: 'Group Study Secret Santa',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'A Secret Santa generator I developed for use in one of my circle of friends exchange gift event.',
     link: { href: 'https://group-study-secret-santa.vercel.app', label: 'https://group-study-secret-santa.vercel.app' },
     logo: logoVanilla,
   },
   {
     name: 'Barangay Malaban Resident Information Management System',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Software project in college showcasing CRUD operations.',
     link: { href: '', label: 'github.com' },
-    logo: logoCaptainhook,
+    logo: logoVanilla,
   },
   {
     name: 'Passwordify',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Passwordify: Your Simple Solution for Secure Passwords. Effortlessly generate strong, secure passwords with ease. Discover the simplicity of better online security.',
     link: { href: 'https://passwordify-kingdeorayom.vercel.app', label: 'https://passwordify-kingdeorayom.vercel.app' },
-    logo: logoGolang,
+    logo: logoVanilla,
   },
   {
     name: 'Jejemonizer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Jejemonizer - The Jejemon Generator',
     link: { href: 'https://jejemonizer.vercel.app', label: 'https://jejemonizer.vercel.app' },
-    logo: logoCaptainhook,
+    logo: logoVanilla,
   },
   {
     name: 'Beshy Generator',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Pagod 🤸‍♀️ na 🤸‍♀️ ba 🤸‍♀️ ang 🤸‍♀️ beshy 🤸‍♀️ ko 🤸‍♀️ na 🤸‍♀️ yan? Cringe lol.',
     link: { href: 'https://beshy.vercel.app', label: 'https://beshy.vercel.app' },
-    logo: logoCaptainhook,
+    logo: logoVanilla,
   },
   {
     name: 'Shutdown Timer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Made with C#, a handy tool for scheduling shutdown timer for Windows.',
     link: { href: 'https://github.com/kingdeorayom/shutdown-timer', label: 'https://github.com/kingdeorayom/shutdown-timer' },
-    logo: logoKubernetes,
+    logo: logoVanilla,
   },
 
 

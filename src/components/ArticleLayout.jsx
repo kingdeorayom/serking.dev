@@ -31,24 +31,24 @@ export function ArticleLayout({
   }
   return (
     <>
-    <NextSeo
-      title={meta.title}
-      description={meta.description}
-      canonical={`https://brian.dev${router.pathname}`}
-      openGraph={{
-        url: `https://brian.dev${router.pathname}`,
-        images: [
-          {
-            url: `https://og.brian.dev/api/og?title=${meta.title}&desc=${meta.description}`,
-            width: 1200,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          }
-        ],
-        siteName: 'brian.dev',
-      }}
-    />
+      <NextSeo
+        title={meta.title}
+        description={meta.description}
+        canonical={`https://serking.tech${router.pathname}`}
+        openGraph={{
+          url: `https://serking.tech${router.pathname}`,
+          images: [
+            {
+              url: `https://og.serking.tech/api/og?title=${meta.title}&desc=${meta.description}`,
+              width: 1200,
+              height: 600,
+              alt: 'Og Image Alt',
+              type: 'image/jpeg',
+            }
+          ],
+          siteName: 'serking.tech',
+        }}
+      />
       <Container className="mt-16 lg:mt-32">
         <div className="xl:relative">
           <div className="mx-auto max-w-2xl">

@@ -45,21 +45,21 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Serking de Orayom"
+        title="About | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://brian.dev/about"
+        canonical="https://serking.tech/about"
         openGraph={{
-          url: 'https://brian.dev/about',
+          url: 'https://serking.tech/about',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=About&desc=${siteMeta.description}`,
+              url: `https://og.serking.tech/api/og?title=About&desc=${siteMeta.description}`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'serking.tech',
         }}
       />
       <Container className="mt-16 sm:mt-32">

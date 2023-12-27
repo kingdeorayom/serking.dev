@@ -29,21 +29,21 @@ export default function Speaking() {
   return (
     <>
       <NextSeo
-        title="Speaking - Serking de Orayom"
+        title="Speaking | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://brian.dev/speaking"
+        canonical="https://serking.tech/speaking"
         openGraph={{
-          url: 'https://brian.dev/speaking',
+          url: 'https://serking.tech/speaking',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=Speaking&desc=I’ve spoken at events all around the world and been interviewed for many podcasts.`,
+              url: `https://og.serking.tech/api/og?title=Speaking&desc=I’ve spoken at events all around the world and been interviewed for many podcasts.`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'serking.tech',
         }}
       />
       <SimpleLayout

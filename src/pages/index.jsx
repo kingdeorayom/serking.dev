@@ -180,7 +180,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://linkedin.com/in/brianketelsen" variant="secondary" className="group mt-6 w-full">
+      <Button href="#" variant="secondary" className="group mt-6 w-full">
         Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -264,21 +264,21 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo
-        title="Serking de Orayom"
+        title="Serking de Orayom | Software Developer"
         description={siteMeta.description}
-        canonical="https://brian.dev/"
+        canonical="https://serking.tech/"
         openGraph={{
-          url: 'https://brian.dev',
+          url: 'https://serking.tech',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
+              url: `https://og.serking.tech/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'serking.tech',
         }}
       />
       <Container className="mt-9">

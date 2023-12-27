@@ -29,21 +29,21 @@ export default function Uses() {
   return (
     <>
       <NextSeo
-        title="Uses - Serking de Orayom"
+        title="Uses | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://brian.dev/uses"
+        canonical="https://serking.tech/uses"
         openGraph={{
-          url: 'https://brian.dev/uses',
+          url: 'https://serking.tech/uses',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=Uses&desc=Things I use every day to get my work done.`,
+              url: `https://og.serking.tech/api/og?title=Uses&desc=Things I use every day to get my work done.`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'serking.tech',
         }}
       />
       <SimpleLayout

@@ -41,21 +41,21 @@ export default function ArticlesIndex({ articles }) {
   return (
     <>
       <NextSeo
-        title="Articles - Serking de Orayom"
+        title="Articles | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://brian.dev/articles"
+        canonical="https://serking.tech/articles"
         openGraph={{
-          url: 'https://brian.dev/articles',
+          url: 'https://serking.tech/articles',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
+              url: `https://og.serking.tech/api/og?title=Articles&desc=${headline}`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'serking.tech',
         }}
       />
       <SimpleLayout
