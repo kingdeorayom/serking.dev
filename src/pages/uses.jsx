@@ -111,7 +111,7 @@ export default function Uses() {
 
           <ToolsSection title="Recreation">
             <Tool title="Nintendo Switch Lite">
-              A Nintendo fan boy since I was a little kid, started on Game Boy Color, Game Boy Advance SP, moved up to DS, 3DS, and now the Switch. I chose the Lite so I can play while lying down whenever I get tired sitting for hours in front of the computer.
+              A Nintendo fan boy since I was a little kid, started on Game Boy Color, Game Boy Advance SP, moved up to DS, 3DS, and now the Switch. I chose the Lite so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you’re a gamer. Make time to change pace.
             </Tool>
             <Tool title="Chess">
               A good game of chess every now and then is a must-have. Keeps my logical mind intact. Haha :D

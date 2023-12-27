@@ -1,5 +1,8 @@
 
-import logoAmazon from '@/images/logos/aws.svg'
+import padtechLogo from '@/images/logos/padtech.png'
+import uphslLogo from '@/images/logos/uphsl.png'
+import sociovLogo from '@/images/logos/sociov.png'
+
 import logoClarity from '@/images/logos/clarity.jpg'
 import logoMicrosoft from '@/images/logos/azure.svg'
 import logoXOR from '@/images/logos/xor.jpg'
@@ -29,12 +32,19 @@ export const resume = [
   {
     company: 'Padtech Industries Corporation',
     title: 'RND Programmer I',
-    logo: logoAmazon,
+    logo: padtechLogo,
     start: '2022',
     end: {
       label: 'Present',
       dateTime: new Date().getFullYear(),
     },
+  },
+  {
+    company: 'Sociov Innovations, Inc.',
+    title: 'Front End Developer (Internship)',
+    logo: sociovLogo,
+    start: 'Aug 2021',
+    end: 'Dec 2021'
   },
   // {
   //   company: 'Microsoft',
@@ -57,6 +67,22 @@ export const resume = [
   //   start: '2008',
   //   end: '2014',
   // },
+]
+export const education = [
+  {
+    school: 'University of Perpetual Help System Laguna',
+    course: 'BS Information Technology',
+    logo: uphslLogo,
+    start: '2018',
+    end: '2022'
+  },
+  {
+    school: 'University of Perpetual Help System Laguna',
+    course: 'Computer Systems Servicing NC II',
+    logo: uphslLogo,
+    start: '2016',
+    end: '2018'
+  },
 ]
 export const projects = [
   {
