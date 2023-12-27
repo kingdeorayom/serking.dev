@@ -36,7 +36,7 @@ export default function Uses() {
           url: 'https://serking.tech/uses',
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=Uses&desc=Things I use every day to get my work done.`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

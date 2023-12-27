@@ -30,7 +30,7 @@ export default function Projects() {
           url: 'https://serking.tech/projects',
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=Projects&desc=${headline}`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

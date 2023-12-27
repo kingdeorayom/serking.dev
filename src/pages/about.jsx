@@ -52,7 +52,7 @@ export default function About() {
           url: 'https://serking.tech/about',
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=About&desc=${siteMeta.description}`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

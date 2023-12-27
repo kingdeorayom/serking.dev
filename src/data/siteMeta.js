@@ -13,7 +13,7 @@ import logoCaptainhook from '@/images/logos/captainhook.svg'
 
 const siteMeta = {
   title: "Serking de Orayom",
-  description: "Serking de Orayom is a developer advocate, keynote speaker, author, and open source practitioner.",
+  description: "Software developer, game enthusiast, and avid reader.",
   copyright: "Serking de Orayom, CC-BY-SA",
   author: {
     name: "Serking de Orayom",

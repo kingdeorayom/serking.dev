@@ -39,7 +39,7 @@ export function ArticleLayout({
           url: `https://serking.tech${router.pathname}`,
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=${meta.title}&desc=${meta.description}`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

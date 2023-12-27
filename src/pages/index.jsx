@@ -271,7 +271,7 @@ export default function Home({ articles }) {
           url: 'https://serking.tech',
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

@@ -48,7 +48,7 @@ export default function ArticlesIndex({ articles }) {
           url: 'https://serking.tech/articles',
           images: [
             {
-              url: `https://og.serking.tech/api/og?title=Articles&desc=${headline}`,
+              url: `https://serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
