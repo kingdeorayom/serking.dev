@@ -31,12 +31,12 @@ export default function Speaking() {
       <NextSeo
         title="Speaking | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://serking.tech/speaking"
+        canonical="https://www.serking.tech/speaking"
         openGraph={{
-          url: 'https://serking.tech/speaking',
+          url: 'https://www.serking.tech/speaking',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

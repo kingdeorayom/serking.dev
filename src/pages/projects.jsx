@@ -25,12 +25,12 @@ export default function Projects() {
       <NextSeo
         title="Projects | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://serking.tech/projects"
+        canonical="https://www.serking.tech/projects"
         openGraph={{
-          url: 'https://serking.tech/projects',
+          url: 'https://www.serking.tech/projects',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

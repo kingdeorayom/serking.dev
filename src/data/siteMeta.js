@@ -26,7 +26,7 @@ const siteMeta = {
     github: "https://github.com/kingdeorayom",
     linkedin: "https://linkedin.com/in/kingdeorayom",
   },
-  siteUrl: "https://serking.tech"
+  siteUrl: "https://www.serking.tech"
 }
 export const resume = [
   {

@@ -34,12 +34,12 @@ export function ArticleLayout({
       <NextSeo
         title={meta.title}
         description={meta.description}
-        canonical={`https://serking.tech${router.pathname}`}
+        canonical={`https://www.serking.tech${router.pathname}`}
         openGraph={{
-          url: `https://serking.tech${router.pathname}`,
+          url: `https://www.serking.tech${router.pathname}`,
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

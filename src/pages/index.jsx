@@ -179,7 +179,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://serking.tech/DE ORAYOM - Resume.pdf" target="_blank" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://www.serking.tech/DE ORAYOM - Resume.pdf" target="_blank" variant="secondary" className="group mt-6 w-full">
         Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -265,12 +265,12 @@ export default function Home({ articles }) {
       <NextSeo
         title="Serking de Orayom | Software developer, game explorer, and literary admirer."
         description={siteMeta.description}
-        canonical="https://serking.tech/"
+        canonical="https://www.serking.tech/"
         openGraph={{
-          url: 'https://serking.tech',
+          url: 'https://www.serking.tech',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

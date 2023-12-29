@@ -47,12 +47,12 @@ export default function About() {
       <NextSeo
         title="About | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://serking.tech/about"
+        canonical="https://www.serking.tech/about"
         openGraph={{
-          url: 'https://serking.tech/about',
+          url: 'https://www.serking.tech/about',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

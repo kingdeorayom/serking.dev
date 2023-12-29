@@ -31,12 +31,12 @@ export default function Uses() {
       <NextSeo
         title="Uses | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://serking.tech/uses"
+        canonical="https://www.serking.tech/uses"
         openGraph={{
-          url: 'https://serking.tech/uses',
+          url: 'https://www.serking.tech/uses',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',

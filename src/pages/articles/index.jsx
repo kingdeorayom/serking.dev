@@ -43,12 +43,12 @@ export default function ArticlesIndex({ articles }) {
       <NextSeo
         title="Articles | Serking de Orayom"
         description={siteMeta.description}
-        canonical="https://serking.tech/articles"
+        canonical="https://www.serking.tech/articles"
         openGraph={{
-          url: 'https://serking.tech/articles',
+          url: 'https://www.serking.tech/articles',
           images: [
             {
-              url: `https://serking.tech/og.png`,
+              url: `https://www.serking.tech/og.png`,
               width: 1200,
               height: 600,
               alt: 'Og Image Alt',
