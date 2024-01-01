@@ -263,7 +263,8 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo
-        title="Serking de Orayom | Software developer, game explorer, and literary admirer."
+        // title="Serking de Orayom | Software developer, game explorer, and literary admirer."
+        title="Serking de Orayom | Software developer"
         description={siteMeta.description}
         canonical="https://www.serking.tech/"
         openGraph={{
@@ -284,7 +285,8 @@ export default function Home({ articles }) {
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             {/* Software developer, game enthusiast, and avid reader. */}
-            Software developer, game explorer, and literary admirer.
+            {/* Software developer, game explorer, and literary admirer. */}
+            Software developer
           </h1>
           <p className="mt-6 prose dark:prose-invert">
             Hi, I’m Serking. I’m a software developer focusing on web and mobile applications.
