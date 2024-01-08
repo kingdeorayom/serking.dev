@@ -1,5 +1,5 @@
 import Image from 'next/future/image'
-import { NextSeo } from 'next-seo';
+import { NextSeo } from 'next-seo'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
@@ -17,8 +17,10 @@ function LinkIcon(props) {
 }
 
 export default function Projects() {
-  const headline = "Things I’ve made trying to put my mark on the tech industry."
-  const intro = "I’ve worked on tons of little projects over the years, but these are some of the ones that I’m most proud of. If you see something that piques your interest, check it out via the link below. While you're there, feel free to contribute any ideas that would make it better. Note: Project logos are placeholder. I have yet to fix it."
+  const headline =
+    'Things I’ve made trying to put my mark on the tech industry.'
+  const intro =
+    "I’ve worked on tons of little projects over the years, but these are some of the ones that I’m most proud of. If you see something that piques your interest, check it out via the link below. While you're there, feel free to contribute any ideas that would make it better. Note: Project logos are placeholder. I have yet to fix it."
 
   return (
     <>
@@ -35,15 +37,12 @@ export default function Projects() {
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
-            }
+            },
           ],
           siteName: 'serking.tech',
         }}
       />
-      <SimpleLayout
-        title={headline}
-        intro={intro}
-      >
+      <SimpleLayout title={headline} intro={intro}>
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
@@ -54,12 +53,14 @@ export default function Projects() {
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8"
+                  className="h-8 w-8 object-contain"
                   unoptimized
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href} target="_blank">{project.name}</Card.Link>
+                <Card.Link href={project.link.href} target="_blank">
+                  {project.name}
+                </Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
