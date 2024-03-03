@@ -85,6 +85,15 @@ export default function About() {
                     I also have a dog named <strong>Yuko</strong>. A very good
                     partner and companion he is.
                 </p>
+
+                <iframe
+                    src="https://open.spotify.com/embed/track/17PXXzOygMyXXUNLngVN5u?utm_source=generator"
+                    width="100%"
+                    height="152"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                    className="rounded-sm"
+                />
             </section>
         </main>
     );
