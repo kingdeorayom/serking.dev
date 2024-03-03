@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="mt-20">
+        <footer className="mt-40">
             <h6 className="text-sm font-light text-slate-400 text-center">
                 {`© ${new Date().getFullYear()} Serking`}
             </h6>

@@ -11,8 +11,8 @@ const ThemeToggler = () => {
 
     if (!mounted)
         return (
-            <div class="animate-pulse flex space-x-4">
-                <div class="rounded-full bg-slate-200 h-4 w-4"></div>
+            <div className="animate-pulse flex space-x-4">
+                <div className="rounded-full bg-slate-200 h-4 w-4"></div>
             </div>
         );
 

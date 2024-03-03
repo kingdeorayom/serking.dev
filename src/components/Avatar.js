@@ -1,7 +1,17 @@
-import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import serkingdeorayom from "../../public/images/me/serking-de-orayom.jpg";
 
 const Avatar = () => {
-    return <div className="h-10 w-10 bg-slate-200 rounded-full md:hidden" />;
+    return (
+        <Link href="/">
+            <Image
+                className="w-10 h-10 rounded-full md:hidden"
+                src={serkingdeorayom}
+                alt="Serking de Orayom"
+            />
+        </Link>
+    );
 };
 
 export default Avatar;
