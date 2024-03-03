@@ -11,6 +11,11 @@
 //     return res.json();
 // }
 
+export const metadata = {
+    title: "Guestbook | Serking de Orayom",
+    description: "Web and mobile app developer",
+};
+
 export default async function GuestBook() {
     // const data = await getData();
 
@@ -21,12 +26,19 @@ export default async function GuestBook() {
                     Sign my guestbook &#x1F4D6;
                 </h1>
 
+                <p className="text-xs text-gray-500">
+                    If you&apos;re leaving a message here, remember it&apos;s
+                    public. Be nice and avoid any harsh words that may be
+                    offensive for someone. Keep it positive and considerate.
+                    Thanks!
+                </p>
+
                 {/* <button className="px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100 mb-8">
                         <FaGithub size={20} />
                         <div className="ml-3">Sign in with GitHub</div>
                     </button> */}
 
-                <form className="mb-8">
+                <form className="mt-8 mb-8">
                     <label
                         for="search"
                         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

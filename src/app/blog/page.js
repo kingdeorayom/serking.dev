@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Blog | Serking de Orayom",
+    description: "Web and mobile app developer",
+};
+
 export default function Blog() {
     return (
         <main className="flex-auto min-w-0 flex flex-col">

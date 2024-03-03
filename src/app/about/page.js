@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+    title: "About | Serking de Orayom",
+    description: "Web and mobile app developer",
+};
+
 export default function About() {
     return (
         <main className="flex-auto min-w-0 flex flex-col">
@@ -87,7 +92,7 @@ export default function About() {
                 </p>
 
                 <iframe
-                    src="https://open.spotify.com/embed/track/17PXXzOygMyXXUNLngVN5u?utm_source=generator"
+                    src="https://open.spotify.com/embed/track/3BQHpFgAp4l80e1XslIjNI?utm_source=generator"
                     width="100%"
                     height="152"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
