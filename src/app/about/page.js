@@ -10,7 +10,7 @@ export default function About() {
         <main className="flex-auto min-w-0 flex flex-col">
             <section className="flex flex-col gap-y-6">
                 <h1 className="font-medium text-2xl tracking-tighter">
-                    Thanks for stopping by! &#x1F604;
+                    Get to know me more &#x1F604;
                 </h1>
                 <p>
                     I&apos;m Serking and I&apos;ve been doing technology related
@@ -91,8 +91,10 @@ export default function About() {
                     partner and companion he is.
                 </p>
 
+                <p>Thanks for stopping by! &#x1F604;</p>
+
                 <iframe
-                    src="https://open.spotify.com/embed/track/3BQHpFgAp4l80e1XslIjNI?utm_source=generator"
+                    src="https://open.spotify.com/embed/track/6yLIqXX9edg1x0HZS7cZEv?utm_source=generator"
                     width="100%"
                     height="152"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
