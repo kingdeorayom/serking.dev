@@ -1,17 +1,17 @@
-// async function getData() {
-//     const res = await fetch(
-//         "https://ph.api.buysellee.com/api/v1/home?includeUser=true&includeImages=true",
-//         { next: { revalidate: 60 } }
-//     );
-
 import { FaGithub } from "react-icons/fa";
 
-//     if (!res.ok) {
-//         throw new Error("Failed to fetch data");
-//     }
+async function getData() {
+    const res = await fetch(
+        "https://ph.api.buysellee.com/api/v1/home?cityId=464&includeUser=true&includeImages=true",
+        { next: { revalidate: 60 } }
+    );
 
-//     return res.json();
-// }
+    if (!res.ok) {
+        throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+}
 
 export const metadata = {
     title: "Guestbook | Serking de Orayom",
@@ -19,7 +19,7 @@ export const metadata = {
 };
 
 export default async function GuestBook() {
-    // const data = await getData();
+    const data = await getData();
 
     return (
         <main className="flex-auto min-w-0 flex flex-col gap-y-1">
@@ -88,6 +88,10 @@ export default async function GuestBook() {
                     </div>
                 </div>
             </section>
+
+            <p className="bg-gray-100 p-2 text-xs rounded-lg">
+                {JSON.stringify(data)}
+            </p>
         </main>
     );
 }
