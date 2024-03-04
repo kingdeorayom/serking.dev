@@ -75,7 +75,7 @@ const Social = () => {
                             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://twitter.com/leeerob"
+                            href="#"
                         >
                             <FiArrowUpRight size={18} />
                             <p className="h-7 ml-2">follow me</p>
@@ -86,7 +86,7 @@ const Social = () => {
                             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://leerob.substack.com"
+                            href="#"
                         >
                             <FaRegCopy size={18} />
                             <p className="h-7 ml-2">copy email address</p>

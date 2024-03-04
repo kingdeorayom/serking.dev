@@ -94,13 +94,6 @@ const MenuToggler = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog" onClick={closeMenu}>
-                                        <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-4 text-sm">
-                                            Blog
-                                        </p>
-                                    </Link>
-                                </li>
-                                <li>
                                     <Link href="/guestbook" onClick={closeMenu}>
                                         <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-4 text-sm">
                                             Guestbook

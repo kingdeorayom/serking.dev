@@ -4,6 +4,8 @@
 //         { next: { revalidate: 60 } }
 //     );
 
+import { FaGithub } from "react-icons/fa";
+
 //     if (!res.ok) {
 //         throw new Error("Failed to fetch data");
 //     }
@@ -33,12 +35,12 @@ export default async function GuestBook() {
                     Thanks!
                 </p>
 
-                {/* <button className="px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100 mb-8">
-                        <FaGithub size={20} />
-                        <div className="ml-3">Sign in with GitHub</div>
-                    </button> */}
+                <button className="mt-8 px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100 mb-8">
+                    <FaGithub size={20} />
+                    <div className="ml-3">Sign in with GitHub</div>
+                </button>
 
-                <form className="mt-8 mb-8">
+                {/* <form className="mt-8 mb-8">
                     <label
                         for="search"
                         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -59,15 +61,14 @@ export default async function GuestBook() {
                             Send
                         </button>
                     </div>
-                </form>
+                </form> */}
 
                 <div className="mb-4 flex flex-col gap-y-1">
                     <div className="w-full text-sm break-words">
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        ill take this site as an inspiration for my next
-                        portfolio design haha! especially this guestbook
+                        qwertyuiopasdfghjklzxcvbnm
                     </div>
                 </div>
                 <div className="mb-4 flex flex-col gap-y-1">
@@ -75,7 +76,7 @@ export default async function GuestBook() {
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        ill take this site
+                        hello lolololol
                     </div>
                 </div>
                 <div className="mb-4 flex flex-col gap-y-1">
@@ -83,8 +84,7 @@ export default async function GuestBook() {
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        ill take this site as an inspiration for my next
-                        portfolio design
+                        wazzup
                     </div>
                 </div>
             </section>

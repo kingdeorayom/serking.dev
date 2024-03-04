@@ -70,7 +70,7 @@ const Works = () => {
                 </div>
             </div>
 
-            <p>I also do freelance work.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
         </section>
     );
 };
