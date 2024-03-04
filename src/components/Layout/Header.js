@@ -22,6 +22,11 @@ const Header = () => {
                         about
                     </p>
                 </Link>
+                <Link href="/blog">
+                    <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1">
+                        blog
+                    </p>
+                </Link>
                 <Link href="/guestbook">
                     <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1">
                         guestbook

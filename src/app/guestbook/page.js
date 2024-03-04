@@ -1,17 +1,15 @@
-import { FaGithub } from "react-icons/fa";
+// async function getData() {
+//     const res = await fetch(
+//         "https://ph.api.buysellee.com/api/v1/home?includeUser=true&includeImages=true",
+//         { next: { revalidate: 60 } }
+//     );
 
-async function getData() {
-    const res = await fetch(
-        "https://ph.api.buysellee.com/api/v1/home?cityId=464&includeUser=true&includeImages=true",
-        { next: { revalidate: 60 } }
-    );
+//     if (!res.ok) {
+//         throw new Error("Failed to fetch data");
+//     }
 
-    if (!res.ok) {
-        throw new Error("Failed to fetch data");
-    }
-
-    return res.json();
-}
+//     return res.json();
+// }
 
 export const metadata = {
     title: "Guestbook | Serking de Orayom",
@@ -19,7 +17,7 @@ export const metadata = {
 };
 
 export default async function GuestBook() {
-    const data = await getData();
+    // const data = await getData();
 
     return (
         <main className="flex-auto min-w-0 flex flex-col gap-y-1">
@@ -35,12 +33,12 @@ export default async function GuestBook() {
                     Thanks!
                 </p>
 
-                <button className="mt-8 px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100 mb-8">
-                    <FaGithub size={20} />
-                    <div className="ml-3">Sign in with GitHub</div>
-                </button>
+                {/* <button className="px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100 mb-8">
+                        <FaGithub size={20} />
+                        <div className="ml-3">Sign in with GitHub</div>
+                    </button> */}
 
-                {/* <form className="mt-8 mb-8">
+                <form className="mt-8 mb-8">
                     <label
                         for="search"
                         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -61,14 +59,15 @@ export default async function GuestBook() {
                             Send
                         </button>
                     </div>
-                </form> */}
+                </form>
 
                 <div className="mb-4 flex flex-col gap-y-1">
                     <div className="w-full text-sm break-words">
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        qwertyuiopasdfghjklzxcvbnm
+                        ill take this site as an inspiration for my next
+                        portfolio design haha! especially this guestbook
                     </div>
                 </div>
                 <div className="mb-4 flex flex-col gap-y-1">
@@ -76,7 +75,7 @@ export default async function GuestBook() {
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        hello lolololol
+                        ill take this site
                     </div>
                 </div>
                 <div className="mb-4 flex flex-col gap-y-1">
@@ -84,14 +83,11 @@ export default async function GuestBook() {
                         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
                             serking:
                         </span>
-                        wazzup
+                        ill take this site as an inspiration for my next
+                        portfolio design
                     </div>
                 </div>
             </section>
-
-            <p className="bg-gray-100 p-2 text-xs rounded-lg">
-                {JSON.stringify(data)}
-            </p>
         </main>
     );
 }
