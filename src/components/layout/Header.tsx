@@ -1,6 +1,6 @@
 import Link from "next/link";
 // import ThemeToggler from "../ui/ThemeToggler";
-// import MenuToggler from "../ui/MenuToggler";
+import MenuToggler from "../ui/MenuToggler";
 import Avatar from "../ui/Avatar";
 
 const Header = () => {
@@ -39,7 +39,7 @@ const Header = () => {
             </nav>
             <Avatar />
             <div className="flex gap-x-2.5">
-                {/* <MenuToggler /> */}
+                <MenuToggler />
                 {/* <ThemeToggler /> */}
             </div>
         </header>
