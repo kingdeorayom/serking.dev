@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function About() {
     return (
-        <main className="flex-auto min-w-0 flex flex-col">
-            <section className="flex flex-col gap-y-6">
+        <section className="flex-auto min-w-0 flex flex-col">
+            <div className="flex flex-col gap-y-6">
                 <h1 className="font-medium text-2xl tracking-tighter">
                     Get to know me more &#x1F604;
                 </h1>
@@ -93,7 +93,7 @@ export default function About() {
                 </p>
 
                 <p>Thanks for stopping by! &#x1F604;</p>
-            </section>
-        </main>
+            </div>
+        </section>
     );
 }
