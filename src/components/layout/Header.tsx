@@ -1,7 +1,7 @@
 import Link from "next/link";
 // import ThemeToggler from "../ui/ThemeToggler";
 // import MenuToggler from "../ui/MenuToggler";
-// import Avatar from "../ui/Avatar";
+import Avatar from "../ui/Avatar";
 
 const Header = () => {
     const navItems = {
@@ -37,7 +37,7 @@ const Header = () => {
                     );
                 })}
             </nav>
-            {/* <Avatar /> */}
+            <Avatar />
             <div className="flex gap-x-2.5">
                 {/* <MenuToggler /> */}
                 {/* <ThemeToggler /> */}
