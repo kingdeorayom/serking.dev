@@ -7,9 +7,9 @@ export default function Work() {
     return (
         <section className="flex-auto min-w-0 flex flex-col">
             <div className="flex flex-col gap-y-6">
-                <h1 className="font-medium text-2xl tracking-tighter">
-                    My works &#x1F4C4;
-                </h1>
+                <h2 className="font-medium text-2xl tracking-tighter">
+                    my works
+                </h2>
                 <p>
                     A selection of personal, freelance, and agency projects
                     <span className="text-red-700">*</span> I worked on.
@@ -31,3 +31,5 @@ export default function Work() {
         </section>
     );
 }
+
+// also add humble work setup, work, projects label

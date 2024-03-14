@@ -5,7 +5,8 @@ const Works = () => {
     return (
         <section className="mt-6 mb-2 flex flex-col gap-y-6">
             <h2 className="font-medium text-xl tracking-tighter">
-                Where I&apos;ve been &#x1F4CC;
+                where I&apos;ve been
+                {/* Where I&apos;ve been &#x1F4CC; */}
             </h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +71,12 @@ const Works = () => {
                 </div>
             </div>
 
-            <p>I also do freelance work.</p>
+            {/* <p>I also do freelance work.</p> */}
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
+                consectetur harum animi illum nam quam cupiditate nisi explicabo
+                maxime.
+            </p>
         </section>
     );
 };

@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section className="flex flex-col gap-y-6">
             <h1 className="font-medium text-2xl tracking-tighter">
-                Hi, I&apos;m Serking &#x1F44B;
+                hi, I&apos;m Serking &#x1F44B;
             </h1>
             <p>
                 I&apos;m a software developer focusing on web and mobile

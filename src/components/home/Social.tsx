@@ -39,7 +39,8 @@ const Social = () => {
         <>
             <section className="my-6 flex flex-col gap-y-6">
                 <h2 className="font-medium text-xl tracking-tighter">
-                    Me on the internet &#x1F310;
+                    me on the internet
+                    {/* Me on the internet &#x1F310; */}
                 </h2>
                 <p>I&apos;ve been around for too long.</p>
 
