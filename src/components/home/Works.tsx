@@ -17,7 +17,7 @@ const Works = () => {
                 <div className="group flex w-full">
                     <Link
                         href="https://padtechcorp.com/"
-                        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
+                        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-900 hover:dark:hover:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
                         target="_blank"
                     >
                         <div className="flex items-center space-x-3">
@@ -44,7 +44,7 @@ const Works = () => {
                 <div className="group flex w-full">
                     <Link
                         href="https://sociov.com/"
-                        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
+                        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-900 hover:dark:hover:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
                         target="_blank"
                     >
                         <div className="flex items-center space-x-3">

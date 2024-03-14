@@ -1,8 +1,9 @@
 import Link from "next/link";
-// import ThemeToggler from "../ui/ThemeToggler";
+import ThemeToggler from "../ui/ThemeToggler";
 import MenuToggler from "../ui/MenuToggler";
 import Avatar from "../ui/Avatar";
-import { navLinks } from "@/lib/consts";
+import { navLinks } from "@/utils/consts";
+// import { navLinks } from "@/lib/consts";
 
 const Header = () => {
     return (
@@ -12,7 +13,7 @@ const Header = () => {
                     <Link
                         key={item.path}
                         href={item.path}
-                        className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1"
+                        className="transition-all hover:text-neutral-400 flex align-middle relative py-1"
                     >
                         {item.label}
                     </Link>
@@ -21,7 +22,7 @@ const Header = () => {
             <Avatar />
             <div className="flex gap-x-2.5">
                 <MenuToggler />
-                {/* <ThemeToggler /> */}
+                <ThemeToggler />
             </div>
         </header>
     );

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
+// import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { ThemeProvider } from "@/providers/theme";
 
 export const metadata: Metadata = {
     title: "Serking de Orayom",
@@ -24,9 +26,15 @@ export default function RootLayout({
                     GeistSans.className
                 )}
             >
-                <Header />
-                <main>{children}</main>
-                <Footer />
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                >
+                    <Header />
+                    <main>{children}</main>
+                    <Footer />
+                </ThemeProvider>
             </body>
         </html>
     );

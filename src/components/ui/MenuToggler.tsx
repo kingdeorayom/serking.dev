@@ -5,18 +5,19 @@ import Link from "next/link";
 
 import { HiChevronDown } from "react-icons/hi";
 import { IoIosClose } from "react-icons/io";
-import { navLinks } from "@/lib/consts";
+import { navLinks } from "@/utils/consts";
+// import { navLinks } from "@/lib/consts";
 
 const MenuToggler = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const openMenu = () => setMenuOpen(true);
     const closeMenu = () => setMenuOpen(false);
-
+    // hover:bg-slate-100 dark:hover:bg-[#1A1D1E]
     return (
         <>
             <button
-                className="group flex md:hidden items-center rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-zinc-800 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-gray-900 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group flex md:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
                 aria-expanded="false"
                 onClick={openMenu}
             >

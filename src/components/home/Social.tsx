@@ -1,7 +1,11 @@
 import Link from "next/link";
+
 import { FiArrowUpRight } from "react-icons/fi";
-import { FaLinkedin, FaGithub, FaSpotify, FaRegCopy } from "react-icons/fa";
+
+import { FaLinkedin, FaGithub, FaSpotify } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+
+import CopyToClipboard from "../ui/CopyToClipboard";
 
 const Social = () => {
     const SOCIALS = [
@@ -45,7 +49,7 @@ const Social = () => {
                             <div className="group flex w-full" key={index}>
                                 <Link
                                     href={item.url}
-                                    className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
+                                    className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-900 hover:dark:hover:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
                                     target="_blank"
                                 >
                                     <div className="flex items-center space-x-4">
@@ -68,32 +72,7 @@ const Social = () => {
                     })}
                 </div>
             </section>
-            <section>
-                <ul className="flex flex-col md:flex-row mt-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-                    <li>
-                        <Link
-                            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://twitter.com/leeerob"
-                        >
-                            <FiArrowUpRight size={18} />
-                            <p className="h-7 ml-2">follow me</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://leerob.substack.com"
-                        >
-                            <FaRegCopy size={18} />
-                            <p className="h-7 ml-2">copy email address</p>
-                        </Link>
-                    </li>
-                </ul>
-            </section>
+            <CopyToClipboard />
         </>
     );
 };

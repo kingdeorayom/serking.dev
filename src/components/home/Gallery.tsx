@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-import serking_1 from "../../public/images/hero/serking_1.jpg";
-import serking_2 from "../../public/images/hero/serking_2.jpg";
-import serking_3 from "../../public/images/hero/serking_3.jpg";
-import serking_4 from "../../public/images/hero/serking_4.jpg";
-import serking_5 from "../../public/images/hero/serking_5.jpg";
-import serking_6 from "../../public/images/hero/serking_6.jpg";
-import serking_7 from "../../public/images/hero/serking_7.jpg";
-import serking_8 from "../../public/images/hero/serking_8.jpg";
-import serking_9 from "../../public/images/hero/serking_9.jpg";
+import serking_1 from "/public/images/hero/serking_1.jpg";
+import serking_2 from "/public/images/hero/serking_2.jpg";
+import serking_3 from "/public/images/hero/serking_3.jpg";
+import serking_4 from "/public/images/hero/serking_4.jpg";
+import serking_5 from "/public/images/hero/serking_5.jpg";
+import serking_6 from "/public/images/hero/serking_6.jpg";
+import serking_7 from "/public/images/hero/serking_7.jpg";
+import serking_8 from "/public/images/hero/serking_8.jpg";
+import serking_9 from "/public/images/hero/serking_9.jpg";
 
 const Gallery = () => {
     return (
