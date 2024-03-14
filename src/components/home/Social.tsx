@@ -55,7 +55,7 @@ const Social = () => {
                                     <div className="flex items-center space-x-4">
                                         <div>{item.icon}</div>
                                         <div className="flex flex-col">
-                                            <p className="font-medium line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                                            <p className="font-medium text-sm line-clamp-1 text-neutral-900 dark:text-neutral-100">
                                                 {item.description}
                                             </p>
                                             <p className=" text-xs text-neutral-900 dark:text-neutral-100">

@@ -25,7 +25,7 @@ const Works = () => {
                                 <div className="w-12 h-12 bg-gray-200 rounded-lg"></div>
                             </div>
                             <div className="flex flex-col">
-                                <p className="font-bold line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                                <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
                                     Padtech Industries Corporation
                                 </p>
                                 <p className=" text-xs text-neutral-900 dark:text-neutral-100">
@@ -52,7 +52,7 @@ const Works = () => {
                                 <div className="w-12 h-12 bg-gray-200 rounded-lg"></div>
                             </div>
                             <div className="flex flex-col">
-                                <p className="font-bold line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                                <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
                                     Sociov Innovations, Inc.
                                 </p>
                                 <p className=" text-xs text-neutral-900 dark:text-neutral-100">

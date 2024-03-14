@@ -4,13 +4,13 @@ export const author = {
 
 export const projectURL = "https://serking.dev";
 
-export const navLinks: Array<{
+export const NAVIGATION_LINKS: Array<{
     path: `/${string}`;
     label: string;
 }> = [
     { path: "/", label: "home" },
     { path: "/work", label: "work" },
     { path: "/about", label: "about" },
-    { path: "/blog", label: "blog" },
+    // { path: "/blog", label: "blog" },
     { path: "/guestbook", label: "guestbook" },
 ];

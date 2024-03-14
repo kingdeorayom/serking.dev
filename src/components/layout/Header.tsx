@@ -2,14 +2,13 @@ import Link from "next/link";
 import ThemeToggler from "../ui/ThemeToggler";
 import MenuToggler from "../ui/MenuToggler";
 import Avatar from "../ui/Avatar";
-import { navLinks } from "@/utils/consts";
-// import { navLinks } from "@/lib/consts";
+import { NAVIGATION_LINKS } from "@/utils/consts";
 
 const Header = () => {
     return (
         <header className="mb-12 flex items-center justify-between tracking-tight">
             <nav className="hidden md:flex flex-row space-x-6 pr-10">
-                {navLinks.map((item) => (
+                {NAVIGATION_LINKS.map((item) => (
                     <Link
                         key={item.path}
                         href={item.path}

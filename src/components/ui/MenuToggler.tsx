@@ -5,15 +5,14 @@ import Link from "next/link";
 
 import { HiChevronDown } from "react-icons/hi";
 import { IoIosClose } from "react-icons/io";
-import { navLinks } from "@/utils/consts";
-// import { navLinks } from "@/lib/consts";
+import { NAVIGATION_LINKS } from "@/utils/consts";
 
 const MenuToggler = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const openMenu = () => setMenuOpen(true);
     const closeMenu = () => setMenuOpen(false);
-    // hover:bg-slate-100 dark:hover:bg-[#1A1D1E]
+
     return (
         <>
             <button
@@ -49,7 +48,7 @@ const MenuToggler = () => {
                         </div>
                         <nav className="mt-6">
                             <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                                {navLinks.map((item) => (
+                                {NAVIGATION_LINKS.map((item) => (
                                     <li key={item.path}>
                                         <Link
                                             href={item.path}
