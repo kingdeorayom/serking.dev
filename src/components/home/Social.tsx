@@ -2,8 +2,17 @@ import Link from "next/link";
 
 import { FiArrowUpRight } from "react-icons/fi";
 
-import { FaLinkedin, FaGithub, FaSpotify } from "react-icons/fa";
+import {
+    FaLinkedin,
+    FaGithub,
+    FaSpotify,
+    FaFacebook,
+    FaInstagram,
+} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaXTwitter, FaGamepad } from "react-icons/fa6";
+import { RiGameFill } from "react-icons/ri";
+import { MdGamepad } from "react-icons/md";
 
 import CopyToClipboard from "../ui/CopyToClipboard";
 
@@ -28,10 +37,34 @@ const Social = () => {
             icon: <FaGithub size={24} className="ms-1" />,
         },
         {
-            description: "I listen to music",
+            description: "I am mostly active here",
+            url: "https://facebook.com/kingdeorayom",
+            text: "Serking de Orayom",
+            icon: <FaFacebook size={24} color="#1877F2" className="ms-1" />,
+        },
+        {
+            description: "I only view IG Stories here",
+            url: "https://instagram.com/kingdeorayom",
+            text: "@kingdeorayom",
+            icon: <FaInstagram size={24} color="#d62976" className="ms-1" />,
+        },
+        {
+            description: "I only do reposts",
+            url: "https://x.com/kingdeorayom",
+            text: "@kingdeorayom",
+            icon: <FaXTwitter size={24} className="ms-1" />,
+        },
+        {
+            description: "I appreciate vintage melodies",
             url: "https://open.spotify.com/user/22r72aobh6vfrji6v4tkukuha",
             text: "Serking de Orayom",
             icon: <FaSpotify size={24} color="#1DB954" className="ms-1" />,
+        },
+        {
+            description: "Let's play!",
+            url: "https://www.exophase.com/user/kingdeorayom/",
+            text: "Steam, Nintendo, Google Play, Xbox",
+            icon: <MdGamepad size={24} color="#5488A4" className="ms-1" />,
         },
     ];
 
@@ -39,12 +72,11 @@ const Social = () => {
         <>
             <section className="my-6 flex flex-col gap-y-6">
                 <h2 className="font-medium text-xl tracking-tighter">
-                    me on the internet
-                    {/* Me on the internet &#x1F310; */}
+                    Me on the internet &#x1F310;
                 </h2>
-                <p>I&apos;ve been around for too long.</p>
+                <p>Reach out to me. No pressure!</p>
 
-                <div className="my-2 flex flex-col space-y-4 w-full">
+                <div className="my-2 grid grid-cols-1 gap-4 md:grid-cols-2">
                     {SOCIALS.map((item, index) => {
                         return (
                             <div className="group flex w-full" key={index}>

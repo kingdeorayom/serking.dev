@@ -11,7 +11,7 @@ export default function About() {
         <section className="flex-auto min-w-0 flex flex-col">
             <div className="flex flex-col gap-y-6">
                 <h2 className="font-medium text-2xl tracking-tighter">
-                    get to know me more
+                    Get to know me more
                 </h2>
                 <p>
                     I&apos;m Serking and I&apos;ve been doing technology related
@@ -23,7 +23,30 @@ export default function About() {
                 </div>
 
                 <h2 className="font-medium text-2xl tracking-tighter">
-                    how it all started
+                    Recent activities
+                </h2>
+
+                <div className="grid xs:grid-cols-2 sm:grid-cols-3 gap-4">
+                    <div className="animate-pulse">
+                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
+                    </div>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla corrupti atque exercitationem incidunt, beatae sit
+                    nisi maiores aliquid error, quidem sint odit possimus
+                    dolorem nam aperiam. Libero adipisci beatae cupiditate.
+                </p>
+
+                <h2 className="font-medium text-2xl tracking-tighter">
+                    How it all started
                 </h2>
 
                 <p>
@@ -58,6 +81,10 @@ export default function About() {
                     , when my piso credits are low).
                 </p>
 
+                <div className="animate-pulse">
+                    <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
+                </div>
+
                 <p>
                     It was a wild introduction to computing technology. Years
                     passed and I found myself tinkering with smartphones and
@@ -75,12 +102,8 @@ export default function About() {
                 <p>Now, I am into software development.</p>
 
                 <h2 className="font-medium text-2xl tracking-tighter">
-                    outside of work
+                    Outside of work
                 </h2>
-
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-                </div>
 
                 <p>
                     As a kid, books and video games were my companions, shaping
@@ -92,6 +115,15 @@ export default function About() {
                     word.
                 </p>
 
+                <div className="animate-pulse">
+                    <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
+                </div>
+
+                {/* boxing */}
+                {/* pokemon */}
+                {/* sherlock holmes or my books */}
+                {/* outdoor activities */}
+
                 <p>
                     These days, I spend most of my free time reading books,
                     listening to music, playing video games or watching movies,
@@ -101,22 +133,6 @@ export default function About() {
                 <p>
                     If time permits, I also hang out with my friends and family.
                 </p>
-
-                <h2 className="font-medium text-2xl tracking-tighter">
-                    recent activities
-                </h2>
-
-                <div className="grid xs:grid-cols-2 sm:grid-cols-3 gap-4">
-                    <div className="animate-pulse">
-                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-                    </div>
-                </div>
 
                 {/* <p>
                     I also have a dog named <strong>Yuko</strong>. A very good

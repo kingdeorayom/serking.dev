@@ -1,17 +1,20 @@
 import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
+import padtech from "/public/images/work/padtech.png";
+import sociov from "/public/images/work/sociov.png";
+import uphsl from "/public/images/education/uphsl.png";
+import Image from "next/image";
 
 const Works = () => {
     return (
         <section className="mt-6 mb-2 flex flex-col gap-y-6">
             <h2 className="font-medium text-xl tracking-tighter">
-                where I&apos;ve been
-                {/* Where I&apos;ve been &#x1F4CC; */}
+                Where I&apos;ve been &#x1F4CC;
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia, tenetur delectus recusandae quam vitae temporibus
-                exercitationem.
+                Immersing myself in the dynamic field of software development,
+                embracing each opportunity to learn, experiment, and gain
+                experience needed to build industry-grade software.
             </p>
 
             <div className="my-2 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -23,7 +26,11 @@ const Works = () => {
                     >
                         <div className="flex items-center space-x-3">
                             <div>
-                                <div className="w-12 h-12 bg-gray-200 rounded-lg"></div>
+                                <Image
+                                    src={padtech}
+                                    className="w-11 h-11 rounded-lg"
+                                    alt="Padtech Industries Corporation"
+                                />
                             </div>
                             <div className="flex flex-col">
                                 <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
@@ -50,14 +57,18 @@ const Works = () => {
                     >
                         <div className="flex items-center space-x-3">
                             <div>
-                                <div className="w-12 h-12 bg-gray-200 rounded-lg"></div>
+                                <Image
+                                    src={sociov}
+                                    className="w-11 h-11 rounded-lg"
+                                    alt="Sociov Innovations, Inc."
+                                />
                             </div>
                             <div className="flex flex-col">
                                 <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
                                     Sociov Innovations, Inc.
                                 </p>
                                 <p className=" text-xs text-neutral-900 dark:text-neutral-100">
-                                    Front End Developer (Internship)
+                                    Front-end Developer (Internship)
                                 </p>
                                 <p className="text-neutral-600 font-light text-xs dark:text-neutral-400">
                                     Aug 2021 - Dec 2021
@@ -71,12 +82,54 @@ const Works = () => {
                 </div>
             </div>
 
-            {/* <p>I also do freelance work.</p> */}
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
-                consectetur harum animi illum nam quam cupiditate nisi explicabo
-                maxime.
+                I earned my bachelor&apos;s degree in Information Technology at
+                the{" "}
+                <Link
+                    href="https://www.uphsl.edu.ph/"
+                    title="Visit site"
+                    target="_blank"
+                    className="font-medium hover:underline"
+                >
+                    University of Perpetual Help System Laguna
+                </Link>{" "}
+                with an academic honor of distinction: <em>Magna Cum Laude</em>.
             </p>
+
+            <div className="my-2 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+                <div className="group flex w-full">
+                    <Link
+                        href="https://padtechcorp.com/"
+                        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-900 hover:dark:hover:bg-neutral-800 rounded-lg flex items-center justify-between px-3 py-4 w-full"
+                        target="_blank"
+                    >
+                        <div className="flex items-center space-x-3">
+                            <div>
+                                <Image
+                                    src={uphsl}
+                                    className="object-contain w-12 h-12 rounded-lg"
+                                    alt="University of Perpetual Help System Laguna"
+                                />
+                            </div>
+                            <div className="flex flex-col">
+                                <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
+                                    University of Perpetual Help System Laguna
+                                </p>
+                                <p className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                    BS Information Technology |{" "}
+                                    <em>Magna Cum Laude</em>
+                                </p>
+                                <p className="text-neutral-600 font-light text-xs dark:text-neutral-400">
+                                    2018 - 2022
+                                </p>
+                            </div>
+                        </div>
+                        <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
+                            <FiArrowUpRight size={18} />
+                        </div>
+                    </Link>
+                </div>
+            </div>
         </section>
     );
 };
