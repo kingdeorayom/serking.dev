@@ -1,14 +1,18 @@
+// import Gallery from "@/components/ui/Gallery";
 import Hero from "@/components/home/Hero";
-import Gallery from "@/components/home/Gallery";
 import Social from "@/components/home/Social";
-import Works from "@/components/home/Works";
+// import Works from "@/components/home/Works";
+import Separator from "@/components/ui/Separator";
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
             <Hero />
-            <Gallery />
-            <Works />
+            <Separator className="mt-6" />
+            {/* <Separator className="mt-6 mb-6" /> */}
+            {/* <Gallery /> */}
+            {/* <Works /> */}
+            {/* <Separator className="mt-6" /> */}
             <Social />
         </>
     );

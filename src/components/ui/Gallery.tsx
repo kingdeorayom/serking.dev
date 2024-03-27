@@ -13,7 +13,7 @@ import serking_9 from "/public/images/hero/serking_9.jpg";
 
 const Gallery = () => {
     return (
-        <section className="mt-8 mb-2">
+        <section>
             <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
                 <div className="grid gap-4">
                     <div>

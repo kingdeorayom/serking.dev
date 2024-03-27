@@ -6,6 +6,7 @@ import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/providers/theme";
+// import Separator from "@/components/ui/Separator";
 
 export const metadata: Metadata = {
     title: "Serking de Orayom",
@@ -18,7 +19,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
                     "max-w-2xl mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
@@ -31,6 +32,7 @@ export default function RootLayout({
                     enableSystem
                 >
                     <Header />
+                    {/* <Separator className="my-6" /> */}
                     <main>{children}</main>
                     <Footer />
                 </ThemeProvider>

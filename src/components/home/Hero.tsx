@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section className="flex flex-col gap-y-6">
             <h1 className="font-medium text-2xl tracking-tighter">
-                Hi, I&apos;m Serking
+                Hi, I&apos;m Serking.
             </h1>
 
             <p>
@@ -18,14 +18,17 @@ const Hero = () => {
                     href="https://padtechcorp.com/"
                     title="Visit site"
                     target="_blank"
-                    className="font-medium hover:underline"
+                    className="border-b border-gray-300 transition-[border-color] hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white"
                 >
                     Padtech Industries Corporation
                 </Link>
                 , where I build web and mobile applications. I also contribute
                 to backend development when necessary.
             </p>
-            <p>Poke around and see what I&apos;m up to.</p>
+            <p>Take a look around and see what I&apos;m up to.</p>
+            <p className="text-xs italic">
+                This is both a portfolio and a personal website.
+            </p>
         </section>
     );
 };

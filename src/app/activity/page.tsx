@@ -1,3 +1,4 @@
+import Activities from "@/components/activity/Activities";
 import type { Metadata } from "next";
 import { FaGithub } from "react-icons/fa";
 
@@ -15,11 +16,11 @@ import { FaGithub } from "react-icons/fa";
 // }
 
 export const metadata: Metadata = {
-    title: "Guestbook | Serking de Orayom",
+    title: "Activity | Serking de Orayom",
     description: "Web and mobile app developer",
 };
 
-export default async function GuestBookPage() {
+export default async function ActivityPage() {
     // const data = await getData();
 
     return (
@@ -73,6 +74,8 @@ export default async function GuestBookPage() {
             <h1 className="font-medium text-2xl mb-8 tracking-tighter">
                 Coming soon
             </h1>
+
+            {/* <Activities /> */}
 
             {/* <div className="flex w-full items-center space-x-2">
                 <input
