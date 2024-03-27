@@ -5,7 +5,7 @@ const Experiences = () => {
         <>
             <div className="flex flex-col gap-y-6">
                 <div>
-                    <p className="font-semibold text-xl mb-1 tracking-tighter">
+                    <p className="font-medium text-xl mb-1 tracking-tighter">
                         Padtech Industries Corporation
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-400 text-sm">
@@ -46,7 +46,7 @@ const Experiences = () => {
 
             <div className="flex flex-col gap-y-6">
                 <div>
-                    <p className="font-semibold text-xl mb-1 tracking-tighter">
+                    <p className="font-medium text-xl mb-1 tracking-tighter">
                         Sociov Innovations, Inc.
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-400 text-sm">
