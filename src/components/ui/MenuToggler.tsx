@@ -51,7 +51,7 @@ const MenuToggler = () => {
                                 {NAVIGATION_LINKS.map((item) => (
                                     <li
                                         key={item.path}
-                                        className="hover:bg-gray-50 px-2 rounded"
+                                        className="hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded"
                                     >
                                         <Link
                                             href={item.path}

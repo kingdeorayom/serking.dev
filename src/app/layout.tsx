@@ -6,18 +6,22 @@ import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/providers/theme";
-// import Separator from "@/components/ui/Separator";
+import { getServerSession } from "next-auth";
+
+import SessionProvider from "@/providers/session";
 
 export const metadata: Metadata = {
     title: "Serking de Orayom",
     description: "Web and mobile app developer",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    const session = await getServerSession();
+
     return (
         <html lang="en" suppressHydrationWarning>
             <body
@@ -31,10 +35,11 @@ export default function RootLayout({
                     defaultTheme="system"
                     enableSystem
                 >
-                    <Header />
-                    {/* <Separator className="my-6" /> */}
-                    <main>{children}</main>
-                    <Footer />
+                    <SessionProvider session={session}>
+                        <Header />
+                        <main>{children}</main>
+                        <Footer />
+                    </SessionProvider>
                 </ThemeProvider>
             </body>
         </html>
