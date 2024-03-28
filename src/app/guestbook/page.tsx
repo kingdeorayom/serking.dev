@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import GuestbookForm from "@/components/guestbook/GuestbookForm";
+import Authentication from "@/components/guestbook/auth/Authentication";
 import Entries from "@/components/guestbook/Entries";
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function GuestBookPage() {
                 someone.
             </p>
             <Suspense>
-                <GuestbookForm />
+                <Authentication />
                 <Entries />
             </Suspense>
         </section>
