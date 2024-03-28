@@ -1,8 +1,9 @@
+import { AuthOptions } from "next-auth";
 import NextAuth from "next-auth/next";
 import GitHub from "next-auth/providers/github";
 import Google from "next-auth/providers/google";
 
-export const authOptions = {
+export const authOptions: AuthOptions = {
     providers: [
         GitHub({
             clientId: process.env.GITHUB_OAUTH_CLIENT_ID as string,
