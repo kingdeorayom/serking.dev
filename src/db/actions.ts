@@ -6,10 +6,10 @@ import { sql } from "./postgres";
 
 export async function saveGuestbookEntry(formData: FormData) {
     let session = await getServerSession();
-    let email = session.user?.email as string;
-    let created_by = session.user?.name as string;
+    let email = session!.user?.email as string;
+    let created_by = session!.user?.name as string;
 
-    if (!session.user) {
+    if (!session!.user) {
         throw new Error("Unauthorized");
     }
 
