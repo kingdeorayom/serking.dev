@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import Authentication from "@/components/guestbook/auth/Authentication";
 import Entries from "@/components/guestbook/Entries";
+import Notice from "@/components/guestbook/Notice";
 
 export const metadata: Metadata = {
     title: "Guestbook | Serking de Orayom",
@@ -14,10 +15,7 @@ export default function GuestBookPage() {
             <h1 className="font-medium text-2xl tracking-tighter">
                 Sign my guestbook
             </h1>
-            <p className="text-xs text-gray-500 dark:text-gray-300">
-                Be nice and avoid any harsh words that may be offensive for
-                someone.
-            </p>
+            <Notice />
             <Suspense>
                 <Authentication />
                 <Entries />
