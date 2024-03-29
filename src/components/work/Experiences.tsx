@@ -42,9 +42,9 @@ const Experiences = () => {
                 </p>
             </div>
 
-            <Separator />
+            {/* <Separator /> */}
 
-            <div className="flex flex-col gap-y-6">
+            {/* <div className="flex flex-col gap-y-6">
                 <div>
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Sociov Innovations, Inc.
@@ -71,7 +71,7 @@ const Experiences = () => {
                     veniam velit error praesentium molestiae esse exercitationem
                     ut!
                 </p>
-            </div>
+            </div> */}
         </>
     );
 };

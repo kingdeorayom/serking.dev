@@ -25,6 +25,7 @@ const Form = () => {
                     className="flex h-10 w-full rounded-md border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-900  px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-300"
                     placeholder="Your message"
                     aria-label="Your message"
+                    required
                 />
                 <button
                     type="submit"

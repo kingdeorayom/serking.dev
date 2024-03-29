@@ -16,7 +16,7 @@ const MenuToggler = () => {
     return (
         <>
             <button
-                className="group flex md:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group flex md:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
                 aria-expanded="false"
                 onClick={openMenu}
             >
