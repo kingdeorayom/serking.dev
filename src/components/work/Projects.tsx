@@ -1,3 +1,9 @@
+import PROJECTS from "@/data/projects";
+import Image from "next/image";
+import Link from "next/link";
+import { FiArrowUpRight } from "react-icons/fi";
+import Separator from "../ui/Separator";
+
 const Projects = () => {
     return (
         <div className="flex flex-col gap-y-6">
@@ -8,29 +14,42 @@ const Projects = () => {
                 A selection of personal, freelance, and agency projects
                 <span className="text-red-700">*</span> I worked on.
             </p>
-
-            <hr className="my-2 border-neutral-100 dark:border-neutral-800"></hr>
-            <div className="grid xs:grid-cols-2 sm:grid-cols-3 gap-4">
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
-                <div className="animate-pulse">
-                    <div className="rounded-md bg-slate-200 dark:bg-neutral-900 h-40"></div>
-                </div>
+            <Separator className="my-2" />
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {PROJECTS.map((project) => {
+                    return (
+                        <Link
+                            href={project.url}
+                            target="_blank"
+                            key={project?.id}
+                        >
+                            <div className="border dark:border-neutral-700 aspect-h-1 aspect-w-1 w-full h-60 md:h-40 rounded-md hover:opacity-75 p-2 cursor-pointer">
+                                <Image
+                                    src={project.image.src}
+                                    alt="Project"
+                                    width={1920}
+                                    height={1080}
+                                    className="h-full w-full object-cover object-center rounded-md"
+                                />
+                            </div>
+                            <div className="text-sm px-2 py-3 space-y-1">
+                                <div className="flex space-x-2 justify-between">
+                                    <h3 className="font-semibold">
+                                        {`${project?.title}`}
+                                    </h3>
+                                    <div>
+                                        <FiArrowUpRight size={16} />
+                                    </div>
+                                </div>
+                                <p className="font-light text-xs dark:text-neutral-400">
+                                    {`${project?.date} • ${project?.type} • ${project?.category}`}
+                                </p>
+                            </div>
+                        </Link>
+                    );
+                })}
             </div>
-            <hr className="my-2 border-neutral-100 dark:border-neutral-800"></hr>
+            <Separator className="my-2" />
             <p className="text-xs">
                 <span className="text-red-700">*</span> Some projects may have
                 changed in both looks and functionality since I&apos;m no longer
