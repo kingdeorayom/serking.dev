@@ -1,3 +1,6 @@
+import Separator from "../ui/Separator";
+import Recommendations from "./Recommendations";
+
 const Personal = () => {
     return (
         <>
@@ -30,11 +33,13 @@ const Personal = () => {
             </p>
 
             <p>If time permits, I also hang out with my friends and family.</p>
+            <Separator />
 
             {/* <p>
                     I also have a dog named <strong>Yuko</strong>. A very good
                     partner and companion he is.
                 </p> */}
+            <Recommendations />
         </>
     );
 };
