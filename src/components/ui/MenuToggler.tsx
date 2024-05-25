@@ -6,12 +6,16 @@ import Link from "next/link";
 import { HiChevronDown } from "react-icons/hi";
 import { IoIosClose } from "react-icons/io";
 import { NAVIGATION_LINKS } from "@/utils/consts";
+import Badge from "../ui/Badge";
+import { usePathname } from "next/navigation";
 
 const MenuToggler = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const openMenu = () => setMenuOpen(true);
     const closeMenu = () => setMenuOpen(false);
+
+    const pathname = usePathname();
 
     return (
         <>
@@ -48,21 +52,30 @@ const MenuToggler = () => {
                         </div>
                         <nav className="mt-6">
                             <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                                {NAVIGATION_LINKS.map((item) => (
-                                    <li
-                                        key={item.path}
-                                        className="hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded"
-                                    >
-                                        <Link
-                                            href={item.path}
-                                            onClick={closeMenu}
+                                {NAVIGATION_LINKS.map((item) => {
+                                    const isSelected = item.path === pathname;
+
+                                    return (
+                                        <li
+                                            key={item.path}
+                                            className="cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded"
                                         >
-                                            <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-4 text-sm capitalize">
-                                                {item.label}
-                                            </p>
-                                        </Link>
-                                    </li>
-                                ))}
+                                            <Link
+                                                href={item.path}
+                                                onClick={closeMenu}
+                                                className="flex items-center justify-between"
+                                            >
+                                                <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-4 text-sm capitalize">
+                                                    {item.label}
+                                                </p>
+
+                                                {isSelected && (
+                                                    <Badge label="Current" />
+                                                )}
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
                             </ul>
                         </nav>
                     </div>

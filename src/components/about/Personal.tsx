@@ -14,9 +14,9 @@ const Personal = () => {
                 affair with video games and the written word.
             </p>
 
-            <div className="animate-pulse">
+            {/* <div className="animate-pulse">
                 <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-            </div>
+            </div> */}
 
             {/* boxing */}
             {/* pokemon */}

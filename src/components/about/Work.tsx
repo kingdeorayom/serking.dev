@@ -34,9 +34,9 @@ const Work = () => {
                 , when my piso credits are low).
             </p>
 
-            <div className="animate-pulse">
+            {/* <div className="animate-pulse">
                 <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-            </div>
+            </div> */}
 
             <p>
                 It was a wild introduction to computing technology. Years passed
