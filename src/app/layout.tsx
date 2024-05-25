@@ -14,13 +14,20 @@ export const metadata: Metadata = {
     title: "Serking de Orayom",
     description: "Web and mobile app developer",
     openGraph: {
+        title: "Serking de Orayom",
+        description: "Web and mobile app developer",
         images: [
             {
                 url: "https://serking.tech/og.png",
-                width: 1218,
-                height: 597,
+                width: 1200,
+                height: 700,
             },
         ],
+    },
+    twitter: {
+        title: "Serking de Orayom",
+        description: "Web and mobile app developer",
+        images: ["https://serking.tech/og.png"],
     },
 };
 
