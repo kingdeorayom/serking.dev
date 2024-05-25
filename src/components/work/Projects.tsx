@@ -14,7 +14,7 @@ const Projects = () => {
                 A selection of personal, freelance, and company projects I
                 worked on.
             </p>
-            <p className="text-xs">
+            <p className="text-xs text-neutral-600 dark:text-neutral-400">
                 Some projects may have changed in both looks and functionality
                 since I&apos;m no longer maintaining them.
             </p>
