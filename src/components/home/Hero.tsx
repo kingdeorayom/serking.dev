@@ -22,13 +22,12 @@ const Hero = () => {
                 >
                     Padtech Industries Corporation
                 </Link>
-                , where I build web and mobile applications. I also contribute
-                to backend development when necessary.
+                , where I build web and mobile applications.
             </p>
             <p>Take a look around and see what I&apos;m up to.</p>
-            <p className="text-xs italic">
+            {/* <p className="text-xs italic">
                 This is both a portfolio and a personal website.
-            </p>
+            </p> */}
         </section>
     );
 };

@@ -13,6 +13,15 @@ import SessionProvider from "@/providers/session";
 export const metadata: Metadata = {
     title: "Serking de Orayom",
     description: "Web and mobile app developer",
+    openGraph: {
+        images: [
+            {
+                url: "https://serking.tech/og.png",
+                width: 1218,
+                height: 597,
+            },
+        ],
+    },
 };
 
 export default async function RootLayout({

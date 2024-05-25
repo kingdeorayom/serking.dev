@@ -16,14 +16,14 @@ const PROJECTS = [
         title: "SALIKSIK: UPHSL Research Repository",
         description: "Lorem ipsum",
         type: "Web",
-        category: "Capstone",
+        category: "Freelance",
         image: autopromoph,
         url: "https://www.saliksikuphsl.org/",
         date: "2022",
     },
     {
         id: 3,
-        title: "SALIKSIK: UPHSL Research Repository",
+        title: "Sample Title",
         description: "Lorem ipsum",
         type: "Web",
         category: "Freelance",
@@ -33,7 +33,7 @@ const PROJECTS = [
     },
     {
         id: 4,
-        title: "SALIKSIK: UPHSL Research Repository",
+        title: "Sample Title",
         description: "Lorem ipsum",
         type: "Web",
         category: "Freelance",
@@ -43,7 +43,7 @@ const PROJECTS = [
     },
     {
         id: 5,
-        title: "SALIKSIK: UPHSL Research Repository",
+        title: "Sample Title",
         description: "Lorem ipsum",
         type: "Web",
         category: "Freelance",
@@ -53,7 +53,7 @@ const PROJECTS = [
     },
     {
         id: 6,
-        title: "SALIKSIK: UPHSL Research Repository",
+        title: "Sample Title",
         description: "Lorem ipsum",
         type: "Web",
         category: "Freelance",
