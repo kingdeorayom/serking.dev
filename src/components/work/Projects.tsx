@@ -11,11 +11,15 @@ const Projects = () => {
                 My projects
             </h2>
             <p>
-                A selection of personal, freelance, and agency projects
-                <span className="text-red-700">*</span> I worked on.
+                A selection of personal, freelance, and company projects I
+                worked on.
+            </p>
+            <p className="text-xs">
+                Some projects may have changed in both looks and functionality
+                since I&apos;m no longer maintaining them.
             </p>
             <Separator className="my-2" />
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
                 {PROJECTS.map((project) => {
                     return (
                         <Link
@@ -24,7 +28,7 @@ const Projects = () => {
                             key={project?.id}
                             className="hover:opacity-75"
                         >
-                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-60 md:h-40 rounded-md p-2 cursor-pointer">
+                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-40 rounded-md p-2 cursor-pointer">
                                 <Image
                                     src={project.image.src}
                                     alt="Project"
@@ -50,12 +54,6 @@ const Projects = () => {
                     );
                 })}
             </div>
-            <Separator className="my-2" />
-            <p className="text-xs">
-                <span className="text-red-700">*</span> Some projects may have
-                changed in both looks and functionality since I&apos;m no longer
-                maintaining them.
-            </p>
         </div>
     );
 };
