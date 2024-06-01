@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 
 import { HiChevronDown } from "react-icons/hi";
@@ -17,6 +17,18 @@ const MenuToggler = () => {
 
     const pathname = usePathname();
 
+    const label = useMemo(() => {
+        const currentLink = NAVIGATION_LINKS.find(
+            (link) => link.path === pathname
+        );
+        return currentLink ? currentLink.label : "unknown";
+    }, [pathname]);
+
+    const capitalizeLabel = (label: string) => {
+        if (!label) return "";
+        return label.charAt(0).toUpperCase() + label.slice(1);
+    };
+
     return (
         <>
             <button
@@ -24,7 +36,7 @@ const MenuToggler = () => {
                 aria-expanded="false"
                 onClick={openMenu}
             >
-                Menu
+                {capitalizeLabel(label)}
                 <HiChevronDown className="ml-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" />
             </button>
             <section className="relative md:hidden">
