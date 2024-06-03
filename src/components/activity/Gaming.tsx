@@ -1,7 +1,7 @@
-import GAMING_ACTIVITIES from "@/data/gaming_activities";
 import GamingCard from "./GamingCard";
+import GAMING_ACTIVITIES from "@/data/gaming_activities";
 
-const Activities = () => {
+const Gaming = () => {
     return (
         <div className="my-5 mx-2">
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
@@ -13,4 +13,4 @@ const Activities = () => {
     );
 };
 
-export default Activities;
+export default Gaming;
