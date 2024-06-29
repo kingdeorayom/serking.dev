@@ -13,7 +13,7 @@ const Social = () => {
                 </h2>
                 <p>Reach out to me. No pressure!</p>
 
-                <div className="my-2 grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div className="my-2 grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {SOCIALS.map((item, index) => {
                         return (
                             <div className="group flex w-full" key={index}>

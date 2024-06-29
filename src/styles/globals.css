@@ -7,3 +7,9 @@
     text-wrap: balance;
   }
 }
+
+@layer base {
+  .hovered-link {
+    @apply border-b border-gray-300 transition-[border-color] hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white
+  }
+}

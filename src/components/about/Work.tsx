@@ -4,7 +4,7 @@ const Work = () => {
     return (
         <>
             <h2 className="font-medium text-xl tracking-tighter">
-                How it all started
+                How it started
             </h2>
 
             <p>
@@ -18,7 +18,7 @@ const Work = () => {
                 <Link
                     href="https://en.wikipedia.org/wiki/Pisonet"
                     target="_blank"
-                    className="border-b border-gray-300 transition-[border-color] hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white italic"
+                    className="hovered-link italic"
                 >
                     pisonet
                 </Link>
@@ -27,7 +27,7 @@ const Work = () => {
                 <Link
                     href="https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
                     target="_blank"
-                    className="border-b border-gray-300 transition-[border-color] hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white italic"
+                    className="hovered-link italic"
                 >
                     Grand Theft Auto: Vice City
                 </Link>

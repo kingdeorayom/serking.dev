@@ -6,7 +6,7 @@ const Avatar = () => {
     return (
         <Link href="/">
             <Image
-                className="w-10 h-10 rounded-full md:hidden"
+                className="w-10 h-10 rounded-full"
                 src={serkingdeorayom}
                 alt="Serking de Orayom"
             />

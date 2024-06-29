@@ -17,15 +17,6 @@ const Personal = () => {
                 affair with video games and the written word.
             </p>
 
-            {/* <div className="animate-pulse">
-                <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
-            </div> */}
-
-            {/* boxing */}
-            {/* pokemon */}
-            {/* sherlock holmes or my books */}
-            {/* outdoor activities */}
-
             <p>
                 These days, I spend most of my free time reading books,
                 listening to music, playing video games or watching movies, TV
@@ -34,11 +25,6 @@ const Personal = () => {
 
             <p>If time permits, I also hang out with my friends and family.</p>
             <Separator />
-
-            {/* <p>
-                    I also have a dog named <strong>Yuko</strong>. A very good
-                    partner and companion he is.
-                </p> */}
             <Recommendations />
         </>
     );

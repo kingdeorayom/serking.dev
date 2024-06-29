@@ -9,9 +9,9 @@ export const NAVIGATION_LINKS: Array<{
     label: string;
 }> = [
     { path: "/", label: "home" },
-    { path: "/about", label: "about" },
+    // { path: "/about", label: "about" },
     { path: "/work", label: "work" },
-    { path: "/activity", label: "activity" },
-    // { path: "/blog", label: "blog" },
+    // { path: "/activity", label: "activity" },
+    { path: "/blog", label: "blog" },
     { path: "/guestbook", label: "guestbook" },
 ];

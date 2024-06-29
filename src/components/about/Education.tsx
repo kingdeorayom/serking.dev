@@ -45,8 +45,10 @@ const Education = () => {
                                         Laguna
                                     </p>
                                     <p className=" text-xs text-neutral-900 dark:text-neutral-100">
-                                        BS Information Technology |{" "}
-                                        <em>Magna Cum Laude</em>
+                                        BS Information Technology,{" "}
+                                        <span className="italic">
+                                            Magna Cum Laude
+                                        </span>
                                     </p>
                                     <p className="text-neutral-600 font-light text-xs dark:text-neutral-400">
                                         2018 - 2022

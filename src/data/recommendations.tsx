@@ -110,7 +110,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Chess",
                 description:
-                    "A good game of chess every now and then is a must-have. Keeps my logical mind intact 😂",
+                    "A good game of chess every now and then is a must-have.",
             },
             {
                 title: "Guitar",

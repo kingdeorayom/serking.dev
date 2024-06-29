@@ -18,14 +18,23 @@ const Hero = () => {
                     href="https://padtechcorp.com/"
                     title="Visit site"
                     target="_blank"
-                    className="border-b border-gray-300 transition-[border-color] hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white"
+                    className="hovered-link"
                 >
                     Padtech Industries Corporation
                 </Link>
                 , where I build web and mobile applications.
             </p>
             <p>Take a look around and see what I&apos;m up to.</p>
-            {/* <p className="text-xs italic">
+
+            <p className="text-xs">
+                If you want to dive into more personal details, it&apos;s{" "}
+                <Link href="/about" title="About me" className="hovered-link">
+                    here
+                </Link>
+                .
+            </p>
+
+            {/* <p className="text-xs">
                 This is both a portfolio and a personal website.
             </p> */}
         </section>

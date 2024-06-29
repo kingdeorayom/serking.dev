@@ -12,9 +12,10 @@ export const metadata: Metadata = {
 export default function GuestBookPage() {
     return (
         <section className="flex flex-col gap-y-6">
-            <h1 className="font-medium text-2xl tracking-tighter">
+            <h2 className="font-medium text-2xl tracking-tighter">
                 Sign my guestbook
-            </h1>
+            </h2>
+            {/* <p>Whatever you want to say</p> */}
             <Notice />
             <Suspense>
                 <Authentication />

@@ -1,3 +1,4 @@
+import React from "react";
 import RECOMMENDATIONS from "@/data/recommendations";
 
 const Recommendations = () => {
@@ -17,19 +18,18 @@ const Recommendations = () => {
 
             {RECOMMENDATIONS.map((recommendation, index) => {
                 return (
-                    <>
-                        <SectionTitle
-                            key={index}
-                            sectionTitle={recommendation.section}
-                        />
-                        {recommendation.content.map((item, index) => (
-                            <RecommendationCard
-                                key={index}
-                                title={item.title}
-                                description={item.description}
-                            />
-                        ))}
-                    </>
+                    <React.Fragment key={index}>
+                        <SectionTitle sectionTitle={recommendation.section} />
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {recommendation.content.map((item, index) => (
+                                <RecommendationCard
+                                    key={index}
+                                    title={item.title}
+                                    description={item.description}
+                                />
+                            ))}
+                        </div>
+                    </React.Fragment>
                 );
             })}
         </>
@@ -51,7 +51,7 @@ const RecommendationCard = ({
     title?: string;
     description?: string;
 }) => (
-    <div className="space-y-1 text-sm bg-slate-50 dark:bg-neutral-900 p-4 rounded-lg">
+    <div className="space-y-1 text-sm bg-slate-100 dark:bg-neutral-900 p-5 rounded-lg">
         <p className="font-semibold">{title}</p>
         <p className="text-gray-500 dark:text-gray-400">{description}</p>
     </div>

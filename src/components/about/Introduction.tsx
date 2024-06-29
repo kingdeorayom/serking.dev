@@ -6,13 +6,13 @@ const Introduction = () => {
             <h2 className="font-medium text-2xl tracking-tighter">
                 Get to know me more
             </h2>
-
             <p>
-                I&apos;m Serking and I&apos;ve been doing technology related
-                things since my early teenage years.
+                When I&apos;m not at work, I immerse myself in my favorite
+                activities: reading books, listening to music, playing video
+                games, binge-watching movies, TV shows, and anime, or enjoying
+                quality time with friends and family.
             </p>
-
-            {/* <Gallery /> */}
+            <Gallery />
         </>
     );
 };
