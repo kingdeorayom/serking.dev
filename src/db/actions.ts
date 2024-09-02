@@ -1,7 +1,7 @@
 "use server";
 
 import { getServerSession } from "next-auth";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, unstable_noStore as noStore } from "next/cache";
 import { sql } from "./postgres";
 
 export async function saveGuestbookEntry(formData: FormData) {
@@ -22,4 +22,14 @@ export async function saveGuestbookEntry(formData: FormData) {
     `;
 
     revalidatePath("/guestbook");
+}
+
+export async function increment(slug: string) {
+    noStore();
+    await sql`
+    INSERT INTO views (slug, count)
+    VALUES (${slug}, 1)
+    ON CONFLICT (slug)
+    DO UPDATE SET count = views.count + 1
+  `;
 }

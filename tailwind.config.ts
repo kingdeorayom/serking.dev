@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 const config: Config = {
     darkMode: "class",
@@ -15,8 +16,20 @@ const config: Config = {
                 "gradient-conic":
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
             },
+            typography: {
+                quoteless: {
+                    css: {
+                        "blockquote p:first-of-type::before": {
+                            content: "none",
+                        },
+                        "blockquote p:first-of-type::after": {
+                            content: "none",
+                        },
+                    },
+                },
+            },
         },
     },
-    plugins: [],
+    plugins: [typography],
 };
 export default config;

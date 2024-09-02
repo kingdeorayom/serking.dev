@@ -42,7 +42,7 @@ export default async function RootLayout({
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "max-w-2xl mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
+                    "max-w-3xl mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
                     GeistSans.className
                 )}
             >
