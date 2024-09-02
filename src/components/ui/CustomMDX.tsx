@@ -174,7 +174,7 @@ let components = {
     LiveCode,
 };
 
-export function CustomMDX(props) {
+export default function CustomMDX(props) {
     return (
         <MDXRemote
             {...props}

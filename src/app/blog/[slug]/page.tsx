@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Suspense, cache } from "react";
 import { notFound } from "next/navigation";
 import { unstable_noStore as noStore } from "next/cache";
-import { CustomMDX } from "@/components/ui/CustomMDX";
 import { getBlogPosts } from "@/db/blog";
 import { getViewsCount } from "@/db/queries";
 import { increment } from "@/db/actions";
 import ViewCounter from "@/components/blog/ViewCounter";
+import CustomMDX from "@/components/ui/CustomMDX";
 // import BackButton from "@/components/ui/BackButton";
 
 export async function generateMetadata({

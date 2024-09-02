@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="mt-40 text-xs text-center font-light text-gray-500 dark:text-gray-200 space-y-1">
+        <footer className="mt-20 text-xs text-center font-light text-gray-500 dark:text-gray-200 space-y-1">
             <h6>{`© ${new Date().getFullYear()} Serking de Orayom`}</h6>
             <p>This is both a portfolio and a personal website.</p>
         </footer>
