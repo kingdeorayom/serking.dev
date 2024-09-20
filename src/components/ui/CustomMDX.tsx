@@ -139,6 +139,7 @@ function slugify(str) {
 }
 
 function createHeading(level) {
+    // eslint-disable-next-line react/display-name
     return ({ children }) => {
         let slug = slugify(children);
         return React.createElement(
@@ -174,7 +175,7 @@ let components = {
     LiveCode,
 };
 
-function CustomMDX(props) {
+export default function CustomMDX(props) {
     return (
         <MDXRemote
             {...props}
@@ -182,5 +183,3 @@ function CustomMDX(props) {
         />
     );
 }
-
-export default CustomMDX;
