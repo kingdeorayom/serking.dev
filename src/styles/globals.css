@@ -93,11 +93,11 @@
   @apply m-0;
 }
 
-.prose h2,
+/* .prose h2,
 h3,
 h4 {
   @apply font-medium tracking-tighter !important;
-}
+} */
 
 .prose strong {
   @apply font-medium;
