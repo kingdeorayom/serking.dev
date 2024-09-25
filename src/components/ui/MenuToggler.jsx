@@ -24,7 +24,7 @@ const MenuToggler = () => {
         const currentLink = NAVIGATION_LINKS.find(
             (link) => link.path === pathname
         );
-        return currentLink ? currentLink.label : "unknown";
+        return currentLink ? currentLink.label : "menu";
     }, [pathname]);
 
     const capitalizeLabel = (label) => {
