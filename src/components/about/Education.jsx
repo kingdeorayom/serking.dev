@@ -6,7 +6,7 @@ import uphsl from "/public/images/education/uphsl.png";
 
 const Education = () => {
     return (
-        <>
+        <div className="flex flex-col gap-y-6">
             <h2 className="font-medium text-xl tracking-tighter">Education</h2>
 
             <p>
@@ -51,7 +51,8 @@ const Education = () => {
                                         </span>
                                     </p>
                                     <p className="text-neutral-600 font-light text-xs dark:text-neutral-400">
-                                        2018 - 2022
+                                        {/* 2018 - 2022 */}
+                                        2022
                                     </p>
                                 </div>
                             </div>
@@ -62,7 +63,7 @@ const Education = () => {
                     </Link>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

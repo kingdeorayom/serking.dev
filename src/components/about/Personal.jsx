@@ -3,7 +3,7 @@ import Recommendations from "./Recommendations";
 
 const Personal = () => {
     return (
-        <>
+        <div className="flex flex-col gap-y-6">
             <h2 className="font-medium text-xl tracking-tighter">
                 Outside of work
             </h2>
@@ -26,7 +26,7 @@ const Personal = () => {
             <p>If time permits, I also hang out with my friends and family.</p>
             <Separator />
             <Recommendations />
-        </>
+        </div>
     );
 };
 
