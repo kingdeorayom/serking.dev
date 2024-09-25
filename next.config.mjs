@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ["i.scdn.co", "avatars.githubusercontent.com"],
-    },
+  images: {
+    remotePatterns: [],
+  },
+  compiler: {
+    removeConsole: false,
+  },
 };
 
 export default nextConfig;
