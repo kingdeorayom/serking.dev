@@ -55,7 +55,7 @@ const SectionTitle = ({ sectionTitle }) => (
 );
 
 const RecommendationCard = ({ title, description }) => (
-    <div className="space-y-1 text-sm bg-slate-100 dark:bg-neutral-900 p-5 rounded-lg h-fit">
+    <div className="space-y-1 text-sm bg-slate-50 dark:bg-neutral-900 p-5 rounded-lg">
         <p className="font-semibold">{title}</p>
         <p className="text-gray-500 dark:text-gray-400">{description}</p>
     </div>

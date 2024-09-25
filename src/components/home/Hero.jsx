@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section className="flex flex-col gap-y-6">
             <h1 className="font-medium text-2xl tracking-tighter">
-                Hi, I&apos;m Serking.
+                Hi, I&apos;m Serking
             </h1>
 
             <p>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Work from "./Work";
+// import Work from "./Work";
 import Education from "./Education";
 import Personal from "./Personal";
 
@@ -11,7 +11,7 @@ const Tabs = () => {
     const handleTabChange = (index) => setTabIndex(index);
 
     const TABS = [
-        { label: "Work" },
+        // { label: "Work" },
         { label: "Education" },
         { label: "Personal" },
     ];
@@ -43,13 +43,19 @@ const Tabs = () => {
                 </ul>
             </div>
 
-            {tabIndex === 0 ? (
+            {/* {tabIndex === 0 ? (
                 <Work />
             ) : tabIndex === 1 ? (
                 <Education />
             ) : (
                 <Personal />
-            )}
+            )} */}
+
+            {tabIndex === 0 ? (
+                <Education />
+            ) : tabIndex === 1 ? (
+                <Personal />
+            ) : null}
         </>
     );
 };

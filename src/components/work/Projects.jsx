@@ -28,13 +28,13 @@ const Projects = () => {
                             key={project?.id}
                             className="hover:opacity-75"
                         >
-                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-40 rounded-md p-2 cursor-pointer">
+                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-40 rounded p-1.5 cursor-pointer">
                                 <Image
                                     src={project.image.src}
                                     alt="Project"
                                     width={1920}
                                     height={1080}
-                                    className="h-full w-full object-cover object-center rounded-md"
+                                    className="h-full w-full object-cover object-center rounded"
                                 />
                             </div>
                             <div className="text-sm px-2 py-3 space-y-1">

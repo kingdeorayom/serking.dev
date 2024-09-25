@@ -22,7 +22,7 @@ const Header = () => {
                             <Link
                                 key={item.path}
                                 href={item.path}
-                                className={`transition-all hover:opacity-60 flex align-middle relative py-1 ${
+                                className={`hover:opacity-60 flex align-middle relative py-1 ${
                                     isSelected ? "font-medium" : ""
                                 } `}
                             >

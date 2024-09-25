@@ -9,6 +9,6 @@ export const NAVIGATION_LINKS = [
     // { path: "/about", label: "about" },
     { path: "/work", label: "work" },
     // { path: "/activity", label: "activity" },
-    { path: "/blog", label: "blog" },
+    { path: "/notes", label: "notes" },
     { path: "/guestbook", label: "guestbook" },
 ];

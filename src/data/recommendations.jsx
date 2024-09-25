@@ -28,7 +28,8 @@ const RECOMMENDATIONS = [
                     "Enough to run iOS apps I develop. I only use React Native for iOS development anyway.",
             },
             {
-                title: "Royal Kludge RK84 75% Wireless Mechanical Keyboard",
+                // title: "Royal Kludge RK84 75% Wireless Mechanical Keyboard",
+                title: "AULA F75: Premium Gasket Mechanical Keyboard",
                 description:
                     "With all the typing, a very good keyboard is a necessity. And this is a very good keyboard for me.",
             },

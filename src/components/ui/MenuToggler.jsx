@@ -86,6 +86,7 @@ const MenuToggler = () => {
 
                                                 {isSelected && (
                                                     <Badge label="Current" />
+                                                    // <div className="bg-black h-1.5 w-1.5 rounded-full" />
                                                 )}
                                             </Link>
                                         </li>
