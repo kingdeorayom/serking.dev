@@ -1,5 +1,7 @@
 import React from "react";
 import RECOMMENDATIONS from "@/data/recommendations";
+import setup from "/public/images/about/setup.jpg";
+import Image from "next/image";
 
 const Recommendations = () => {
     return (
@@ -7,6 +9,14 @@ const Recommendations = () => {
             <h2 className="font-medium text-xl tracking-tighter">
                 Software I use, gadgets I love, and other things I recommend.
             </h2>
+
+            <div className="py-6">
+                <Image
+                    alt="Work and Gaming Setup"
+                    className="block h-full w-full rounded-lg object-cover object-center"
+                    src={setup}
+                />
+            </div>
 
             <p>
                 I get asked a lot about the things I use to build software, stay

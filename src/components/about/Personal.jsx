@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Separator from "../ui/Separator";
 import Recommendations from "./Recommendations";
-import setup from "/public/images/about/setup.jpg";
 
 const Personal = () => {
     return (
@@ -9,14 +7,6 @@ const Personal = () => {
             <h2 className="font-medium text-xl tracking-tighter">
                 Outside of work
             </h2>
-
-            <div className="py-6">
-                <Image
-                    alt="Work and Gaming Setup"
-                    className="block h-full w-full rounded-lg object-cover object-center"
-                    src={setup}
-                />
-            </div>
 
             <p>
                 As a kid, books and video games were my companions, shaping my
