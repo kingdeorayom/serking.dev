@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
             <p>Take a look around and see what I&apos;m up to.</p>
 
-            <p className="text-xs">
+            <p className="text-[13px]">
                 If you want to dive into more personal details, it&apos;s{" "}
                 <Link href="/about" title="About me" className="hovered-link">
                     here

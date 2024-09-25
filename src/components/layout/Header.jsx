@@ -23,7 +23,7 @@ const Header = () => {
                                 key={item.path}
                                 href={item.path}
                                 className={`transition-all hover:opacity-60 flex align-middle relative py-1 ${
-                                    isSelected ? "font-semibold" : ""
+                                    isSelected ? "font-medium" : ""
                                 } `}
                             >
                                 {item.label}

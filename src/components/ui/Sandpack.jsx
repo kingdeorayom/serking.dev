@@ -12,14 +12,8 @@ import {
 import { Sandpack } from "@codesandbox/sandpack-react";
 import React, { Suspense } from "react";
 
-class ErrorBoundary extends React.Component<
-    { fallback: React.ReactNode; children?: React.ReactNode },
-    { hasError: boolean }
-> {
-    constructor(props: {
-        fallback: React.ReactNode;
-        children: React.ReactNode;
-    }) {
+class ErrorBoundary extends React.Component {
+    constructor(props) {
         super(props);
         this.state = { hasError: false };
     }
@@ -41,7 +35,7 @@ class ErrorBoundary extends React.Component<
     }
 }
 
-export function LiveCode({ example }: { example: string }) {
+export function LiveCode({ example }) {
     let files;
 
     if (example === "html") {

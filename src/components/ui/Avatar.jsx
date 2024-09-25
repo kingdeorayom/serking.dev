@@ -4,9 +4,9 @@ import serkingdeorayom from "../../../public/images/me/serking-de-orayom-full.jp
 
 const Avatar = () => {
     return (
-        <Link href="/">
+        <Link href="/" className="hover:opacity-90">
             <Image
-                className="w-10 h-10 rounded-full"
+                className="w-10 h-10 rounded-full dark:border dark:border-white/10"
                 src={serkingdeorayom}
                 alt="Serking de Orayom"
             />

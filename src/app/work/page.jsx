@@ -17,7 +17,8 @@ export default function WorkPage() {
                 <h2 className="font-medium text-2xl tracking-tighter">
                     My work experiences
                 </h2>
-                <p>Trying to put my mark on the tech industry.</p>
+                {/* <p>Trying to put my mark on the tech industry.</p> */}
+                <p>Filling whatever role is needed at the time.</p>
 
                 {/* <p>
                     Immersing myself in the dynamic field of software
