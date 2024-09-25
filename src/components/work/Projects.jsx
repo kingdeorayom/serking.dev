@@ -28,7 +28,7 @@ const Projects = () => {
                             key={project?.id}
                             className="hover:opacity-75"
                         >
-                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-40 rounded p-1.5 cursor-pointer">
+                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-32 sm:h-40 rounded p-1.5 cursor-pointer">
                                 <Image
                                     src={project.image.src}
                                     alt="Project"
@@ -39,7 +39,7 @@ const Projects = () => {
                             </div>
                             <div className="text-sm px-2 py-3 space-y-1">
                                 <div className="flex space-x-2 justify-between">
-                                    <h3 className="font-semibold">
+                                    <h3 className="font-semibold line-clamp-1 sm:line-clamp-none">
                                         {`${project?.title}`}
                                     </h3>
                                     <div>

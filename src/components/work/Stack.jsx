@@ -14,11 +14,11 @@ const Stack = () => {
                     or any project.
                 </p>
             </div>
-            <div className="grid grid-cols-4 sm:grid-cols-6 gap-6">
+            <div className="grid grid-cols-3 md:grid-cols-4 gap-10">
                 {STACKS.map((stack, index) => {
                     return (
                         <div key={index}>
-                            <div className="border dark:border-neutral-700 aspect-h-1 aspect-w-1 w-full h-20 rounded-md p-1 flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                                 {stack?.icon}
                             </div>
                             <div className="text-sm px-2 py-3 space-y-1">
