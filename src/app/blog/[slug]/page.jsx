@@ -6,6 +6,7 @@ import { getViewsCount } from "@/db/queries";
 import { increment } from "@/db/actions";
 import ViewCounter from "@/components/blog/ViewCounter";
 import CustomMDX from "@/components/ui/CustomMDX";
+import BackButton from "@/components/ui/BackButton";
 // import BackButton from "@/components/ui/BackButton";
 
 export async function generateMetadata({ params }) {
@@ -111,9 +112,9 @@ export default function Blog({ params }) {
                     }),
                 }}
             />
-            {/* <div className="my-8">
+            <div className="my-8">
                 <BackButton />
-            </div> */}
+            </div>
             <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
                 {post.metadata.title}
             </h1>
@@ -123,9 +124,9 @@ export default function Blog({ params }) {
                         {formatDate(post.metadata.publishedAt)}
                     </p>
                 </Suspense>
-                <Suspense fallback={<p className="h-5" />}>
+                {/* <Suspense fallback={<p className="h-5" />}>
                     <Views slug={post.slug} />
-                </Suspense>
+                </Suspense> */}
             </div>
             <article className="prose prose-quoteless prose-neutral dark:prose-invert">
                 <CustomMDX source={post.content} />
@@ -134,10 +135,10 @@ export default function Blog({ params }) {
     );
 }
 
-let incrementViews = cache(increment);
+// let incrementViews = cache(increment);
 
-async function Views({ slug }) {
-    let views = await getViewsCount();
-    incrementViews(slug);
-    return <ViewCounter allViews={views} slug={slug} />;
-}
+// async function Views({ slug }) {
+//     let views = await getViewsCount();
+//     incrementViews(slug);
+//     return <ViewCounter allViews={views} slug={slug} />;
+// }
