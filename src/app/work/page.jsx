@@ -1,8 +1,6 @@
-import BackButton from "@/components/ui/BackButton";
 import Separator from "@/components/ui/Separator";
 import Experiences from "@/components/work/Experiences";
 import Projects from "@/components/work/Projects";
-// import Stack from "@/components/work/Stack";
 
 export const metadata = {
     title: "Work | Serking de Orayom",
@@ -12,32 +10,18 @@ export const metadata = {
 export default function WorkPage() {
     return (
         <section className="flex-auto min-w-0 flex flex-col gap-y-10">
-            <BackButton />
             <div className="flex flex-col gap-y-6">
                 <h2 className="font-medium text-xl tracking-tighter">
                     My work experiences
                 </h2>
-                {/* <p>Trying to put my mark on the tech industry.</p> */}
-                {/* <p>Filling whatever role is needed at the time.</p> */}
                 <p>
                     Embracing each opportunity to learn, experiment, and gain
                     experience needed to build industry-grade software.
                 </p>
-                {/* <p>
-                    Immersing myself in the dynamic field of software
-                    development, embracing each opportunity to learn,
-                    experiment, and gain experience needed to build
-                    industry-grade software.
-                </p>
-
-                <p>And of course, to put my mark on the tech industry.</p> */}
                 <Separator />
                 <Experiences />
             </div>
             <Projects />
-            {/* <Stack /> */}
         </section>
     );
 }
-
-// also add humble work setup, work, projects label

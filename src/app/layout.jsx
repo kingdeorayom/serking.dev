@@ -5,9 +5,6 @@ import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/providers/theme";
-import { getServerSession } from "next-auth";
-
-import SessionProvider from "@/providers/session";
 
 export const metadata = {
     title: "Serking de Orayom",
@@ -17,7 +14,7 @@ export const metadata = {
         description: "Web and mobile app developer",
         images: [
             {
-                url: "https://serking.dev/og.png",
+                url: "https://serking.vercel.app/og.png",
                 width: 1200,
                 height: 700,
             },
@@ -26,13 +23,11 @@ export const metadata = {
     twitter: {
         title: "Serking de Orayom",
         description: "Web and mobile app developer",
-        images: ["https://serking.dev/og.png"],
+        images: ["https://serking.vercel.app/og.png"],
     },
 };
 
 export default async function RootLayout({ children }) {
-    const session = await getServerSession();
-
     return (
         <html lang="en" suppressHydrationWarning>
             <body
@@ -46,10 +41,9 @@ export default async function RootLayout({ children }) {
                     defaultTheme="light"
                     enableSystem={false}
                 >
-                    <SessionProvider session={session}>
-                        <main>{children}</main>
-                        <Footer />
-                    </SessionProvider>
+                    <Header />
+                    <main className="flex-grow">{children}</main>
+                    <Footer />
                 </ThemeProvider>
             </body>
         </html>

@@ -1,4 +1,4 @@
-import Separator from "../ui/Separator";
+// import Separator from "../ui/Separator";
 
 const Experiences = () => {
     return (
