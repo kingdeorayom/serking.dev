@@ -19,7 +19,7 @@ const Projects = () => {
                 since I&apos;m no longer maintaining them.
             </p>
             <Separator className="my-2" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6">
                 {PROJECTS.map((project) => {
                     return (
                         <Link
@@ -28,7 +28,7 @@ const Projects = () => {
                             key={project?.id}
                             className="hover:opacity-75"
                         >
-                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-32 sm:h-40 rounded p-1.5 cursor-pointer">
+                            <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full h-40 sm:h-48 rounded p-1.5 cursor-pointer">
                                 <Image
                                     src={project.image.src}
                                     alt="Project"

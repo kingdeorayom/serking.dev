@@ -11,10 +11,11 @@ const Header = () => {
     const pathname = usePathname();
 
     return (
-        <header className="mb-12 sm:mb-14 flex items-center justify-between tracking-tight">
+        <header className="mb-12 sm:mb-14 flex items-center justify-between">
             <div className="flex items-center space-x-10">
                 <Avatar />
-                <nav className="hidden sm:flex flex-row space-x-6 pr-10">
+                {/* <nav className="hidden sm:flex flex-row space-x-6 pr-10"> */}
+                <nav className="flex flex-row space-x-6 pr-10">
                     {NAVIGATION_LINKS.map((item) => {
                         const isSelected = item.path === pathname;
 
@@ -33,7 +34,7 @@ const Header = () => {
                 </nav>
             </div>
             <div className="flex gap-x-2.5">
-                <MenuToggler />
+                {/* <MenuToggler /> */}
                 <ThemeToggler />
             </div>
         </header>

@@ -16,7 +16,7 @@ const PROJECTS = [
     },
     {
         id: 4,
-        title: "AdSelle Shop",
+        title: "Adselle Shop",
         description: "Lorem ipsum",
         type: "Web",
         category: "Company",

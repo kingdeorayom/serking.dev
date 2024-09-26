@@ -4,7 +4,7 @@ import { FaChevronLeft } from "react-icons/fa6";
 
 const BackButton = () => {
     const router = useRouter();
-    const handleBack = () => router.back();
+    const handleBack = () => router.push("/");
     return (
         <div className="flex items-center space-x-2 text-primary hover:underline cursor-pointer w-fit">
             <FaChevronLeft size={10} />

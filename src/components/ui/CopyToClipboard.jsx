@@ -23,7 +23,7 @@ const CopyToClipboard = () => {
                 <div className="block space-y-3">
                     <label className="text-xs text-red-700 block">
                         {
-                            "Error copying email address. Sorry, I'm working on it! For the meantime, manually copy this:"
+                            "Error copying email address. For the meantime, manually copy this:"
                         }
                     </label>
                     <label className="text-xs font-semibold block">

@@ -8,10 +8,11 @@ const Social = () => {
     return (
         <>
             <section className="my-6 flex flex-col gap-y-6">
-                <h2 className="font-medium text-xl tracking-tighter">
+                {/* <h2 className="font-medium text-xl tracking-tighter">
                     Contact Me
-                </h2>
-                <p>Reach out to me. No pressure!</p>
+                </h2> */}
+                {/* <p>Reach out to me. No pressure!</p> */}
+                {/* <p>I&apos;m mostly active on Facebook.</p> */}
 
                 <div className="my-2 flex flex-wrap">
                     {SOCIALS.map((item, index) => {
@@ -30,7 +31,7 @@ const Social = () => {
                                             <div>{item.icon}</div>
                                             <div className="flex flex-col">
                                                 {/* or text-sm */}
-                                                <p className="font-medium text-sm line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                                                <p className="font-medium text-[13px] line-clamp-1 text-neutral-900 dark:text-neutral-100">
                                                     {item.description}
                                                 </p>
                                                 {/* <p className=" text-xs text-neutral-500 dark:text-neutral-100">

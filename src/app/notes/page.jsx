@@ -1,4 +1,5 @@
 import Blogs from "@/components/blog/Blogs";
+import BackButton from "@/components/ui/BackButton";
 import { getBlogPosts } from "@/db/blog";
 
 export const metadata = {
@@ -11,6 +12,7 @@ export default function BlogPage() {
 
     return (
         <section className="flex-auto min-w-0 flex flex-col gap-y-8">
+            <BackButton />
             <div className="flex flex-col gap-y-6">
                 <h2 className="font-medium text-2xl tracking-tighter">
                     Developer's Notes

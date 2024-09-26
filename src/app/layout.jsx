@@ -37,18 +37,17 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "max-w-3xl mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
+                    "max-w-2xl mx-auto pt-16 pb-8 px-6 dark:bg-[#111010] dark:text-white min-h-screen flex flex-col justify-between",
                     GeistSans.className
                 )}
             >
                 <ThemeProvider
                     attribute="class"
-                    defaultTheme="system"
-                    enableSystem
+                    defaultTheme="light"
+                    enableSystem={false}
                 >
                     <SessionProvider session={session}>
-                        <Header />
-                        <main className="min-h-screen">{children}</main>
+                        <main>{children}</main>
                         <Footer />
                     </SessionProvider>
                 </ThemeProvider>
