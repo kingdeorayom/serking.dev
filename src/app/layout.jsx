@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { GeistSans } from "geist/font/sans";
 import { cn } from "@/utils/cn";
 import "@/styles/globals.css";
@@ -44,6 +46,7 @@ export default async function RootLayout({ children }) {
                     <Header />
                     <main className="flex-grow">{children}</main>
                     <Footer />
+                    <SpeedInsights />
                 </ThemeProvider>
             </body>
         </html>
