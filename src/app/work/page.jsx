@@ -1,6 +1,6 @@
 import Separator from "@/components/ui/Separator";
 import Experiences from "@/components/work/Experiences";
-import Projects from "@/components/work/Projects";
+// import Projects from "@/components/work/Projects";
 
 export const metadata = {
     title: "Work | Serking de Orayom",
@@ -21,7 +21,7 @@ export default function WorkPage() {
                 <Separator />
                 <Experiences />
             </div>
-            <Projects />
+            {/* <Projects /> */}
         </section>
     );
 }
