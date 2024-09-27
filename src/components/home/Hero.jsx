@@ -16,7 +16,8 @@ const Hero = () => {
                 , where I build web and mobile applications.
             </p>
             <p>
-                Learn about my works and projects{" "}
+                Learn about my work{" "}
+                {/* Learn about my works and projects{" "} */}
                 <Link
                     href="/work"
                     title="View my works"
