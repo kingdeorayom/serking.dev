@@ -5,7 +5,7 @@ const Header = () => {
         <header className="pb-10">
             <Link
                 href="/"
-                className="flex flex-col space-y-1 hover:opacity-95 cursor-pointer"
+                className="flex flex-col space-y-1 hover:opacity-80 cursor-pointer"
             >
                 <h1 className="font-semibold text-2xl sm:text-2xl">
                     Serking de Orayom
