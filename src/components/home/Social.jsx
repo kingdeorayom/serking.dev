@@ -21,7 +21,7 @@ const Social = () => {
                                     className="w-full"
                                 >
                                     <Card>
-                                        <div className="flex items-center space-x-3">
+                                        <div className="flex items-center space-x-2">
                                             <div>{item.icon}</div>
                                             <div className="flex flex-col">
                                                 {/* or text-sm */}
