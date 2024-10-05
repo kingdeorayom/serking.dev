@@ -30,7 +30,7 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "mx-auto flex min-h-screen max-w-2xl flex-col justify-between px-8 pb-8 pt-16 dark:bg-[#111010] dark:text-white md:px-6",
+                    "mx-auto flex min-h-screen max-w-2xl flex-col justify-between px-8 pb-8 pt-16 md:px-6 dark:bg-[#111010] dark:text-white",
                     GeistSans.className
                 )}
             >
@@ -48,8 +48,8 @@ export default async function RootLayout({ children }) {
                     </Link>
                 </header>
                 <main className="flex-grow">{children}</main>
-                <footer className="mt-14 space-y-1 text-center text-xs text-gray-500 dark:text-gray-200">
-                    <h6>{`© ${new Date().getFullYear()} Serking de Orayom`}</h6>
+                <footer className="mt-14 space-y-1 text-center">
+                    <p className="text-xs text-gray-500 dark:text-gray-200">{`© ${new Date().getFullYear()} Serking de Orayom`}</p>
                 </footer>
                 <SpeedInsights />
             </body>
