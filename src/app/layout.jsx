@@ -1,12 +1,11 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import { GeistSans } from "geist/font/sans";
-import { cn } from "@/utils/cn";
 import "@/styles/globals.css";
+import { cn } from "@/utils/cn";
+import { GeistSans } from "geist/font/sans";
 
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/providers/theme";
+import Link from "next/link";
 
 export const metadata = {
     title: "Serking de Orayom",
@@ -34,7 +33,7 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "max-w-2xl mx-auto pt-16 pb-8 px-6 dark:bg-[#111010] dark:text-white min-h-screen flex flex-col justify-between",
+                    "mx-auto flex min-h-screen max-w-2xl flex-col justify-between px-6 pb-8 pt-16 dark:bg-[#111010] dark:text-white",
                     GeistSans.className
                 )}
             >
@@ -43,9 +42,23 @@ export default async function RootLayout({ children }) {
                     defaultTheme="light"
                     enableSystem={false}
                 >
-                    <Header />
+                    <header className="pb-10">
+                        <Link
+                            href="/"
+                            className="flex cursor-pointer flex-col space-y-1 hover:opacity-80"
+                        >
+                            <h1 className="text-2xl font-semibold sm:text-2xl">
+                                Serking de Orayom
+                            </h1>
+                            <p className="text-sm text-neutral-600 dark:text-neutral-300">
+                                Web and mobile app developer
+                            </p>
+                        </Link>
+                    </header>
                     <main className="flex-grow">{children}</main>
-                    <Footer />
+                    <footer className="mt-14 space-y-1 text-center text-xs text-gray-500 dark:text-gray-200">
+                        <h6>{`© ${new Date().getFullYear()} Serking de Orayom`}</h6>
+                    </footer>
                     <SpeedInsights />
                 </ThemeProvider>
             </body>
