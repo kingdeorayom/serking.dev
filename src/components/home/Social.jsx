@@ -1,9 +1,11 @@
-import CopyToClipboard from "@/app/CopyToClipboard";
 import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
+import Card from "../ui/Card";
+import CopyToClipboard from "../../app/CopyToClipboard";
+// import { FaXTwitter } from "react-icons/fa6";
 
-export default function HomePage() {
+const Social = () => {
     const SOCIALS = [
         {
             description: "LinkedIn",
@@ -23,47 +25,16 @@ export default function HomePage() {
             text: "Serking de Orayom",
             icon: <FaFacebook size={18} color="#1877F2" className="" />,
         },
+        // {
+        //     description: "X (Twitter)",
+        //     url: "https://x.com/kingdeorayom",
+        //     text: "@kingdeorayom",
+        //     icon: <FaXTwitter size={18} className="" />,
+        // },
     ];
 
     return (
         <>
-            <section className="flex flex-col gap-y-6">
-                <p>
-                    I currently work as a frontend developer at{" "}
-                    <Link
-                        href="https://padtechcorp.com/"
-                        title="Visit site"
-                        target="_blank"
-                        className="hovered-link"
-                    >
-                        Padtech Industries Corporation
-                    </Link>
-                    , where I build web and mobile applications.
-                </p>
-                <p>
-                    Learn about my work{" "}
-                    {/* Learn about my works and projects{" "} */}
-                    <Link
-                        href="/work"
-                        title="View my works"
-                        className="hovered-link"
-                    >
-                        here
-                    </Link>
-                    .
-                </p>
-                <p className="text-[13px]">
-                    If you want to dive into more personal details, it&apos;s{" "}
-                    <Link
-                        href="/about"
-                        title="About me"
-                        className="hovered-link"
-                    >
-                        here
-                    </Link>
-                    .
-                </p>
-            </section>
             <section className="my-6 flex flex-col gap-y-6">
                 <div className="my-2 flex flex-wrap">
                     {SOCIALS.map((item, index) => {
@@ -77,7 +48,7 @@ export default function HomePage() {
                                     target="_blank"
                                     className="w-full"
                                 >
-                                    <div className="flex items-center justify-between rounded-lg border border-neutral-200 p-3 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-800">
+                                    <Card>
                                         <div className="flex items-center space-x-2">
                                             <div>{item.icon}</div>
                                             <div className="flex flex-col">
@@ -92,7 +63,7 @@ export default function HomePage() {
                                                 className="ms-2"
                                             />
                                         </div>
-                                    </div>
+                                    </Card>
                                 </Link>
                             </div>
                         );
@@ -102,4 +73,6 @@ export default function HomePage() {
             <CopyToClipboard />
         </>
     );
-}
+};
+
+export default Social;

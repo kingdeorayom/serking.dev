@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
 
-const CopyEmail = () => {
+const CopyToClipboard = () => {
     const [isCopied, setIsCopied] = useState(false);
     const [isCopyingError, setIsCopyingError] = useState(false);
 
@@ -47,4 +47,4 @@ const CopyEmail = () => {
     );
 };
 
-export default CopyEmail;
+export default CopyToClipboard;

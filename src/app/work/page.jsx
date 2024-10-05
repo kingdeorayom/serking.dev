@@ -8,7 +8,7 @@
 // import smpt from "/public/images/projects/smpt.png";
 
 export const metadata = {
-    title: "Work | Serking de Orayom",
+    title: "Work - Serking de Orayom",
     description: "Web and mobile app developer",
 };
 

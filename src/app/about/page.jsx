@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-    title: "About | Serking de Orayom",
+    title: "About - Serking de Orayom",
     description: "Web and mobile app developer",
 };
 
