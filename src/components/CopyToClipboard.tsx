@@ -14,6 +14,7 @@ const CopyToClipboard = () => {
       navigator.clipboard.writeText("kingdeorayom@gmail.com");
       setIsCopied(true);
     } catch (error) {
+      console.log(error);
       setIsCopied(false);
       setIsCopyingError(true);
     }

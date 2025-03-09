@@ -18,7 +18,8 @@ export default function AboutPage() {
           <div className="flex flex-col gap-y-6">
             <SectionLabel label="Education" />
             <p>
-              I earned my bachelor's degree in Information Technology at the{" "}
+              I earned my bachelor&apos;s degree in Information Technology at
+              the{" "}
               <Link
                 href="https://www.uphsl.edu.ph/"
                 title="Visit site"

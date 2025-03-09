@@ -29,30 +29,30 @@ export default function WorkPage() {
                 </p>
               </div>
               <p>
-                Over the course of <em>almost</em> three years, I've tackled a
-                variety of challenging projects, primarily focusing on frontend
-                development with React Native for mobile and Next.js for web and
-                some backend work with Laravel, REST APIs and MySQL. This being
-                my first work, I learned a lot of things that greatly improved
-                my skills.
+                Over the course of <em>almost</em> three years, I&apos;ve
+                tackled a variety of challenging projects, primarily focusing on
+                frontend development with React Native for mobile and Next.js
+                for web and some backend work with Laravel, REST APIs and MySQL.
+                This being my first work, I learned a lot of things that greatly
+                improved my skills.
               </p>
               <p>
-                I've had the privilege of making significant contributions to
-                the company notably by contributing to various projects' key
-                components. This includes developing landing pages and web
-                assets for the mobile applications we've built. Additionally,
-                I've played a central role in developing our main product's
-                official website, ensuring it effectively communicates our brand
-                identity and offerings to a diverse audience and if it actually
-                works! Moreover, my involvement in designing primary user
-                interfaces and user experiences for both the mobile and web
-                applications has been great.
+                I&apos;ve had the privilege of making significant contributions
+                to the company notably by contributing to various projects&apos;
+                key components. This includes developing landing pages and web
+                assets for the mobile applications we&apos;ve built.
+                Additionally, I&apos;ve played a central role in developing our
+                main product&apos;s official website, ensuring it effectively
+                communicates our brand identity and offerings to a diverse
+                audience and if it actually works! Moreover, my involvement in
+                designing primary user interfaces and user experiences for both
+                the mobile and web applications has been great.
               </p>
               <p>
                 My accomplishments include building responsive user interfaces,
                 integrating backend functionality to frontend, optimizing
-                performance, and ensuring scalability. Additionally, I've gained
-                experience in database management, API development, and
+                performance, and ensuring scalability. Additionally, I&apos;ve
+                gained experience in database management, API development, and
                 gradually migrating legacy components and codebase to modern
                 frameworks and infrastructure.
               </p>
