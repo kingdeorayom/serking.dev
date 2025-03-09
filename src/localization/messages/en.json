@@ -1,0 +1,21 @@
+{
+  "language": "English",
+  "pages": {
+    "home": {
+      "hero": {
+        "introduction": "I'm a software developer from the Philippines specializing in building responsive and user-focused applications for web or mobile.",
+        "projects": "Check out my projects and see what I’ve been working on. You can learn more about them <link>here</link>.",
+        "connect": "Looking to collaborate on a project? Feel free to <email>reach out via email</email>. You can also follow me on <github>GitHub</github> or connect with me on <linkedin>LinkedIn</linkedin>."
+      },
+      "copyEmail": "copy email address",
+      "copyEmailError": "Error copying email address. For the meantime, manually copy this:",
+      "copied": "copied"
+    }
+  },
+  "ui": {
+    "header": {
+      "about": "About"
+    },
+    "footer": {}
+  }
+}

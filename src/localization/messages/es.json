@@ -1,0 +1,21 @@
+{
+  "language": "Español",
+  "pages": {
+    "home": {
+      "hero": {
+        "introduction": "Soy un desarrollador de software de Filipinas especializado en la creación de aplicaciones receptivas y centradas en el usuario para web o móvil.",
+        "projects": "Echa un vistazo a mis proyectos y descubre en qué he estado trabajando. Puedes obtener más información sobre ellos <link>aquí</link>.",
+        "connect": "¿Buscas colaborar en un proyecto? No dudes en <email>contactarme por correo electrónico</email>. También puedes seguirme en <github>GitHub</github> o conectarte conmigo en <linkedin>LinkedIn</linkedin>."
+      },
+      "copyEmail": "copiar dirección de correo electrónico",
+      "copyEmailError": "Error al copiar la dirección de correo electrónico. Mientras tanto, cópiala manualmente:",
+      "copied": "copiado"
+    }
+  },
+  "ui": {
+    "header": {
+      "about": "Acerca de"
+    },
+    "footer": {}
+  }
+}

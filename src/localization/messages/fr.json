@@ -1,0 +1,21 @@
+{
+  "language": "Français",
+  "pages": {
+    "home": {
+      "hero": {
+        "introduction": "Je suis un développeur logiciel des Philippines spécialisé dans la création d'applications réactives et axées sur l'utilisateur pour le web ou le mobile.",
+        "projects": "Découvrez mes projets et voyez sur quoi j’ai travaillé. Vous pouvez en savoir plus à leur sujet <link>ici</link>.",
+        "connect": "Vous souhaitez collaborer sur un projet ? N'hésitez pas à <email>me contacter par e-mail</email>. Vous pouvez également me suivre sur <github>GitHub</github> ou vous connecter avec moi sur <linkedin>LinkedIn</linkedin>."
+      },
+      "copyEmail": "copier l'adresse e-mail",
+      "copyEmailError": "Erreur lors de la copie de l'adresse e-mail. En attendant, copiez-la manuellement :",
+      "copied": "copié"
+    }
+  },
+  "ui": {
+    "header": {
+      "about": "À propos"
+    },
+    "footer": {}
+  }
+}

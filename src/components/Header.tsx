@@ -1,19 +1,27 @@
 import Link from "next/link";
+import ThemeToggler from "./ThemeToggler";
+import { useTranslations } from "next-intl";
 
-const Header = () => (
-    <header className="pb-10">
-        <Link
-            href="/"
-            className="flex cursor-pointer flex-col space-y-1 hover:opacity-80"
-        >
-            <h1 className="text-2xl font-semibold sm:text-2xl">
-                Serking de Orayom
-            </h1>
-            <p className="text-sm text-neutral-600 dark:text-neutral-300">
-                Web and mobile app developer
-            </p>
+const Header = () => {
+  const t = useTranslations();
+  return (
+    <header className="flex items-center justify-between pb-12">
+      <Link
+        href="/"
+        className="flex w-fit cursor-pointer items-center space-x-5 hover:opacity-80"
+      >
+        <div className="flex flex-col space-y-1">
+          <h1 className="text-xl font-semibold">Serking de Orayom</h1>
+        </div>
+      </Link>
+      <div className="flex items-center space-x-5">
+        <Link href="/about" className="hovered-link text-sm">
+          {t("ui.header.about")}
         </Link>
+        <ThemeToggler />
+      </div>
     </header>
-);
+  );
+};
 
 export default Header;
