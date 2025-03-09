@@ -1,6 +1,7 @@
+import { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
+export const metadata:Metadata = {
     title: "About - Serking de Orayom",
     description: "Web and mobile app developer",
 };
@@ -10,30 +11,11 @@ export default function AboutPage() {
         <section className="flex min-w-0 flex-auto flex-col">
             <div className="flex flex-col gap-y-10">
                 <div className="space-y-10">
-                    <div className="flex flex-col gap-y-6">
-                        <h2 className="text-xl font-medium tracking-tighter">
-                            Education
-                        </h2>
-
-                        <p>
-                            I earned my bachelor&apos;s degree in Information
-                            Technology at the{" "}
-                            <Link
-                                href="https://www.uphsl.edu.ph/"
-                                title="Visit site"
-                                target="_blank"
-                                className="font-medium hover:underline"
-                            >
-                                University of Perpetual Help System Laguna
-                            </Link>{" "}
-                            with an academic honor of distinction: Magna Cum
-                            Laude.
-                        </p>
-                    </div>
+                    
                     <div className="flex flex-col gap-y-12">
                         <div className="flex flex-col gap-y-6">
                             <h2 className="text-xl font-medium tracking-tighter">
-                                Stack
+                                Tech Stack
                             </h2>
                             <p>
                                 Programming languages, frameworks, libraries,
@@ -57,11 +39,11 @@ export default function AboutPage() {
                                 <ul className="list-disc space-y-4">
                                     <li>
                                         <code className="bg-slate-200 px-1 py-0.5 dark:bg-gray-50/10">
-                                            let
+                                            const
                                         </code>{" "}
                                         &gt;{" "}
                                         <code className="bg-slate-200 px-1 py-0.5 dark:bg-gray-50/10">
-                                            const
+                                            let
                                         </code>{" "}
                                         <Link
                                             href="https://overreacted.io/on-let-vs-const/"
@@ -82,6 +64,26 @@ export default function AboutPage() {
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div className="flex flex-col gap-y-6">
+                        <h2 className="text-xl font-medium tracking-tighter">
+                            Education
+                        </h2>
+
+                        <p>
+                            I earned my bachelor&apos;s degree in Information
+                            Technology at the{" "}
+                            <Link
+                                href="https://www.uphsl.edu.ph/"
+                                title="Visit site"
+                                target="_blank"
+                                className="font-medium hover:underline"
+                            >
+                                University of Perpetual Help System Laguna
+                            </Link>{" "}
+                            with an academic honor of distinction: Magna Cum
+                            Laude.
+                        </p>
                     </div>
                 </div>
             </div>

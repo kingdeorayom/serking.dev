@@ -17,7 +17,7 @@ export default function WorkPage() {
                 <hr className="border-neutral-100 dark:border-neutral-800" />
                 <div className="flex flex-col gap-y-6">
                     <div>
-                        <p className="mb-1 text-xl font-medium tracking-tighter">
+                        <p className="mb-1 text-lg font-medium tracking-tighter">
                             Padtech Industries Corporation
                         </p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-400">
