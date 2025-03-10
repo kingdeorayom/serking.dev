@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ThemeToggler from "./ThemeToggler";
+import ThemeToggler from "./ui/theme-toggler";
 import { useTranslations } from "next-intl";
 
 const Header = () => {

@@ -39,12 +39,12 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`mx-auto flex min-h-screen max-w-2xl flex-col justify-between p-8 ${geistSans.className} ${geistSans.variable} antialiased`}
+        className={`mx-auto flex min-h-screen max-w-2xl flex-col justify-between p-8 leading-relaxed ${geistSans.className} ${geistSans.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Header />
-            <main className="flex-grow">{children}</main>
+            <main className="flex-grow pb-20">{children}</main>
             <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
