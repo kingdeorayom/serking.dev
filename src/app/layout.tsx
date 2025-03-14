@@ -1,12 +1,12 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { ThemeProvider } from "@/providers/theme";
 import { geistSans } from "@/styles/fonts";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import { ThemeProvider } from "@/providers/theme";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Serking de Orayom",

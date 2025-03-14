@@ -40,6 +40,6 @@
       "error": "Erreur lors de la copie de l'adresse e-mail. En attendant, copiez-la manuellement :",
       "copied": "copié"
     },
-    "connect": "Vous cherchez à collaborer sur un projet ? N'hésitez pas à <email>me contacter par e-mail</email>. Vous pouvez également me suivre sur <github>GitHub</github> ou vous connecter avec moi sur <linkedin>LinkedIn</linkedin>."
+    "connect": "Vous souhaitez collaborer sur un projet ou voulez me recruter ? N'hésitez pas à <email>me contacter par email</email>. Vous pouvez également me suivre sur <github>GitHub</github> ou vous connecter avec moi sur <linkedin>LinkedIn</linkedin>."
   }
 }

@@ -40,6 +40,6 @@
       "error": "メールアドレスのコピーに失敗しました。手動でコピーしてください：",
       "copied": "コピーしました"
     },
-    "connect": "プロジェクトのコラボレーションを希望しますか？<email>メールでお気軽にご連絡ください</email>。また、<github>GitHub</github>でフォローしたり、<linkedin>LinkedIn</linkedin>でつながることもできます。"
+    "connect": "プロジェクトで協力したい、または私を雇いたいですか？お気軽に <email>メールで連絡してください</email>。また、<github>GitHub</github> でフォローしたり、<linkedin>LinkedIn</linkedin> でつながったりできます。"
   }
 }

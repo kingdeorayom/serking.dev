@@ -40,6 +40,6 @@
       "error": "Error copying email address. For the meantime, manually copy this:",
       "copied": "copied"
     },
-    "connect": "Looking to collaborate on a project? Feel free to <email>reach out via email</email>. You can also follow me on <github>GitHub</github> or connect with me on <linkedin>LinkedIn</linkedin>."
+    "connect": "Looking to collaborate on a project or want to hire me? Feel free to <email>reach out via email</email>. You can also follow me on <github>GitHub</github> or connect with me on <linkedin>LinkedIn</linkedin>."
   }
 }
