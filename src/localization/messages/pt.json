@@ -3,19 +3,43 @@
   "pages": {
     "home": {
       "hero": {
-        "introduction": "Sou um desenvolvedor de software das Filipinas especializado na criação de aplicativos responsivos e focados no usuário para web ou dispositivos móveis.",
-        "projects": "Confira meus projetos e veja no que tenho trabalhado. Você pode saber mais sobre eles <link>aqui</link>.",
-        "connect": "Quer colaborar em um projeto? Sinta-se à vontade para <email>entrar em contato por e-mail</email>. Você também pode me seguir no <github>GitHub</github> ou se conectar comigo no <linkedin>LinkedIn</linkedin>."
+        "introduction": "<p>Sou um desenvolvedor de software das Filipinas especializado em criar aplicativos responsivos e focados no usuário para a web e dispositivos móveis.</p><p>Confira meus projetos e histórico de trabalho para ver no que tenho trabalhado. Você pode aprender mais sobre eles <a>aqui</a>.</p>",
+        "linkTitleAttribute": "Ver meus trabalhos"
+      }
+    },
+    "work": {
+      "title": "Minhas experiências de trabalho",
+      "introduction": "<p>Trabalho como desenvolvedor frontend e, ocasionalmente, assumo projetos freelance. Embora o trabalho freelance me permita explorar diferentes desafios, estou em busca de uma posição em tempo integral onde possa colaborar com uma equipe, contribuir para projetos impactantes e continuar crescendo como desenvolvedor.</p><p>Aqui estão alguns dos projetos freelance em que trabalhei:</p>",
+      "employmentHistory": {
+        "padtech": {
+          "role": "Desenvolvedor Frontend",
+          "date": "Set 2022 - Abr 2025",
+          "description": "<p>Ao longo de <em>quase</em> três anos, tive o privilégio de contribuir significativamente para a empresa, especialmente como um dos principais desenvolvedores frontend e designers.</p><p>Desempenhei um papel fundamental na criação de interfaces de usuário responsivas, integração de funcionalidades do backend, otimização de desempenho e garantia de escalabilidade para a maioria dos aplicativos e sites da empresa.</p><p>Também adquiri experiência em gerenciamento de banco de dados, desenvolvimento de APIs e migração gradual de componentes e código legado para frameworks e infraestruturas modernas.</p><p>Aqui estão alguns dos projetos em que trabalhei na minha função anterior:</p>",
+          "store": "Você pode conferir esses aplicativos móveis na <apple>App Store</apple> ou no <google>Google Play</google>."
+        },
+        "sociov": {
+          "role": "Desenvolvedor Frontend",
+          "date": "2021",
+          "description": "Durante meu estágio, trabalhei no site oficial da empresa usando React.js e Tailwind CSS, que foi minha primeira experiência prática com React."
+        }
       },
-      "copyEmail": "copiar endereço de e-mail",
-      "copyEmailError": "Erro ao copiar o endereço de e-mail. Por enquanto, copie manualmente:",
-      "copied": "copiado"
+      "web": "Web",
+      "mobile": "Móvel"
+    },
+    "about": {
+      "introduction": "<p>Sou um desenvolvedor de software que gosta de criar aplicativos web e mobile.</p><p>Sou especializado em React e Next.js para desenvolvimento frontend, além de React Native e Expo SDK para aplicativos móveis. No backend, trabalho com Laravel e MySQL. Foco em escrever código limpo e funcional, além de criar interfaces amigáveis que melhoram a experiência do usuário.</p><p>Tenho bacharelado em Tecnologia da Informação pela <a>Universidade Perpetual Help System Laguna</a>, graduando-me com distinção acadêmica Magna Cum Laude.</p><p>Fora da programação, gosto de ouvir música, assistir filmes e séries de TV, ler livros ou jogar videogames.</p>"
     }
   },
   "ui": {
     "header": {
       "about": "Sobre"
     },
-    "footer": {}
+    "footer": {},
+    "email": {
+      "copy": "copiar endereço de e-mail",
+      "error": "Erro ao copiar o endereço de e-mail. Por enquanto, copie manualmente:",
+      "copied": "copiado"
+    },
+    "connect": "Quer colaborar em um projeto? Sinta-se à vontade para <email>entrar em contato por e-mail</email>. Você também pode me seguir no <github>GitHub</github> ou se conectar comigo no <linkedin>LinkedIn</linkedin>."
   }
 }

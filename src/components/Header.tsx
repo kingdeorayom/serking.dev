@@ -3,7 +3,7 @@ import ThemeToggler from "./ui/theme-toggler";
 import { useTranslations } from "next-intl";
 
 const Header = () => {
-  const t = useTranslations();
+  const t = useTranslations("ui.header");
   return (
     <header className="flex items-center justify-between pb-12">
       <Link
@@ -16,7 +16,7 @@ const Header = () => {
       </Link>
       <div className="flex items-center space-x-5">
         <Link href="/about" className="hovered-link text-sm">
-          {t("ui.header.about")}
+          {t("about")}
         </Link>
         <ThemeToggler />
       </div>

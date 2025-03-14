@@ -8,7 +8,7 @@ const LocaleSwitcher = () => {
 
   const locales = [
     { code: "en", label: "English" },
-    { code: "jp", label: "日本語" },
+    { code: "ja", label: "日本語" },
     { code: "es", label: "Español" },
     { code: "fr", label: "Français" },
     { code: "hi", label: "हिन्दी" },

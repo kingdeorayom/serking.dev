@@ -25,7 +25,7 @@ const CopyToClipboard = () => {
       {isCopyingError && (
         <div className="block space-y-3">
           <label className="block text-xs text-red-700 dark:text-red-500">
-            {t("pages.home.copyEmailError")}
+            {t("ui.email.error")}
           </label>
           <label className="block text-xs font-semibold">
             {"kingdeorayom@gmail.com"}
@@ -40,7 +40,7 @@ const CopyToClipboard = () => {
           <FaRegCopy size={16} className="cursor-pointer" />
 
           <label className="ml-2 cursor-pointer text-sm">
-            {isCopied ? t("pages.home.copied") : t("pages.home.copyEmail")}
+            {isCopied ? t("ui.email.copied") : t("ui.email.copy")}
           </label>
         </label>
       </button>

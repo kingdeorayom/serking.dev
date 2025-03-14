@@ -1,14 +1,13 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import React from "react";
-import CopyToClipboard from "./CopyToClipboard";
+import CopyToClipboard from "./ui/copy-to-clipboard";
 
 const Contact = () => {
   const t = useTranslations();
   return (
     <div className="flex flex-col space-y-6">
       <p>
-        {t.rich("pages.home.hero.connect", {
+        {t.rich("ui.connect", {
           email: (children) => (
             <Link
               href="mailto:kingdeorayom@gmail.com"
