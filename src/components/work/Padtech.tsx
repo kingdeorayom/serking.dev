@@ -59,7 +59,7 @@ const Padtech = () => {
               </li>
               <li>
                 <Link
-                  href="http://consult.jobhost.biz/"
+                  href="https://consult.jobhost.biz/"
                   target="_blank"
                   className="hovered-link"
                 >
