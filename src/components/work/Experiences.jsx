@@ -1,0 +1,87 @@
+import Separator from "../ui/Separator";
+import Projects from "./Projects";
+
+const Experiences = () => {
+    return (
+        <>
+            <div className="flex flex-col gap-y-6">
+                <div>
+                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                        Padtech Industries Corporation
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        Frontend Developer
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        Sep 2022 - Apr 2025
+                    </p>
+                </div>
+                <p>
+                    Over the course of <em>over two and a half years</em>, I've
+                    had the privilege of making significant contributions to the
+                    company, notably as one of the primary frontend developers
+                    and UI/UX designers.
+                </p>
+                <p>
+                    I&apos;ve played a key role in building responsive user
+                    interfaces, integrating backend functionality, optimizing
+                    performance, and ensuring scalability for most of the
+                    company's apps and websites.
+                </p>
+                <p>
+                    I&apos;ve also gained experience in database management, API
+                    development, and gradually migrating legacy components and
+                    codebase to modern frameworks and infrastructure.
+                </p>
+
+                <p>
+                    Below are the projects I&apos;ve been involved with during
+                    my stay at this company.
+                </p>
+
+                <Projects />
+            </div>
+
+            <Separator />
+
+            <div className="flex flex-col gap-y-6">
+                <div>
+                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                        Freelancing
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        Full-stack Developer
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        2023 - present
+                    </p>
+                </div>
+                <p>I occasionally take on freelance projects.</p>
+
+                <Projects />
+            </div>
+            <Separator />
+
+            <div className="flex flex-col gap-y-6">
+                <div>
+                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                        Sociov Technologies, Inc.
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        Frontend Developer
+                    </p>
+                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                        2021
+                    </p>
+                </div>
+                <p>
+                    During my internship, I worked on the company&apos;s
+                    official website using React.js and Tailwind CSS, which was
+                    my first hands-on experience with React.
+                </p>
+            </div>
+        </>
+    );
+};
+
+export default Experiences;

@@ -1,0 +1,29 @@
+/* Common styles for both themes */
+.tweet .react-tweet-theme p {
+  font-size: inherit;
+  line-height: 1.3rem;
+}
+
+.tweet .react-tweet-theme p a {
+  @apply border-b border-gray-300 transition-[border-color] hover:border-gray-600;
+}
+
+/* Dark theme link styles */
+@media (prefers-color-scheme: dark) {
+  .tweet .react-tweet-theme p a {
+    @apply border-gray-500 text-white hover:border-white;
+  }
+}
+
+/* Remove link underline on hover for both themes */
+.tweet .react-tweet-theme p a:hover {
+  text-decoration: none;
+}
+
+.tweet a div {
+  @apply font-medium tracking-tight;
+}
+
+.tweet div[class*="mediaWrapper"] {
+  max-height: 250px;
+}
