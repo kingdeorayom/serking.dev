@@ -10,7 +10,7 @@ const RECOMMENDATIONS = [
             {
                 title: 'ASUS 24" 144Hz IPS Monitor',
                 description:
-                    "My primary display. I use this for coding and well... gaming. A lot.",
+                    "My primary display. I use this for coding and gaming a lot.",
             },
             {
                 title: 'AOC 21.5" 75Hz VA Monitor',
@@ -20,7 +20,7 @@ const RECOMMENDATIONS = [
             {
                 title: "ASUS X515JP Laptop",
                 description:
-                    "An entry-level laptop that offers performance enough to demo projects when meeting with a client. It also gets the job done when using an AVD (Android Emulator from Android Studio), or when just presenting web-based projects.",
+                    "An entry-level laptop that offers performance enough to demo projects when meeting with a client. It also gets the job done when presenting web-based projects.",
             },
             {
                 title: "Apple iPad (6th Generation)",
@@ -28,7 +28,6 @@ const RECOMMENDATIONS = [
                     "Enough to run iOS apps I develop. I only use React Native for iOS development anyway.",
             },
             {
-                // title: "Royal Kludge RK84 75% Wireless Mechanical Keyboard",
                 title: "AULA F75: Premium Gasket Mechanical Keyboard",
                 description:
                     "With all the typing, a very good keyboard is a necessity. And this is a very good keyboard for me.",
@@ -36,7 +35,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Logitech G304 Lightspeed Wireless Gaming Mouse",
                 description:
-                    "Best mouse I have ever had. Great for work and gaming purposes.",
+                    "Best budget mouse I have ever had. Great for work and gaming purposes.",
             },
             {
                 title: "Creative Pebble Desktop Speakers",
@@ -51,7 +50,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Visual Studio Code",
                 description:
-                    "Best text editor I have ever used. Used by many so why shoudn't I?",
+                    "Has many useful extensions that speed up my development.",
             },
             {
                 title: "Postman",
@@ -71,12 +70,12 @@ const RECOMMENDATIONS = [
             {
                 title: "MongoDB Compass",
                 description:
-                    "I use MongoDB, of course I'd use MongoDB Compass. Free, interactive, and is the easiest way to explore and manipulate your data.",
+                    "Free, interactive, and is the easiest way to explore and manipulate your MongoDB data.",
             },
             {
                 title: "GitHub Desktop",
                 description:
-                    "I keep all my public and private repositories on GitHub, and have been doing it that way since I started software development. GitHub Desktop simply maximizes my experience with it.",
+                    "I keep all my public and private repositories on GitHub. GitHub Desktop simply maximizes my experience with it.",
             },
             {
                 title: "Google Chrome",
@@ -96,7 +95,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Adobe Photoshop",
                 description:
-                    "My go-to app when I need to quickly create and edit images. I'm not good at Photoshop though. I just use it, maybe, because old habits die hard.",
+                    "My go-to app when I need to quickly create and edit images. I'm not proficient at Photoshop, though.",
             },
         ],
     },
@@ -104,19 +103,21 @@ const RECOMMENDATIONS = [
         section: "Recreation",
         content: [
             {
-                title: "Nintendo Switch Lite",
+                title: "Nintendo Switch",
+                // description:
+                //     "A Nintendo fan boy since I was a little kid, started on Game Boy Color, Game Boy Advance SP, moved up to DS, 3DS, and now the Switch. I chose the Lite as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you're a gamer. Make time to change pace.",
                 description:
-                    "A Nintendo fan boy since I was a little kid, started on Game Boy Color, Game Boy Advance SP, moved up to DS, 3DS, and now the Switch. I chose the Lite as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you're a gamer. Make time to change pace.",
+                    "I chose the Switch as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you're a gamer. Make time to change pace.",
             },
             {
                 title: "Chess",
                 description:
-                    "A good game of chess every now and then is a must-have.",
+                    "A good game of chess every now and then is a must-have for me.",
             },
             {
-                title: "Guitar",
+                title: "Acoustic Guitar",
                 description:
-                    "A good way to relax while playing some Neil Young, Jim Croce and James Taylor.",
+                    "A good way to relax while playing some Neil Young, Jim Croce and James Taylor songs.",
             },
         ],
     },

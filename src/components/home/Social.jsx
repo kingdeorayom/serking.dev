@@ -15,7 +15,7 @@ const Social = () => {
             <div className="flex flex-wrap">
                 {SOCIALS.map((item, index) => {
                     return (
-                        <div className="group flex w-fit mx-1" key={index}>
+                        <div className="group flex w-fit m-1" key={index}>
                             <Link
                                 href={item.url}
                                 target="_blank"

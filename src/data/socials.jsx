@@ -4,7 +4,7 @@ import {
     // FaSpotify,
     FaFacebook,
     // FaInstagram,
-    // FaFacebookMessenger,
+    FaFacebookMessenger,
 } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa6";
 // import { MdGamepad } from "react-icons/md";
@@ -15,6 +15,12 @@ const SOCIALS = [
         url: "https://facebook.com/kingdeorayom",
         text: "Serking de Orayom",
         icon: <FaFacebook size={20} color="#1877F2" className="" />,
+    },
+    {
+        description: "Messenger",
+        url: "https://m.me/kingdeorayom",
+        text: "Serking de Orayom",
+        icon: <FaFacebookMessenger size={20} color="#1877F2" className="" />,
     },
     {
         description: "LinkedIn",
@@ -28,12 +34,6 @@ const SOCIALS = [
         text: "@kingdeorayom",
         icon: <FaGithub size={20} className="" />,
     },
-    // {
-    //     description: "Messenger",
-    //     url: "https://m.me/kingdeorayom",
-    //     text: "Serking de Orayom",
-    //     icon: <FaFacebookMessenger size={20} color="#1877F2" className="" />,
-    // },
 
     // {
     //     description: "Instagram",

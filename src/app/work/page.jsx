@@ -10,7 +10,7 @@ export const metadata = {
 export default function WorkPage() {
     return (
         <div className="flex flex-col space-y-6">
-            <div className="flex flex-col space-y-6">
+            <section className="flex flex-col space-y-6">
                 <h1 className="font-medium text-2xl tracking-tighter">
                     My work experiences
                 </h1>
@@ -19,7 +19,7 @@ export default function WorkPage() {
                     collaborate with a team, contribute to impactful projects,
                     and continue growing as a developer.
                 </p>
-            </div>
+            </section>
             <Separator />
             <Experiences />
             <Stack />

@@ -3,7 +3,8 @@ import Image from "next/image";
 import about1 from "/public/images/about/about1.jpg";
 import about2 from "/public/images/about/about2.jpg";
 import about3 from "/public/images/about/about3.jpg";
-import about4 from "/public/images/about/about4.jpg";
+// import about4 from "/public/images/about/about4.jpg";
+import about9 from "/public/images/about/about9.jpg";
 // import about5 from "/public/images/about/about5.jpg";
 // import about6 from "/public/images/about/about6.jpg";
 import about7 from "/public/images/about/about7.jpg";
@@ -63,11 +64,11 @@ const Gallery = () => {
                         </Link>
                     </div>
                     <div className="w-1/2 p-1 md:p-2 hover:opacity-90 cursor-pointer">
-                        <Link href={about4.src} target="_blank">
+                        <Link href={about9.src} target="_blank">
                             <Image
                                 alt="gallery"
                                 className="block h-full w-full rounded-2xl object-cover object-center"
-                                src={about4}
+                                src={about9}
                             />
                         </Link>
                     </div>

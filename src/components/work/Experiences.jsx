@@ -67,7 +67,7 @@ const Experiences = () => {
                         Frontend Developer
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                        2021
+                        2021 (Internship)
                     </p>
                 </div>
                 <p>
