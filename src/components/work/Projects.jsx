@@ -6,19 +6,15 @@ import Separator from "../ui/Separator";
 
 const Projects = ({ company }) => {
     return (
-        <div className="flex flex-col gap-y-6">
-            {/* <h2 className="font-medium text-2xl tracking-tighter">
-                My projects
-            </h2> */}
-            {/* <p>Personal, freelance, and company projects I worked on.</p> */}
+        <div className="flex flex-col space-y-6">
             <p className="text-xs text-neutral-600 dark:text-neutral-400">
                 DISCLAIMER: Some projects may have changed in both looks and
                 functionality since I&apos;m no longer maintaining them. Certain
                 projects&mdash;including those owned by previous
                 companies&mdash;are permitted to be showcased in this website.
             </p>
-            <Separator className="my-2" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
+            {/* <Separator className="my-2" /> */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 py-4">
                 {PROJECTS.map((project) => {
                     return (
                         <Link

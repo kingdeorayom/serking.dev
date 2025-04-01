@@ -1,9 +1,9 @@
 import Image from "next/image";
-import serkingdeorayom from "../../../public/images/me/serking-de-orayom-full.jpg";
+import serkingdeorayom from "/public/images/me/serking-de-orayom-full.jpg";
 
 const Introduction = () => {
     return (
-        <>
+        <section className="flex flex-col space-y-6">
             <h1 className="font-medium text-2xl tracking-tighter">
                 Hi, I&apos;m Serking de Orayom. A web and mobile app developer.
             </h1>
@@ -20,7 +20,7 @@ const Introduction = () => {
                 mobile. Check my projects and work history to see what I've been
                 working on.
             </p>
-        </>
+        </section>
     );
 };
 

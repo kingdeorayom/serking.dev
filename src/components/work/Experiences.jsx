@@ -3,8 +3,8 @@ import Projects from "./Projects";
 
 const Experiences = () => {
     return (
-        <>
-            <div className="flex flex-col gap-y-6">
+        <section className="flex flex-col space-y-6">
+            <div className="flex flex-col space-y-6">
                 <div>
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Padtech Industries Corporation
@@ -41,10 +41,8 @@ const Experiences = () => {
 
                 <Projects />
             </div>
-
             <Separator />
-
-            <div className="flex flex-col gap-y-6">
+            <div className="flex flex-col space-y-6">
                 <div>
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Freelancing
@@ -57,12 +55,10 @@ const Experiences = () => {
                     </p>
                 </div>
                 <p>I occasionally take on freelance projects.</p>
-
                 <Projects />
             </div>
             <Separator />
-
-            <div className="flex flex-col gap-y-6">
+            <div className="flex flex-col space-y-6">
                 <div>
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Sociov Technologies, Inc.
@@ -80,7 +76,8 @@ const Experiences = () => {
                     my first hands-on experience with React.
                 </p>
             </div>
-        </>
+            <Separator />
+        </section>
     );
 };
 

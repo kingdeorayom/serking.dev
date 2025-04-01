@@ -2,18 +2,13 @@ import STACKS from "@/data/stacks";
 
 const Stack = () => {
     return (
-        <div className="flex flex-col gap-y-12">
-            <div className="flex flex-col gap-y-6">
-                {/* <h2 className="font-medium text-2xl tracking-tighter"> */}
-                <h2 className="font-medium text-xl tracking-tighter">
-                    Tech stack
-                </h2>
-                <p>
-                    Programming languages, frameworks, libraries, apps, platform
-                    and services I use to build and run a website, application,
-                    or any project.
-                </p>
-            </div>
+        <section className="flex flex-col space-y-6">
+            <h2 className="font-medium text-xl tracking-tighter">Tech stack</h2>
+            <p>
+                Programming languages, frameworks, libraries, apps, platform and
+                services I use to build and run a website, application, or any
+                project.
+            </p>
             <div className="grid grid-cols-4 sm:grid-cols-6 gap-6">
                 {STACKS.map((stack, index) => {
                     return (
@@ -30,7 +25,7 @@ const Stack = () => {
                     );
                 })}
             </div>
-        </div>
+        </section>
     );
 };
 

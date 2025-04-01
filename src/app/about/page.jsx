@@ -8,11 +8,9 @@ export const metadata = {
 
 export default function AboutPage() {
     return (
-        <section className="flex-auto min-w-0 flex flex-col">
-            <div className="flex flex-col gap-y-6">
-                <Introduction />
-                <Tabs />
-            </div>
-        </section>
+        <div className="flex flex-col space-y-6">
+            <Introduction />
+            <Tabs />
+        </div>
     );
 }

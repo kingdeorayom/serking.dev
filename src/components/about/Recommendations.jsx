@@ -5,17 +5,15 @@ import Image from "next/image";
 
 const Recommendations = () => {
     return (
-        <>
+        <section className="flex flex-col space-y-6">
             <h2 className="font-medium text-xl tracking-tighter">
                 Software I use, gadgets I love, and other things I recommend.
             </h2>
-
             <p>
                 Things I use to build software, stay productive, or buy to fool
                 myself into thinking I&apos;m being productive when I&apos;m
                 really just procrastinating.
             </p>
-
             <div className="py-6">
                 <Image
                     alt="Work and Gaming Setup"
@@ -23,26 +21,22 @@ const Recommendations = () => {
                     src={setup}
                 />
             </div>
-
             <p>Here&apos;s a big list of all of my favorite stuff:</p>
-
-            {RECOMMENDATIONS.map((recommendation, index) => {
-                return (
-                    <React.Fragment key={index}>
-                        <SectionTitle sectionTitle={recommendation.section} />
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {recommendation.content.map((item, index) => (
-                                <RecommendationCard
-                                    key={index}
-                                    title={item.title}
-                                    description={item.description}
-                                />
-                            ))}
-                        </div>
-                    </React.Fragment>
-                );
-            })}
-        </>
+            {RECOMMENDATIONS.map((recommendation, index) => (
+                <React.Fragment key={index}>
+                    <SectionTitle sectionTitle={recommendation.section} />
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {recommendation.content.map((item, index) => (
+                            <RecommendationCard
+                                key={index}
+                                title={item.title}
+                                description={item.description}
+                            />
+                        ))}
+                    </div>
+                </React.Fragment>
+            ))}
+        </section>
     );
 };
 

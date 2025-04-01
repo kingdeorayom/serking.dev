@@ -2,16 +2,14 @@ import Link from "next/link";
 
 const Work = () => {
     return (
-        <>
+        <section className="flex flex-col space-y-6">
             <h2 className="font-medium text-xl tracking-tighter">
                 My interest in tech
             </h2>
-
             <p>
                 I was in my early teenage years when the world of computing
                 opened its doors to me.{" "}
             </p>
-
             <p>
                 My journey has been a whirlwind of exploration: picture a
                 younger version of me, huddled in a local computer shop&apos;s{" "}
@@ -33,11 +31,9 @@ const Work = () => {
                 </Link>
                 , when my piso credits are low).
             </p>
-
             {/* <div className="animate-pulse">
                 <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
             </div> */}
-
             <p>
                 It was a wild introduction to computing technology. Years passed
                 and I found myself tinkering with smartphones and laptops,
@@ -45,14 +41,12 @@ const Work = () => {
                 installed, respectively. I had a lot of fun doing it, making me
                 curious how software worked in general.
             </p>
-
             <p>
                 It was then that I realized what career I wanted to pursue and
                 so I took BS Information Technology in college.
             </p>
-
             <p>Now, I am into software development.</p>
-        </>
+        </section>
     );
 };
 

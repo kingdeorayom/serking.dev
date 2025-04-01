@@ -1,17 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import Tabs from "./Tabs"; // Adjust the path as necessary
 import BlogCard from "./BlogCard";
+import Tabs from "./Tabs";
 
 const Blogs = ({ blogs }) => {
     const [selectedTag, setSelectedTag] = useState("all");
 
     const tags = ["all", "journal", "guide", "others"];
 
-    const handleTagClick = (tag) => {
+    const handleTagClick = (tag) =>
         setSelectedTag((prevTag) => (prevTag === tag ? null : tag));
-    };
 
     const filteredAndSortedBlogs = blogs
         .filter((blog) => {
@@ -26,20 +25,18 @@ const Blogs = ({ blogs }) => {
         });
 
     return (
-        <div className="space-y-10">
+        <section className="flex flex-col space-y-6">
             <Tabs
                 tags={tags}
                 selectedTag={selectedTag}
                 onTagClick={handleTagClick}
             />
-
-            {/* <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-10"> */}
             <div className="flex flex-col space-y-10">
                 {filteredAndSortedBlogs.map((post) => (
                     <BlogCard key={post.slug} post={post} />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 
