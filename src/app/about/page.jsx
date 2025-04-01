@@ -10,7 +10,6 @@ export default function AboutPage() {
     return (
         <section className="flex-auto min-w-0 flex flex-col">
             <div className="flex flex-col gap-y-6">
-                {/* <BackButton /> */}
                 <Introduction />
                 <Tabs />
             </div>

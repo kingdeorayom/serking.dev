@@ -19,12 +19,11 @@ const Personal = () => {
             </p> */}
 
             <p>
-                These days, I spend most of my free time reading books,
-                listening to music, playing video games or watching movies, TV
-                series or anime.
+                When I'm not at work, I immerse myself in my favorite
+                activities: reading books, listening to music, playing video
+                games, binge-watching movies, TV shows, and anime, or enjoying
+                quality time with friends and family.
             </p>
-
-            <p>If time permits, I also hang out with my friends and family.</p>
 
             <Gallery />
 

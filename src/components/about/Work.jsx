@@ -4,7 +4,7 @@ const Work = () => {
     return (
         <>
             <h2 className="font-medium text-xl tracking-tighter">
-                How it started
+                My interest in tech
             </h2>
 
             <p>
