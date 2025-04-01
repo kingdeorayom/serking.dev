@@ -39,7 +39,7 @@ const Experiences = () => {
                     my stay at this company.
                 </p>
 
-                <Projects />
+                <Projects company="padtech" />
             </div>
             <Separator />
             <div className="flex flex-col space-y-6">
@@ -55,7 +55,7 @@ const Experiences = () => {
                     </p>
                 </div>
                 <p>I occasionally take on freelance projects.</p>
-                <Projects />
+                <Projects company="freelance" />
             </div>
             <Separator />
             <div className="flex flex-col space-y-6">

@@ -7,9 +7,9 @@ const Introduction = () => {
             <h1 className="font-medium text-2xl tracking-tighter">
                 Hi, I&apos;m Serking de Orayom. A web and mobile app developer.
             </h1>
-            <div className="flex items-center justify-start py-5">
+            <div className="flex items-center justify-center py-10">
                 <Image
-                    className="rounded-2xl dark:border dark:border-white/10 h-52 w-52"
+                    className="rounded-2xl dark:border dark:border-white/10 h-60 w-60 rotate-3"
                     src={serkingdeorayom}
                     alt="Serking de Orayom"
                 />
