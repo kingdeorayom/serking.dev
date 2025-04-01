@@ -3,10 +3,10 @@
 import { useRef } from "react";
 import { useFormStatus } from "react-dom";
 import SignOutButton from "./auth/SignOutButton";
-import { saveGuestbookEntry } from "@/db/actions";
+// import { saveGuestbookEntry } from "@/db/actions";
 
 const Form = () => {
-    const formRef = useRef < HTMLFormElement > null;
+    const formRef = useRef(null);
     const { pending } = useFormStatus();
 
     const checkInput = (input) => {
@@ -22,7 +22,8 @@ const Form = () => {
                 ref={formRef}
                 action={async (formData) => {
                     checkInput(formData.get("entry"));
-                    await saveGuestbookEntry(formData);
+                    // await saveGuestbookEntry(formData);
+                    console.log(formData);
                     formRef.current?.reset();
                 }}
                 className="flex w-full max-w-sm items-center space-x-2"
