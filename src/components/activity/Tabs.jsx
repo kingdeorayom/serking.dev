@@ -13,7 +13,7 @@ const Tabs = () => {
 
     return (
         <>
-            <div className="text-sm font-medium text-center text-gray-500 dark:text-gray-400 py-1">
+            <div className="text-sm font-medium text-center py-1">
                 <ul className="flex flex-wrap -mb-px">
                     {TABS.map((item, index) => {
                         return (
@@ -23,10 +23,10 @@ const Tabs = () => {
                                 onClick={() => handleTabChange(index)}
                             >
                                 <label
-                                    className={`inline-block lowercase px-4 py-1 rounded-full cursor-pointer ${
+                                    className={`font-medium mx-1 my-2 px-3 py-1 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-50/10 ${
                                         tabIndex === index
-                                            ? "text-[#292929] font-semibold bg-slate-50 dark:border-white"
-                                            : " border-none hover:border-gray-300 hover:text-gray-800 dark:hover:text-gray-300"
+                                            ? "bg-slate-50 border dark:border-neutral-700 dark:text-gray-100 dark:hover:text-gray-100 hover:bg-gray-100 dark:bg-gray-50/10"
+                                            : ""
                                     }`}
                                     aria-current="page"
                                 >

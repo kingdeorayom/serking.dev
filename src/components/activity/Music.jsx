@@ -1,14 +1,11 @@
-import MUSIC_ACTIVITIES from "@/data/music_activities";
-import MusicCard from "./MusicCard";
+import CurrentlyPlaying from "./music/CurrentlyPlaying";
+import TopTracks from "./music/TopTracks";
 
 const Music = () => {
     return (
-        <div className="my-5 mx-2">
-            <ol className="relative border-s border-gray-200 dark:border-gray-700">
-                {MUSIC_ACTIVITIES.map((activity) => (
-                    <MusicCard key={activity.id} activity={activity} />
-                ))}
-            </ol>
+        <div className="my-5 mx-2 space-y-12">
+            <CurrentlyPlaying />
+            <TopTracks />
         </div>
     );
 };

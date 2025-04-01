@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Separator from "../ui/Separator";
+// import Separator from "../ui/Separator";
 import { MdGamepad } from "react-icons/md";
 
 const GamingCard = ({ activity }) => {
@@ -31,7 +31,7 @@ const GamingCard = ({ activity }) => {
                     />
                 </div>
             </div>
-            <Separator />
+            {/* <Separator /> */}
         </li>
     );
 };
