@@ -50,7 +50,7 @@ const Education = () => {
                                             Magna Cum Laude
                                         </span>
                                     </p>
-                                    <p className="text-neutral-600 font-light text-xs dark:text-neutral-400">
+                                    <p className="text-neutral-600 font-light text-xs dark:text-neutral-300">
                                         2018 - 2022
                                         {/* Class of 2022 */}
                                     </p>

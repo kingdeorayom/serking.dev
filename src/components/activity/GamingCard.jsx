@@ -14,10 +14,10 @@ const GamingCard = ({ activity }) => {
                         {activity?.title}
                     </h3>
                     <div className="space-y-1">
-                        <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-400">
+                        <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-300">
                             {`Last played: ${activity?.lastPlayed}`}
                         </time>
-                        <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-400">
+                        <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-300">
                             {`Total play time: ${activity?.playTime} hours`}
                         </time>
                     </div>

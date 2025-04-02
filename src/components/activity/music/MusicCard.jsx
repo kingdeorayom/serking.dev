@@ -18,10 +18,10 @@ const MusicCard = ({ activity }) => {
                         {activity?.title}
                     </h3>
                     <div className="space-y-1">
-                        <time className="block text-sm font-normal leading-none text-neutral-500 dark:text-neutral-400">
+                        <time className="block text-sm font-normal leading-none text-neutral-500 dark:text-neutral-300">
                             {`${activity?.artist}`}
                         </time>
-                        {/* <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-400">
+                        {/* <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-300">
                             {`Last Played: ${activity?.lastPlayed} mins ago`}
                         </time> */}
                     </div>

@@ -3,7 +3,9 @@ import STACKS from "@/data/stacks";
 const Stack = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h2 className="font-medium text-xl tracking-tighter">Tech stack</h2>
+            <h2 className="font-medium text-2xl tracking-tighter">
+                Tech stack
+            </h2>
             <p>
                 Programming languages, frameworks, libraries, apps, platform and
                 services I use to build and run a website, application, or any

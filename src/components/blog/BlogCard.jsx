@@ -37,20 +37,20 @@ const BlogCard = ({ post }) => {
                             {post.metadata.tag}
                         </p>
                         <div>
-                            <LuDot className="text-neutral-900 dark:text-neutral-400" />
+                            <LuDot className="text-neutral-900 dark:text-neutral-300" />
                         </div>
 
                         <p className="text-xs text-neutral-900 dark:text-neutral-100">
                             {format(post?.metadata.publishedAt, "MMMM d, yyyy")}
                         </p>
                         <div>
-                            <LuDot className="text-neutral-900 dark:text-neutral-400" />
+                            <LuDot className="text-neutral-900 dark:text-neutral-300" />
                         </div>
                         <p className="text-xs text-neutral-900 dark:text-neutral-100">
                             {`${post.metadata.duration} min read`}
                         </p>
                     </div>
-                    <p className="text-sm text-neutral-900 dark:text-neutral-400">
+                    <p className="text-sm text-neutral-900 dark:text-neutral-300">
                         {post.metadata.summary}
                     </p>
                 </div>

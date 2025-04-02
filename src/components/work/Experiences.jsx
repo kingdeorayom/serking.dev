@@ -9,10 +9,10 @@ const Experiences = () => {
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Padtech Industries Corporation
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         Frontend Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         Sep 2022 - Apr 2025
                     </p>
                 </div>
@@ -22,12 +22,14 @@ const Experiences = () => {
                     company, notably as one of the primary frontend developers
                     and UI/UX designers.
                 </p>
+
                 <p>
                     I&apos;ve played a key role in building responsive user
                     interfaces, integrating backend functionality, optimizing
                     performance, and ensuring scalability for most of the
                     company's apps and websites.
                 </p>
+
                 <p>
                     I&apos;ve also gained experience in database management, API
                     development, and gradually migrating legacy components and
@@ -35,8 +37,8 @@ const Experiences = () => {
                 </p>
 
                 <p>
-                    Below are the projects I&apos;ve been involved with during
-                    my stay at this company.
+                    Below are the projects I&apos;ve designed and developed the
+                    UI during my stay at the company.
                 </p>
 
                 <Projects company="padtech" />
@@ -47,10 +49,10 @@ const Experiences = () => {
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Freelancing
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         Full-stack Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         2023 - present
                     </p>
                 </div>
@@ -63,10 +65,10 @@ const Experiences = () => {
                     <p className="font-medium text-xl mb-1 tracking-tighter">
                         Sociov Technologies, Inc.
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         Frontend Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         2021 (Internship)
                     </p>
                 </div>

@@ -4,7 +4,7 @@ export default function ViewCounter({ slug, allViews }) {
     const number = new Number(viewsForSlug?.count || 0);
 
     return (
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <p className="text-neutral-600 dark:text-neutral-300 text-sm">
             {`${number.toLocaleString()} views`}
         </p>
     );
