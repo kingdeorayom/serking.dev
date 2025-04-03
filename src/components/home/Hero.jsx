@@ -22,23 +22,6 @@ const Hero = () => {
                     <span className="border-b border-dashed">MySQL</span> for
                     the backend.
                 </p>
-                {/* <p>
-                    I&apos;m a software developer from the Philippines
-                    specializing in building responsive and user-focused
-                    applications for web and mobile.
-                </p>
-                <p>
-                    I specialize in{" "}
-                    <span className="border-b border-dashed">React</span> and{" "}
-                    <span className="border-b border-dashed">Next.js</span> for
-                    frontend development,{" "}
-                    <span className="border-b border-dashed">React Native</span>{" "}
-                    and <span className="border-b border-dashed">Expo SDK</span>{" "}
-                    for mobile applications and{" "}
-                    <span className="border-b border-dashed">Laravel</span> and{" "}
-                    <span className="border-b border-dashed">MySQL</span> for
-                    the backend.
-                </p> */}
             </div>
         </section>
     );

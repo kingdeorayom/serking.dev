@@ -1,8 +1,8 @@
 "use client";
-// components/home/CurrentlyPlaying.js
 
 import useSWR from "swr";
 import MusicCard from "./MusicCard";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const fetcher = async (url) => {
     const res = await fetch(url);
@@ -19,25 +19,21 @@ const CurrentlyPlaying = () => {
         {}
     );
 
-    if (!CURRENTLY_PLAYING) return <div>Loading...</div>;
+    if (!CURRENTLY_PLAYING)
+        return (
+            <div className="flex justify-center items-center">
+                <AiOutlineLoading3Quarters className="animate-spin" />
+            </div>
+        );
 
-    if (error) return <div>Error: {error.message}</div>;
-
-    // console.log(data);
+    if (error) return null;
 
     return (
-        <div className="space-y-8">
+        <div className="flex flex-col space-y-8">
             <p>Currently Playing</p>
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
                 <MusicCard activity={CURRENTLY_PLAYING} />
             </ol>
-            {/* <p>Title: {data.title}</p>
-      <p>Artist: {data.artist}</p>
-      <p>Album: {data.album}</p>
-      <img src={data.albumImageUrl} alt={data.album} />
-      <a href={data.songUrl} target="_blank" rel="noopener noreferrer">
-        Listen on Spotify
-      </a> */}
         </div>
     );
 };

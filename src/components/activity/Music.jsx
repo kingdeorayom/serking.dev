@@ -3,7 +3,7 @@ import TopTracks from "./music/TopTracks";
 
 const Music = () => {
     return (
-        <div className="my-5 mx-2 space-y-12">
+        <div className="my-5 mx-2 flex flex-col space-y-12">
             <CurrentlyPlaying />
             <TopTracks />
         </div>

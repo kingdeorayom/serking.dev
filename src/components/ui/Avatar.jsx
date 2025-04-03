@@ -1,9 +1,7 @@
+import { cn } from "@/utils/cn";
 import Image from "next/image";
 import Link from "next/link";
-import serkingdeorayom from "../../../public/images/me/studio.jpg";
-import { cn } from "@/utils/cn";
-// import serkingdeorayom from "../../../public/images/me/favicon.png";
-// import serkingdeorayom from "../../../public/images/me/formal-pic-square-blue.jpg";
+import serkingdeorayom from "/public/images/me/studio.jpg";
 
 const Avatar = ({ className }) => {
     return (

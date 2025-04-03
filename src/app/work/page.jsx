@@ -11,7 +11,7 @@ export default function WorkPage() {
     return (
         <div className="flex flex-col space-y-6">
             <section className="flex flex-col space-y-6">
-                <h1 className="font-medium text-2xl tracking-tighter">
+                <h1 className="font-semibold text-2xl tracking-tighter">
                     My work experiences
                 </h1>
                 <p>

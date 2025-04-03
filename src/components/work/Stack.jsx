@@ -3,7 +3,7 @@ import STACKS from "@/data/stacks";
 const Stack = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h2 className="font-medium text-2xl tracking-tighter">
+            <h2 className="font-semibold text-2xl tracking-tighter">
                 Tech stack
             </h2>
             <p>
