@@ -35,7 +35,7 @@ const CopyToClipboard = () => {
                 onClick={copyToClipboard}
                 className="flex flex-col md:flex-row mt-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300 cursor-pointer"
             >
-                <label className="flex items-center hover:text-neutral-400 transition-all cursor-pointer">
+                <label className="flex items-center hover:text-neutral-400 cursor-pointer">
                     <FaRegCopy size={16} className="cursor-pointer" />
 
                     <label className="ml-2 text-sm cursor-pointer">

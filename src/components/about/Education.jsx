@@ -47,14 +47,14 @@ const Education = () => {
                                         Laguna
                                     </p>
                                     <p className=" text-xs text-neutral-900 dark:text-neutral-100">
-                                        BS Information Technology,{" "}
-                                        <span className="italic">
-                                            Magna Cum Laude
-                                        </span>
+                                        BS Information Technology
                                     </p>
-                                    <p className="text-neutral-600 font-light text-xs dark:text-neutral-300">
-                                        2018 - 2022
-                                        {/* Class of 2022 */}
+                                    <em className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                        Magna cum laude
+                                    </em>
+                                    <p className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                        {/* 2018 - 2022 */}
+                                        Class of 2022
                                     </p>
                                 </div>
                             </div>

@@ -11,23 +11,8 @@ import SessionProvider from "@/providers/session";
 
 export const metadata = {
     title: "Serking de Orayom",
-    description: "Web and mobile app developer",
-    openGraph: {
-        title: "Serking de Orayom",
-        description: "Web and mobile app developer",
-        images: [
-            {
-                url: "https://serking.dev/og.png",
-                width: 1200,
-                height: 700,
-            },
-        ],
-    },
-    twitter: {
-        title: "Serking de Orayom",
-        description: "Web and mobile app developer",
-        images: ["https://serking.dev/og.png"],
-    },
+    description:
+        "I'm a software developer from the Philippines specializing in building responsive and user-focused applications for web and mobile.",
 };
 
 export default async function RootLayout({ children }) {

@@ -59,7 +59,7 @@ const Projects = ({ company = "" }) => {
                                         <Link
                                             href={project.androidUrl}
                                             target="_blank"
-                                            className="text-xs hovered-link text-blue-800 dark:text-sky-400"
+                                            className="text-xs hovered-link text-blue-800 dark:text-white"
                                         >
                                             Google Play
                                         </Link>
@@ -69,7 +69,7 @@ const Projects = ({ company = "" }) => {
                                         <Link
                                             href={project.iosUrl}
                                             target="_blank"
-                                            className="text-xs hovered-link text-blue-800 dark:text-sky-400"
+                                            className="text-xs hovered-link text-blue-800 dark:text-white"
                                         >
                                             App Store
                                         </Link>
