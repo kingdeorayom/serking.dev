@@ -21,6 +21,10 @@ const Introduction = () => {
                             Check my projects and work history to see what I've
                             been working on.
                         </p>
+                        <p>
+                            If you want to know more about my personal life,
+                            keep reading.
+                        </p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center order-first md:order-last">

@@ -6,7 +6,7 @@ const Personal = () => {
     return (
         <section className="flex flex-col space-y-6">
             <div className="flex flex-col space-y-6">
-                <h2 className="font-medium text-xl tracking-tighter">
+                <h2 className="font-semibold text-xl tracking-tighter">
                     Outside of work
                 </h2>
                 <p>

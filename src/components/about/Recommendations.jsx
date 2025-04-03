@@ -6,7 +6,7 @@ import Image from "next/image";
 const Recommendations = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h2 className="font-medium text-xl tracking-tighter">
+            <h2 className="font-semibold text-xl tracking-tighter">
                 Software I use, gadgets I love, and other things I recommend.
             </h2>
             <p>
