@@ -50,7 +50,7 @@ const Experiences = () => {
                         Freelancing
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-300 text-sm">
-                        Full-stack Developer
+                        Full-Stack Developer
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                         2023 - present

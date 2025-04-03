@@ -11,7 +11,7 @@ const Tabs = () => {
     const handleTabChange = (index) => setTabIndex(index);
 
     const TABS = [
-        { label: "Work" },
+        { label: "Career" },
         { label: "Education" },
         { label: "Personal" },
     ];
