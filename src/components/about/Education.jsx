@@ -7,7 +7,7 @@ import uphsl from "../../../public/images/education/uphsl.png";
 const Education = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h2 className="font-semibold text-xl tracking-tighter">
+            <h2 className="text-xl font-semibold tracking-tighter">
                 Where I studied
             </h2>
 
@@ -25,7 +25,7 @@ const Education = () => {
                 with an academic honor of distinction: <em>Magna Cum Laude</em>.
             </p>
 
-            <div className="my-2 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+            <div className="my-2 flex w-full flex-col space-y-4 space-x-0 sm:flex-row sm:space-y-0 sm:space-x-4">
                 <div className="group flex w-full">
                     <Link
                         href="https://www.uphsl.edu.ph/"
@@ -37,28 +37,28 @@ const Education = () => {
                                 <div>
                                     <Image
                                         src={uphsl}
-                                        className="object-contain w-12 h-12 rounded-lg"
+                                        className="h-12 w-12 rounded-lg object-contain"
                                         alt="University of Perpetual Help System Laguna"
                                     />
                                 </div>
                                 <div className="flex flex-col">
-                                    <p className="font-bold line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
+                                    <p className="line-clamp-1 text-sm font-bold text-neutral-900 dark:text-neutral-100">
                                         University of Perpetual Help System
                                         Laguna
                                     </p>
-                                    <p className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                    <p className="text-xs text-neutral-900 dark:text-neutral-100">
                                         BS Information Technology
                                     </p>
-                                    <em className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                    <em className="text-xs text-neutral-900 dark:text-neutral-100">
                                         Magna cum laude
                                     </em>
-                                    <p className=" text-xs text-neutral-900 dark:text-neutral-100">
+                                    <p className="text-xs text-neutral-900 dark:text-neutral-100">
                                         {/* 2018 - 2022 */}
                                         Class of 2022
                                     </p>
                                 </div>
                             </div>
-                            <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
+                            <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
                                 <FiArrowUpRight size={18} />
                             </div>
                         </Card>

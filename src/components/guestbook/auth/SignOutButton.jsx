@@ -6,9 +6,9 @@ const SignOutButton = () => {
     return (
         <button
             onClick={() => signOut()}
-            className="hover:underline cursor-pointer"
+            className="cursor-pointer hover:underline"
         >
-            <label className="text-xs text-gray-500 dark:text-gray-300 cursor-pointer">
+            <label className="cursor-pointer text-xs text-gray-500 dark:text-gray-300">
                 Log out
             </label>
         </button>

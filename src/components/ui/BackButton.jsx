@@ -7,18 +7,15 @@ const BackButton = () => {
 
     const handleBack = () => {
         if (window.history.length > 1) {
-            // There is a history to go back to
             router.back();
-        } else {
-            // No history, go to the homepage
-            router.push("/");
         }
+        router.push("/");
     };
 
     return (
-        <div className="flex items-center space-x-2 text-primary hover:underline cursor-pointer w-fit">
+        <div className="text-primary flex w-fit cursor-pointer items-center space-x-2 hover:underline">
             <FaChevronLeft size={10} />
-            <label onClick={handleBack} className="text-xs cursor-pointer">
+            <label onClick={handleBack} className="cursor-pointer text-xs">
                 Back
             </label>
         </div>

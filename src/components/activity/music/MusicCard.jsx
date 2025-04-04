@@ -7,18 +7,18 @@ const MusicCard = ({ activity }) => {
     const imageURL = activity?.coverImage?.url || activity?.albumImageUrl;
 
     return (
-        <li className="mb-10 ms-6">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-slate-50 rounded-full -start-3 ring-4 ring-slate-50 dark:ring-neutral-900 dark:bg-neutral-900">
+        <li className="ms-6 mb-10">
+            <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-slate-50 ring-4 ring-slate-50 dark:bg-neutral-900 dark:ring-neutral-900">
                 {activity?.icon}
                 <FaSpotify size={18} color="#1DB954" />
             </span>
-            <div className="md:flex justify-between">
+            <div className="justify-between md:flex">
                 <div className="space-y-2">
-                    <h3 className="font-medium line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                    <h3 className="line-clamp-1 font-medium text-neutral-900 dark:text-neutral-100">
                         {activity?.title}
                     </h3>
                     <div className="space-y-1">
-                        <time className="block text-sm font-normal leading-none text-neutral-500 dark:text-neutral-300">
+                        <time className="block text-sm leading-none font-normal text-neutral-500 dark:text-neutral-300">
                             {`${activity?.artist}`}
                         </time>
                         {/* <time className="block text-xs font-normal leading-none text-neutral-500 dark:text-neutral-300">
@@ -40,7 +40,7 @@ const MusicCard = ({ activity }) => {
                     <Image
                         src={imageURL}
                         alt={activity?.title}
-                        className="rounded-md h-[72px] w-[72px]"
+                        className="h-[72px] w-[72px] rounded-md"
                         height={300}
                         width={300}
                     />

@@ -13,8 +13,8 @@ const ThemeToggler = () => {
 
     if (!mounted)
         return (
-            <div className="animate-pulse flex space-x-4">
-                <div className="rounded-full bg-slate-200 dark:bg-slate-900 h-4 w-4"></div>
+            <div className="flex animate-pulse space-x-4">
+                <div className="h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-900"></div>
             </div>
         );
 
@@ -24,7 +24,7 @@ const ThemeToggler = () => {
                 onClick={() => setTheme("dark")}
                 type="button"
                 aria-label="Switch to dark theme"
-                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur-sm transition"
+                className="group rounded-full bg-white px-3 py-2 shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm transition hover:ring-zinc-900/10"
             >
                 <MdOutlineLightMode className="h-6 w-6 fill-amber-500" />
             </button>
@@ -37,7 +37,7 @@ const ThemeToggler = () => {
                 onClick={() => setTheme("light")}
                 type="button"
                 aria-label="Switch to light theme"
-                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur-sm transition dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group rounded-full bg-white px-3 py-2 shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm transition dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
             >
                 <MdOutlineDarkMode className="h-6 w-6 fill-green-500" />
             </button>

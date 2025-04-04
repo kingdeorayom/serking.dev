@@ -5,7 +5,6 @@ import SocialSignIn from "./SocialSignIn";
 
 const Authentication = () => {
     const { data: session } = useSession();
-    console.log(session);
     return session?.user ? <Form /> : <SocialSignIn />;
 };
 

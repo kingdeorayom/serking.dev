@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="flex flex-col space-y-8">
             <Avatar className="h-16 w-16" />
             <div className="flex flex-col space-y-6">
-                <h1 className="font-semibold md:font-bold text-3xl md:text-4xl tracking-tighter">
+                <h1 className="text-3xl font-semibold tracking-tighter md:text-4xl md:font-bold">
                     Hi, I&apos;m Serking&mdash;software developer, designer,
                     gamer.
                 </h1>

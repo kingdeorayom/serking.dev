@@ -15,7 +15,7 @@ const Social = () => {
             <div className="flex flex-wrap">
                 {SOCIALS.map((item, index) => {
                     return (
-                        <div className="group flex w-fit m-1" key={index}>
+                        <div className="group m-1 flex w-fit" key={index}>
                             <Link
                                 href={item.url}
                                 target="_blank"
@@ -26,7 +26,7 @@ const Social = () => {
                                         <div>{item.icon}</div>
                                         <div className="flex flex-col">
                                             {/* or text-xs */}
-                                            <p className="font-medium text-sm line-clamp-1 text-neutral-900 dark:text-neutral-100">
+                                            <p className="line-clamp-1 text-sm font-medium text-neutral-900 dark:text-neutral-100">
                                                 {item.description}
                                             </p>
                                             {/* <p className=" text-xs text-neutral-500 dark:text-neutral-100">
@@ -34,7 +34,7 @@ const Social = () => {
                                                 </p> */}
                                         </div>
                                     </div>
-                                    <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
+                                    <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
                                         <FiArrowUpRight
                                             size={16}
                                             className="ms-2"

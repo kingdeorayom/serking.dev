@@ -35,7 +35,7 @@ const MenuToggler = () => {
     return (
         <>
             <button
-                className="group flex sm:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur-sm dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm hover:ring-zinc-900/10 sm:hidden dark:bg-neutral-800 dark:text-neutral-50 dark:ring-white/10 dark:hover:ring-white/20"
                 aria-expanded="false"
                 onClick={openMenu}
             >
@@ -45,7 +45,7 @@ const MenuToggler = () => {
             <section className="relative md:hidden">
                 {menuOpen && (
                     <div
-                        className="fixed inset-0 z-50 transition-opacity duration-300 bg-zinc-800/20 backdrop-blur-xs dark:bg-black/80"
+                        className="fixed inset-0 z-50 bg-zinc-800/20 backdrop-blur-xs transition-opacity duration-300 dark:bg-black/80"
                         onClick={closeMenu}
                     />
                 )}
@@ -61,7 +61,7 @@ const MenuToggler = () => {
                             >
                                 <IoIosClose className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
                             </button>
-                            <h2 className="text-xs font-bold uppercase text-zinc-600 dark:text-zinc-400">
+                            <h2 className="text-xs font-bold text-zinc-600 uppercase dark:text-zinc-400">
                                 MENU
                             </h2>
                         </div>
@@ -73,14 +73,14 @@ const MenuToggler = () => {
                                     return (
                                         <li
                                             key={item.path}
-                                            className="cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded-sm"
+                                            className="cursor-pointer rounded-sm px-2 hover:bg-slate-50 dark:hover:bg-neutral-800"
                                         >
                                             <Link
                                                 href={item.path}
                                                 onClick={closeMenu}
                                                 className="flex items-center justify-between"
                                             >
-                                                <p className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-4 text-sm capitalize">
+                                                <p className="relative flex py-4 align-middle text-sm capitalize transition-all hover:text-neutral-800 dark:hover:text-neutral-200">
                                                     {item.label}
                                                 </p>
 

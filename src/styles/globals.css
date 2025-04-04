@@ -32,18 +32,13 @@
   }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.text-balance {
+  text-wrap: balance;
 }
 
-@layer base {
-  .hovered-link {
-    @apply border-b border-gray-300 hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white
-  }
+.hovered-link {
+  @apply border-b border-gray-300 hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white
 }
-
 .prose .anchor {
   @apply absolute invisible no-underline;
 

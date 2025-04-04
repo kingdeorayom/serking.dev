@@ -4,11 +4,11 @@ import serkingdeorayom from "../../../public/images/me/studio.jpg";
 const Introduction = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h1 className="font-bold text-3xl md:text-4xl tracking-tighter">
+            <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 {/* Hi, I&apos;m Serking de Orayom. A web and mobile app developer. */}
                 Hi, I&apos;m Serking&mdash;software developer, designer, gamer.
             </h1>
-            <div className="grid gap-y-10 md:gap-y-0 md:grid-cols-2 py-10">
+            <div className="grid gap-y-10 py-10 md:grid-cols-2 md:gap-y-0">
                 <div className="flex items-center md:order-first">
                     <div className="flex flex-col space-y-6 md:text-lg">
                         <p>
@@ -26,9 +26,9 @@ const Introduction = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-center justify-center order-first md:order-last">
+                <div className="order-first flex items-center justify-center md:order-last">
                     <Image
-                        className="rounded-2xl dark:border dark:border-white/10 h-60 w-60 rotate-2"
+                        className="h-60 w-60 rotate-2 rounded-2xl dark:border dark:border-white/10"
                         src={serkingdeorayom}
                         alt="Serking de Orayom"
                     />

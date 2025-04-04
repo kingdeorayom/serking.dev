@@ -16,7 +16,7 @@ const Gallery = () => {
         <section className="py-2">
             <div className="-m-1 flex flex-wrap md:-m-2">
                 <div className="flex w-1/2 flex-wrap">
-                    <div className="w-1/2 p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about1.src} target="_blank">
                             <Image
                                 alt="gallery"
@@ -25,7 +25,7 @@ const Gallery = () => {
                             />
                         </Link>
                     </div>
-                    <div className="w-1/2 p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about3.src} target="_blank">
                             <Image
                                 alt="gallery"
@@ -34,7 +34,7 @@ const Gallery = () => {
                             />
                         </Link>
                     </div>
-                    <div className="w-full p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-full cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about2.src} target="_blank">
                             <Image
                                 alt="gallery"
@@ -45,7 +45,7 @@ const Gallery = () => {
                     </div>
                 </div>
                 <div className="flex w-1/2 flex-wrap">
-                    <div className="w-full p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-full cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about8.src} target="_blank">
                             <Image
                                 alt="gallery"
@@ -54,7 +54,7 @@ const Gallery = () => {
                             />
                         </Link>
                     </div>
-                    <div className="w-1/2 p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about7.src} target="_blank">
                             <Image
                                 alt="gallery"
@@ -63,7 +63,7 @@ const Gallery = () => {
                             />
                         </Link>
                     </div>
-                    <div className="w-1/2 p-1 md:p-2 hover:opacity-90 cursor-pointer">
+                    <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
                         <Link href={about9.src} target="_blank">
                             <Image
                                 alt="gallery"

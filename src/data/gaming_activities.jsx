@@ -22,20 +22,20 @@ import rdr2 from "../../public/images/steam/rdr2.png";
 import witcher_3 from "../../public/images/steam/witcher_3.png";
 
 const NintendoBadge = () => (
-    <div className="flex items-center space-x-2 rounded-md h-6 px-2 py-1 w-fit bg-[#E60012] text-white">
+    <div className="flex h-6 w-fit items-center space-x-2 rounded-md bg-[#E60012] px-2 py-1 text-white">
         <div>
             <SiNintendoswitch size={14} />
         </div>
-        <p className="font-semibold text-xs">Switch</p>
+        <p className="text-xs font-semibold">Switch</p>
     </div>
 );
 
 const SteamBadge = () => (
-    <div className="flex items-center space-x-2 rounded-md h-6 px-2 py-1 w-fit bg-[#1B2838] text-white">
+    <div className="flex h-6 w-fit items-center space-x-2 rounded-md bg-[#1B2838] px-2 py-1 text-white">
         <div>
             <SiSteam size={14} />
         </div>
-        <p className="font-semibold text-xs">Steam</p>
+        <p className="text-xs font-semibold">Steam</p>
     </div>
 );
 

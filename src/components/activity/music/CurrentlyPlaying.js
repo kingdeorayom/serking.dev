@@ -21,7 +21,7 @@ const CurrentlyPlaying = () => {
 
     if (!CURRENTLY_PLAYING)
         return (
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
                 <AiOutlineLoading3Quarters className="animate-spin" />
             </div>
         );

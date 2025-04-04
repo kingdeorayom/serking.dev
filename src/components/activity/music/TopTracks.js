@@ -19,7 +19,7 @@ const TopTracks = () => {
 
     if (!MUSIC_ACTIVITIES)
         return (
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
                 <AiOutlineLoading3Quarters className="animate-spin" />
             </div>
         );

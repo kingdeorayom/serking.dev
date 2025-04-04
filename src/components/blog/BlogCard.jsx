@@ -7,10 +7,10 @@ const BlogCard = ({ post }) => {
     return (
         <Link
             key={post.slug}
-            className="group border-b border-neutral-200 dark:border-neutral-800 pb-8"
+            className="group border-b border-neutral-200 pb-8 dark:border-neutral-800"
             href={`/notes/${post.slug}`}
         >
-            <div className="w-full flex flex-col space-y-2">
+            <div className="flex w-full flex-col space-y-2">
                 {/* <div className="rounded-md overflow-hidden max-w-full max-h-full w-full h-36">
                     <Image
                         src={post.metadata.image}
@@ -27,13 +27,13 @@ const BlogCard = ({ post }) => {
                 </div> */}
                 <div className="space-y-3">
                     <p
-                        className="text-neutral-900 dark:text-neutral-100 tracking-tight group-hover:underline font-medium"
+                        className="font-medium tracking-tight text-neutral-900 group-hover:underline dark:text-neutral-100"
                         title={post.metadata.title}
                     >
                         {post.metadata.title}
                     </p>
                     <div className="flex space-x-0.5">
-                        <p className="capitalize text-xs text-neutral-900 dark:text-neutral-100">
+                        <p className="text-xs text-neutral-900 capitalize dark:text-neutral-100">
                             {post.metadata.tag}
                         </p>
                         <div>

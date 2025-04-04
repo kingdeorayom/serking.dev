@@ -6,7 +6,7 @@ import Image from "next/image";
 const Recommendations = () => {
     return (
         <section className="flex flex-col space-y-6">
-            <h2 className="font-semibold text-xl tracking-tighter">
+            <h2 className="text-xl font-semibold tracking-tighter">
                 Software I use, gadgets I love, and other things I recommend.
             </h2>
             <p>
@@ -25,7 +25,7 @@ const Recommendations = () => {
             {RECOMMENDATIONS.map((recommendation, index) => (
                 <React.Fragment key={index}>
                     <SectionTitle sectionTitle={recommendation.section} />
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         {recommendation.content.map((item, index) => (
                             <RecommendationCard
                                 key={index}
@@ -43,13 +43,13 @@ const Recommendations = () => {
 export default Recommendations;
 
 const SectionTitle = ({ sectionTitle }) => (
-    <h3 className="text-xs font-bold uppercase text-zinc-600 dark:text-zinc-100">
+    <h3 className="text-xs font-bold text-zinc-600 uppercase dark:text-zinc-100">
         {sectionTitle}
     </h3>
 );
 
 const RecommendationCard = ({ title, description }) => (
-    <div className="space-y-2 text-sm bg-slate-50 dark:bg-neutral-900 p-5 rounded-2xl">
+    <div className="space-y-2 rounded-2xl bg-slate-50 p-5 text-sm dark:bg-neutral-900">
         <h4 className="font-semibold">{title}</h4>
         <p className="text-gray-500 dark:text-gray-400">{description}</p>
     </div>

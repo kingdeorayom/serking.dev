@@ -6,13 +6,13 @@ const Experiences = () => {
         <section className="flex flex-col space-y-6">
             <div className="flex flex-col space-y-6">
                 <div>
-                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                    <p className="mb-1 text-xl font-medium tracking-tighter">
                         Padtech Industries Corporation
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         Frontend Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         Sep 2022 - Apr 2025
                     </p>
                 </div>
@@ -46,13 +46,13 @@ const Experiences = () => {
             <Separator />
             <div className="flex flex-col space-y-6">
                 <div>
-                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                    <p className="mb-1 text-xl font-medium tracking-tighter">
                         Freelancing
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         Full-Stack Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         2023 - present
                     </p>
                 </div>
@@ -62,13 +62,13 @@ const Experiences = () => {
             <Separator />
             <div className="flex flex-col space-y-6">
                 <div>
-                    <p className="font-medium text-xl mb-1 tracking-tighter">
+                    <p className="mb-1 text-xl font-medium tracking-tighter">
                         Sociov Technologies, Inc.
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         Frontend Developer
                     </p>
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         2021 (Internship)
                     </p>
                 </div>

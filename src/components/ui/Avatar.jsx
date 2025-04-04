@@ -5,10 +5,10 @@ import serkingdeorayom from "../../../public/images/me/studio.jpg";
 
 const Avatar = ({ className }) => {
     return (
-        <Link href="/" className="hover:opacity-90 w-fit">
+        <Link href="/" className="w-fit hover:opacity-90">
             <Image
                 className={cn(
-                    "w-10 h-10 rounded-full dark:border dark:border-white/10",
+                    "h-10 w-10 rounded-full dark:border dark:border-white/10",
                     className
                 )}
                 src={serkingdeorayom}

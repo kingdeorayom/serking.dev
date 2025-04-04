@@ -21,24 +21,24 @@ const CopyToClipboard = () => {
         <section>
             {isCopyingError && (
                 <div className="block space-y-3">
-                    <label className="text-xs text-red-700 block">
+                    <label className="block text-xs text-red-700">
                         {
                             "Error copying email address. Sorry, I'm working on it! For the meantime, manually copy this:"
                         }
                     </label>
-                    <label className="text-xs font-semibold block">
+                    <label className="block text-xs font-semibold">
                         {"kingdeorayom@gmail.com"}
                     </label>
                 </div>
             )}
             <button
                 onClick={copyToClipboard}
-                className="flex flex-col md:flex-row mt-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300 cursor-pointer"
+                className="font-sm mt-4 flex cursor-pointer flex-col space-y-2 space-x-0 text-neutral-600 md:flex-row md:space-y-0 md:space-x-4 dark:text-neutral-300"
             >
-                <label className="flex items-center hover:text-neutral-400 cursor-pointer">
+                <label className="flex cursor-pointer items-center hover:text-neutral-400">
                     <FaRegCopy size={16} className="cursor-pointer" />
 
-                    <label className="ml-2 text-sm cursor-pointer">
+                    <label className="ml-2 cursor-pointer text-sm">
                         {isCopied ? "copied" : "copy email address"}
                     </label>
                 </label>
