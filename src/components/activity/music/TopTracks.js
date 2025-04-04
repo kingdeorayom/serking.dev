@@ -32,7 +32,7 @@ const TopTracks = () => {
                 My top tracks on Spotify. If you know these, we&apos;ll
                 definitely be on the same wavelength.
             </p>
-            <ol className="relative border-s border-gray-200 dark:border-gray-700">
+            <ol className="relative border-s border-neutral-200 dark:border-gray-700">
                 {MUSIC_ACTIVITIES.map((activity) => (
                     <MusicCard key={activity.url} activity={activity} />
                 ))}
