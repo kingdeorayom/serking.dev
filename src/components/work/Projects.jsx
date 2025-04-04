@@ -20,13 +20,13 @@ const Projects = ({ company = "" }) => {
                         key={project?.title}
                         className={project.webUrl ? "group" : ""}
                     >
-                        <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full md:h-40 rounded-sm p-1.5 shadow-sm">
+                        <div className="border dark:border-neutral-700 dark:bg-neutral-900 aspect-h-1 aspect-w-1 w-full md:h-40 rounded-xs p-1.5 shadow-xs">
                             <Image
                                 src={project.image.src}
                                 alt="Project"
                                 width={1920}
                                 height={1080}
-                                className="h-full w-full object-contain md:object-cover object-center rounded-sm"
+                                className="h-full w-full object-contain md:object-cover object-center rounded-xs"
                             />
                         </div>
                         <div className="text-sm px-2 py-3 space-y-2">

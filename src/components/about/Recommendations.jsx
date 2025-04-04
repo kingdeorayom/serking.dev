@@ -1,6 +1,6 @@
 import React from "react";
 import RECOMMENDATIONS from "@/data/recommendations";
-import setup from "/public/images/about/setup.jpg";
+import setup from "../../../public/images/about/setup.jpg";
 import Image from "next/image";
 
 const Recommendations = () => {
@@ -17,7 +17,7 @@ const Recommendations = () => {
             <div className="py-6">
                 <Image
                     alt="Work and Gaming Setup"
-                    className="block h-full w-full rounded-2xl object-cover object-center"
+                    className="block h-full w-3/4 rounded-2xl object-cover object-center"
                     src={setup}
                 />
             </div>

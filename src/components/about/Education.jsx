@@ -2,7 +2,7 @@ import Link from "next/link";
 import Card from "../ui/Card";
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
-import uphsl from "/public/images/education/uphsl.png";
+import uphsl from "../../../public/images/education/uphsl.png";
 
 const Education = () => {
     return (

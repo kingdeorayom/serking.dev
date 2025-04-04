@@ -1,14 +1,14 @@
 import Image from "next/image";
 
-import about1 from "/public/images/about/about1.jpg";
-import about2 from "/public/images/about/about2.jpg";
-import about3 from "/public/images/about/about3.jpg";
-// import about4 from "/public/images/about/about4.jpg";
-import about9 from "/public/images/about/about9.jpg";
-// import about5 from "/public/images/about/about5.jpg";
-// import about6 from "/public/images/about/about6.jpg";
-import about7 from "/public/images/about/about7.jpg";
-import about8 from "/public/images/about/about8.jpg";
+import about1 from "../../../public/images/about/about1.jpg";
+import about2 from "../../../public/images/about/about2.jpg";
+import about3 from "../../../public/images/about/about3.jpg";
+// import about4 from "../../../public/images/about/about4.jpg";
+import about9 from "../../../public/images/about/about9.jpg";
+// import about5 from "../../../public/images/about/about5.jpg";
+// import about6 from "../../../public/images/about/about6.jpg";
+import about7 from "../../../public/images/about/about7.jpg";
+import about8 from "../../../public/images/about/about8.jpg";
 import Link from "next/link";
 
 const Gallery = () => {

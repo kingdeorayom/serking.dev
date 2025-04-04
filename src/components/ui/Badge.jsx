@@ -4,7 +4,7 @@ const Badge = ({ className, label }) => {
     return (
         <div
             className={cn(
-                "inline-flex items-center rounded-full border border-neutral-100 dark:border-neutral-800 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+                "inline-flex items-center rounded-full border border-neutral-100 dark:border-neutral-800 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2",
                 className
             )}
         >

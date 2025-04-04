@@ -1,25 +1,25 @@
 import { SiNintendoswitch, SiSteam } from "react-icons/si";
 // Nintendo imports
-import botw from "/public/images/nintendo/zelda_breath_of_the_wild.png";
-import shining_pearl from "/public/images/nintendo/pokemon_shining_pearl.png";
-import animal_crossing from "/public/images/nintendo/animal_crossing.png";
-import f_zero_99 from "/public/images/nintendo/f_zero_99.png";
-import hollow_knight from "/public/images/nintendo/hollow_knight.png";
-import mario_kart_8_deluxe from "/public/images/nintendo/mario_kart_8_deluxe.png";
-import legends_arceus from "/public/images/nintendo/pokemon_legends_arceus.png";
-import lets_go_pikachu from "/public/images/nintendo/pokemon_lets_go_pikachu.png";
-import scarlet from "/public/images/nintendo/pokemon_scarlet.png";
-import stardew_valley from "/public/images/nintendo/stardew_valley.png";
-import smash_bros from "/public/images/nintendo/super_smash_bros.png";
-import links_awakening from "/public/images/nintendo/zelda_links_awakening.png";
+import botw from "../../public/images/nintendo/zelda_breath_of_the_wild.png";
+import shining_pearl from "../../public/images/nintendo/pokemon_shining_pearl.png";
+import animal_crossing from "../../public/images/nintendo/animal_crossing.png";
+import f_zero_99 from "../../public/images/nintendo/f_zero_99.png";
+import hollow_knight from "../../public/images/nintendo/hollow_knight.png";
+import mario_kart_8_deluxe from "../../public/images/nintendo/mario_kart_8_deluxe.png";
+import legends_arceus from "../../public/images/nintendo/pokemon_legends_arceus.png";
+import lets_go_pikachu from "../../public/images/nintendo/pokemon_lets_go_pikachu.png";
+import scarlet from "../../public/images/nintendo/pokemon_scarlet.png";
+import stardew_valley from "../../public/images/nintendo/stardew_valley.png";
+import smash_bros from "../../public/images/nintendo/super_smash_bros.png";
+import links_awakening from "../../public/images/nintendo/zelda_links_awakening.png";
 // Steam imports
-import ace_attorney_trilogy from "/public/images/steam/ace_attorney_trilogy.png";
-import assassins_creed_origins from "/public/images/steam/assassins_creed_origins.png";
-import ff6_pixel_remaster from "/public/images/steam/ff6_pixel_remaster.png";
-import gta_5 from "/public/images/steam/gta_5.png";
-import hades from "/public/images/steam/hades.png";
-import rdr2 from "/public/images/steam/rdr2.png";
-import witcher_3 from "/public/images/steam/witcher_3.png";
+import ace_attorney_trilogy from "../../public/images/steam/ace_attorney_trilogy.png";
+import assassins_creed_origins from "../../public/images/steam/assassins_creed_origins.png";
+import ff6_pixel_remaster from "../../public/images/steam/ff6_pixel_remaster.png";
+import gta_5 from "../../public/images/steam/gta_5.png";
+import hades from "../../public/images/steam/hades.png";
+import rdr2 from "../../public/images/steam/rdr2.png";
+import witcher_3 from "../../public/images/steam/witcher_3.png";
 
 const NintendoBadge = () => (
     <div className="flex items-center space-x-2 rounded-md h-6 px-2 py-1 w-fit bg-[#E60012] text-white">

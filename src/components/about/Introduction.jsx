@@ -1,6 +1,5 @@
 import Image from "next/image";
-// import serkingdeorayom from "/public/images/me/serking-de-orayom-full.jpg";
-import serkingdeorayom from "/public/images/me/studio.jpg";
+import serkingdeorayom from "../../../public/images/me/studio.jpg";
 
 const Introduction = () => {
     return (

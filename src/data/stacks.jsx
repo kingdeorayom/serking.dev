@@ -26,9 +26,10 @@ import {
     SiTailwindcss,
     SiTypescript,
     SiVercel,
-    SiVisualstudiocode,
     SiYarn,
 } from "react-icons/si";
+
+// import { SiJavascript, SiTypescript } from "react-icons/si";
 
 const STACKS = [
     {
@@ -112,10 +113,10 @@ const STACKS = [
         name: "Android Studio",
         icon: <SiAndroidstudio size={28} color="#50AD54" />,
     },
-    {
-        name: "VS Code",
-        icon: <SiVisualstudiocode size={28} color="#0066B8" />,
-    },
+    // {
+    //     name: "VS Code",
+    //     icon: <SiVisualstudiocode size={28} color="#0066B8" />,
+    // },
     {
         name: "Figma",
         icon: <SiFigma size={28} color="#EA4C1D" />,

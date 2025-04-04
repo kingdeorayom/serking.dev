@@ -35,7 +35,7 @@ const MenuToggler = () => {
     return (
         <>
             <button
-                className="group flex sm:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group flex sm:hidden items-center rounded-full px-4 py-2 text-xs font-medium text-zinc-800 bg-white/90 dark:text-neutral-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur-sm dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
                 aria-expanded="false"
                 onClick={openMenu}
             >
@@ -45,7 +45,7 @@ const MenuToggler = () => {
             <section className="relative md:hidden">
                 {menuOpen && (
                     <div
-                        className="fixed inset-0 z-50 transition-opacity duration-300 bg-zinc-800/20 backdrop-blur-sm dark:bg-black/80"
+                        className="fixed inset-0 z-50 transition-opacity duration-300 bg-zinc-800/20 backdrop-blur-xs dark:bg-black/80"
                         onClick={closeMenu}
                     />
                 )}
@@ -73,7 +73,7 @@ const MenuToggler = () => {
                                     return (
                                         <li
                                             key={item.path}
-                                            className="cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded"
+                                            className="cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-800 px-2 rounded-sm"
                                         >
                                             <Link
                                                 href={item.path}

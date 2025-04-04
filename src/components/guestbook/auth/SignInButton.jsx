@@ -9,7 +9,7 @@ const SignInButton = ({ provider, icon: Icon, label }) => {
             <div>
                 <button
                     onClick={() => signIn(provider)}
-                    className="cursor-pointer px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-slate-50 hover:bg-slate-100 dark:bg-neutral-900 hover:dark:hover:bg-neutral-800 rounded-md text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100"
+                    className="cursor-pointer px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-slate-50 hover:bg-slate-100 dark:bg-neutral-900 dark:hover:hover:bg-neutral-800 rounded-md text-sm flex items-center leading-4 text-neutral-900 dark:text-neutral-100"
                 >
                     <Icon />
                     <div className="ml-3 cursor-pointer">

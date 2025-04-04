@@ -24,7 +24,7 @@ const ThemeToggler = () => {
                 onClick={() => setTheme("dark")}
                 type="button"
                 aria-label="Switch to dark theme"
-                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur transition"
+                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:ring-zinc-900/10 backdrop-blur-sm transition"
             >
                 <MdOutlineLightMode className="h-6 w-6 fill-amber-500" />
             </button>
@@ -37,7 +37,7 @@ const ThemeToggler = () => {
                 onClick={() => setTheme("light")}
                 type="button"
                 aria-label="Switch to light theme"
-                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group rounded-full bg-white px-3 py-2 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur-sm transition dark:bg-neutral-800 dark:ring-white/10 dark:hover:ring-white/20"
             >
                 <MdOutlineDarkMode className="h-6 w-6 fill-green-500" />
             </button>

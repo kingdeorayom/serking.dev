@@ -1,13 +1,16 @@
-import { GeistSans } from "geist/font/sans";
-import { cn } from "@/utils/cn";
-import "@/styles/globals.css";
-
-import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { ThemeProvider } from "@/providers/theme";
-import { getServerSession } from "next-auth";
-
+import Header from "@/components/layout/Header";
 import SessionProvider from "@/providers/session";
+import { ThemeProvider } from "@/providers/theme";
+import "@/styles/globals.css";
+import { cn } from "@/utils/cn";
+import { getServerSession } from "next-auth";
+import { Geist } from "next/font/google";
+
+const geistSans = Geist({
+    variable: "--font-geist-sans",
+    subsets: ["latin"],
+});
 
 export const metadata = {
     title: "Serking de Orayom",
@@ -22,8 +25,8 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "max-w-3xl min-h-screen flex flex-col mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
-                    GeistSans.className
+                    "antialiased max-w-3xl min-h-screen flex flex-col mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
+                    geistSans.className
                 )}
             >
                 <ThemeProvider
@@ -33,7 +36,7 @@ export default async function RootLayout({ children }) {
                 >
                     <SessionProvider session={session}>
                         <Header />
-                        <main className="flex-grow pb-20">{children}</main>
+                        <main className="grow pb-20">{children}</main>
                         <Footer />
                     </SessionProvider>
                 </ThemeProvider>

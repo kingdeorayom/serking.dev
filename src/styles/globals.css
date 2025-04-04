@@ -1,5 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
 @tailwind utilities;
 
 /* ::selection {

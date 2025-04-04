@@ -15,7 +15,7 @@ const Stack = () => {
                 {STACKS.map((stack, index) => {
                     return (
                         <div key={index}>
-                            <div className="border dark:border-neutral-700 aspect-h-1 aspect-w-1 w-full h-20 rounded-md p-1 flex justify-center items-center shadow-sm">
+                            <div className="border dark:border-neutral-700 aspect-h-1 aspect-w-1 w-full h-20 rounded-md p-1 flex justify-center items-center shadow-xs">
                                 {stack?.icon}
                             </div>
                             <div className="text-sm px-2 py-3 space-y-1">
