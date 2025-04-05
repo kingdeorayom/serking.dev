@@ -59,7 +59,7 @@ const Projects = ({ company = "" }) => {
                                         <Link
                                             href={project.androidUrl}
                                             target="_blank"
-                                            className="border-b border-gray-300 text-xs text-blue-800 hover:border-gray-600 dark:border-gray-500 dark:text-white dark:hover:border-white"
+                                            className="hovered-link text-xs text-blue-800 dark:text-white"
                                         >
                                             Google Play
                                         </Link>
@@ -69,7 +69,7 @@ const Projects = ({ company = "" }) => {
                                         <Link
                                             href={project.iosUrl}
                                             target="_blank"
-                                            className="border-b border-gray-300 text-xs text-blue-800 hover:border-gray-600 dark:border-gray-500 dark:text-white dark:hover:border-white"
+                                            className="hovered-link text-xs text-blue-800 dark:text-white"
                                         >
                                             App Store
                                         </Link>

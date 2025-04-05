@@ -1,3 +1,5 @@
+@reference "tailwindcss";
+
 /* Common styles for both themes */
 .tweet .react-tweet-theme p {
   font-size: inherit;
@@ -5,13 +7,13 @@
 }
 
 .tweet .react-tweet-theme p a {
-  @reference border-b border-gray-300 transition-[border-color] hover:border-gray-600;
+  @apply border-b border-gray-300 transition-[border-color] hover:border-gray-600;
 }
 
 /* Dark theme link styles */
 @media (prefers-color-scheme: dark) {
   .tweet .react-tweet-theme p a {
-    @reference border-gray-500 text-white hover:border-white;
+    @apply border-gray-500 text-white hover:border-white;
   }
 }
 
@@ -21,7 +23,7 @@
 }
 
 .tweet a div {
-  @reference font-medium tracking-tight;
+  @apply font-medium tracking-tight;
 }
 
 .tweet div[class*="mediaWrapper"] {

@@ -16,7 +16,7 @@ const Work = () => {
                 <Link
                     href="https://en.wikipedia.org/wiki/Pisonet"
                     target="_blank"
-                    className="border-b border-gray-300 italic hover:border-gray-600 dark:border-gray-500 dark:text-white dark:hover:border-white"
+                    className="hovered-link italic"
                 >
                     pisonet
                 </Link>
@@ -25,7 +25,7 @@ const Work = () => {
                 <Link
                     href="https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
                     target="_blank"
-                    className="border-b border-gray-300 italic hover:border-gray-600 dark:border-gray-500 dark:text-white dark:hover:border-white"
+                    className="hovered-link italic"
                 >
                     Grand Theft Auto: Vice City
                 </Link>

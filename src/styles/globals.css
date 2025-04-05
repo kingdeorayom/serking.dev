@@ -1,12 +1,18 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-@tailwind utilities;
-
-/* ::selection {
-  background-color: green;
-  color: #fefefe;
-} */
+@theme {
+  --color-gray-300: oklch(87.2% 0.01 258.338);
+  --color-gray-500: oklch(55.1% 0.027 264.364);
+  --color-gray-600: oklch(44.6% 0.03 256.802);
+  --color-neutral-50: oklch(92.2% 0 0);
+  --color-neutral-200: oklch(98.5% 0 0);
+  --color-neutral-300: oklch(87% 0 0);
+  --color-neutral-400: oklch(70.8% 0 0);
+  --color-neutral-600: oklch(43.9% 0 0);
+  --color-neutral-700: oklch(37.1% 0 0);
+  --color-neutral-900: oklch(20.5% 0 0);
+}
 
 :root {
   --sh-class: #2d5e9d;
@@ -37,11 +43,11 @@
 }
 
 .hovered-link {
-  @reference border-b border-gray-300 hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white
+  @apply border-b border-gray-300 hover:border-gray-600 dark:text-white dark:border-gray-500 dark:hover:border-white
 }
-.prose .anchor {
-  @reference absolute invisible no-underline;
 
+.prose .anchor {
+  @apply absolute invisible no-underline;
   margin-left: -1em;
   padding-right: 0.5em;
   width: 80%;
@@ -50,53 +56,53 @@
 }
 
 .anchor:hover {
-  @reference visible;
+  @apply visible;
 }
 
 .prose a {
-  @reference transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
+  @apply transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
 }
 
 .prose .anchor:after {
-  @reference text-neutral-300 dark:text-neutral-700;
+  @apply text-neutral-300 dark:text-neutral-700;
   content: '#';
 }
 
 .prose *:hover > .anchor {
-  @reference visible;
+  @apply visible;
 }
 
 .prose pre {
-  @reference bg-neutral-50 dark:bg-neutral-900 rounded-lg overflow-x-auto border border-neutral-200 dark:border-neutral-900;
+  @apply bg-neutral-50 dark:bg-neutral-900 rounded-lg overflow-x-auto border border-neutral-200 dark:border-neutral-900;
 }
 
 .prose code {
-  @reference px-1 py-0.5 rounded-lg;
+  @apply px-1 py-0.5 rounded-lg;
 }
 
 .prose pre code {
-  @reference p-0;
+  @apply p-0;
   border: initial;
   line-height: 1.5;
 }
 
 .prose code span {
-  @reference font-medium;
+  @apply font-medium;
 }
 
 .prose img {
   /* Don't apply styles to next/image */
-  @reference m-0;
+  @apply m-0;
 }
 
 /* .prose h2,
 h3,
 h4 {
-  @reference font-medium tracking-tighter !important;
+  @apply font-medium tracking-tighter !important;
 } */
 
 .prose strong {
-  @reference font-medium;
+  @apply font-medium;
 }
 
 .prose > :first-child {
