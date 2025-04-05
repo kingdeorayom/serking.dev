@@ -12,6 +12,7 @@
         "@codesandbox/sandpack-react": "^2.20.0",
         "@googleapis/youtube": "^24.0.0",
         "@tailwindcss/typography": "^0.5.16",
+        "@tanstack/react-query": "^5.71.10",
         "@vercel/postgres": "^0.10.0",
         "clsx": "^2.1.1",
         "date-fns": "^4.1.0",
@@ -22,10 +23,13 @@
         "postgres": "^3.4.5",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
+        "react-hook-form": "^7.55.0",
         "react-icons": "^5.5.0",
         "react-tweet": "^3.2.2",
         "sugar-high": "^0.9.3",
-        "tailwind-merge": "^3.1.0"
+        "tailwind-merge": "^3.1.0",
+        "zod": "^3.24.2",
+        "zustand": "^5.0.3"
     },
     "devDependencies": {
         "@eslint/eslintrc": "^3",
