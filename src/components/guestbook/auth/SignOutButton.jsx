@@ -6,7 +6,7 @@ const SignOutButton = () => {
     return (
         <button
             onClick={() => signOut()}
-            className="cursor-pointer hover:underline"
+            className="cursor-pointer underline hover:opacity-70"
         >
             <label className="cursor-pointer text-xs text-gray-500 dark:text-gray-300">
                 Log out

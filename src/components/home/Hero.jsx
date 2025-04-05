@@ -12,15 +12,30 @@ const Hero = () => {
                 <p>
                     I&apos;m a software developer from the Philippines
                     specializing in{" "}
-                    <span className="border-b border-dashed">React</span> and{" "}
-                    <span className="border-b border-dashed">Next.js</span> for
-                    frontend development,{" "}
-                    <span className="border-b border-dashed">React Native</span>{" "}
-                    and <span className="border-b border-dashed">Expo SDK</span>{" "}
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        React
+                    </span>{" "}
+                    and{" "}
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        Next.js
+                    </span>{" "}
+                    for frontend development,{" "}
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        React Native
+                    </span>{" "}
+                    and{" "}
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        Expo SDK
+                    </span>{" "}
                     for mobile applications and{" "}
-                    <span className="border-b border-dashed">Laravel</span> and{" "}
-                    <span className="border-b border-dashed">MySQL</span> for
-                    the backend.
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        Laravel
+                    </span>{" "}
+                    and{" "}
+                    <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
+                        MySQL
+                    </span>{" "}
+                    for the backend.
                 </p>
             </div>
         </section>

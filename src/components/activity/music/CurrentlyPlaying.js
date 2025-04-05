@@ -1,8 +1,8 @@
 "use client";
 
+import Loading from "@/components/ui/Loading";
 import useSWR from "swr";
 import MusicCard from "./MusicCard";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const fetcher = async (url) => {
     const res = await fetch(url);
@@ -19,12 +19,7 @@ const CurrentlyPlaying = () => {
         {}
     );
 
-    if (!CURRENTLY_PLAYING)
-        return (
-            <div className="flex items-center justify-center">
-                <AiOutlineLoading3Quarters className="animate-spin" />
-            </div>
-        );
+    if (!CURRENTLY_PLAYING) return <Loading />;
 
     if (error) return null;
 

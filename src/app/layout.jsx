@@ -1,6 +1,7 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import SessionProvider from "@/providers/session";
+import { TanstackProvider } from "@/providers/tanstack-provider";
 import { ThemeProvider } from "@/providers/theme";
 import "@/styles/globals.css";
 import { cn } from "@/utils/cn";
@@ -25,21 +26,23 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "antialiased max-w-3xl min-h-screen flex flex-col mx-auto my-10 px-6 dark:bg-[#111010] dark:text-white",
+                    "mx-auto my-10 flex min-h-screen max-w-3xl flex-col px-6 antialiased dark:bg-[#111010] dark:text-white",
                     geistSans.className
                 )}
             >
-                <ThemeProvider
-                    attribute="class"
-                    defaultTheme="system"
-                    enableSystem
-                >
-                    <SessionProvider session={session}>
-                        <Header />
-                        <main className="grow pb-20">{children}</main>
-                        <Footer />
-                    </SessionProvider>
-                </ThemeProvider>
+                <TanstackProvider>
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="system"
+                        enableSystem
+                    >
+                        <SessionProvider session={session}>
+                            <Header />
+                            <main className="grow pb-20">{children}</main>
+                            <Footer />
+                        </SessionProvider>
+                    </ThemeProvider>
+                </TanstackProvider>
             </body>
         </html>
     );

@@ -11,9 +11,11 @@
     "dependencies": {
         "@codesandbox/sandpack-react": "^2.20.0",
         "@googleapis/youtube": "^24.0.0",
+        "@hookform/resolvers": "^5.0.1",
         "@tailwindcss/typography": "^0.5.16",
         "@tanstack/react-query": "^5.71.10",
         "@vercel/postgres": "^0.10.0",
+        "axios": "^1.8.4",
         "clsx": "^2.1.1",
         "date-fns": "^4.1.0",
         "next": "15.2.4",
@@ -28,6 +30,7 @@
         "react-tweet": "^3.2.2",
         "sugar-high": "^0.9.3",
         "tailwind-merge": "^3.1.0",
+        "yup": "^1.6.1",
         "zod": "^3.24.2",
         "zustand": "^5.0.3"
     },

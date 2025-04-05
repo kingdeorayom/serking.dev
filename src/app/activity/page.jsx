@@ -2,14 +2,14 @@ import Tabs from "@/components/activity/Tabs";
 
 export const metadata = {
     title: "Activity - Serking de Orayom",
-    description: "Web and mobile app developer",
+    description: "Software developer, designer, gamer",
 };
 
 export default async function ActivityPage() {
     return (
         <div className="flex flex-col space-y-6">
             <section className="flex flex-col space-y-6">
-                <h1 className="font-semibold text-2xl tracking-tighter">
+                <h1 className="text-2xl font-semibold tracking-tighter">
                     I listen to music and play video games.
                 </h1>
                 <p>

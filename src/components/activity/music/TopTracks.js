@@ -1,4 +1,4 @@
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import Loading from "@/components/ui/Loading";
 import useSWR from "swr";
 import MusicCard from "./MusicCard";
 
@@ -17,12 +17,7 @@ const TopTracks = () => {
         {}
     );
 
-    if (!MUSIC_ACTIVITIES)
-        return (
-            <div className="flex items-center justify-center">
-                <AiOutlineLoading3Quarters className="animate-spin" />
-            </div>
-        );
+    if (!MUSIC_ACTIVITIES) return <Loading />;
 
     if (error) return null;
 

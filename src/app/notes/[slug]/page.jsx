@@ -1,7 +1,7 @@
 import { Suspense, cache } from "react";
 import { notFound } from "next/navigation";
 import { unstable_noStore as noStore } from "next/cache";
-import { getBlogPosts } from "@/db/blog";
+import { getBlogPosts } from "@/lib/blog";
 import { getViewsCount } from "@/db/queries";
 import { increment } from "@/db/actions";
 import ViewCounter from "@/components/blog/ViewCounter";
@@ -115,10 +115,10 @@ export default function Blog({ params }) {
             <div className="mb-8">
                 <BackButton />
             </div>
-            <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
+            <h1 className="title max-w-[650px] text-2xl font-medium tracking-tighter">
                 {post.metadata.title}
             </h1>
-            <div className="flex justify-between items-center mt-2 mb-8 text-sm max-w-[650px]">
+            <div className="mt-2 mb-8 flex max-w-[650px] items-center justify-between text-sm">
                 <Suspense fallback={<p className="h-5" />}>
                     <p className="text-sm text-neutral-600 dark:text-neutral-300">
                         {formatDate(post.metadata.publishedAt)}

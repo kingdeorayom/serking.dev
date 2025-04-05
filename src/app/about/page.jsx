@@ -3,7 +3,7 @@ import Introduction from "@/components/about/Introduction";
 
 export const metadata = {
     title: "About - Serking de Orayom",
-    description: "Web and mobile app developer",
+    description: "Software developer, designer, gamer",
 };
 
 export default function AboutPage() {

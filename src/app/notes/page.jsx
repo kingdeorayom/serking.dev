@@ -1,9 +1,9 @@
 import Blogs from "@/components/blog/Blogs";
-import { getBlogPosts } from "@/db/blog";
+import { getBlogPosts } from "@/lib/blog";
 
 export const metadata = {
     title: "Notes - Serking de Orayom",
-    description: "Web and mobile app developer",
+    description: "Software developer, designer, gamer",
 };
 
 export default function BlogPage() {
@@ -11,7 +11,7 @@ export default function BlogPage() {
     return (
         <div className="flex flex-col space-y-6">
             <section className="flex flex-col gap-y-6">
-                <h1 className="font-semibold text-2xl tracking-tighter">
+                <h1 className="text-2xl font-semibold tracking-tighter">
                     Developer's Notes
                 </h1>
                 <p>Sharing thoughts, ideas, and a bit of code.</p>

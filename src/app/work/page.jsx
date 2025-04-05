@@ -4,14 +4,14 @@ import Stack from "@/components/work/Stack";
 
 export const metadata = {
     title: "Work - Serking de Orayom",
-    description: "Web and mobile app developer",
+    description: "Software developer, designer, gamer",
 };
 
 export default function WorkPage() {
     return (
         <div className="flex flex-col space-y-6">
             <section className="flex flex-col space-y-6">
-                <h1 className="font-semibold text-2xl tracking-tighter">
+                <h1 className="text-2xl font-semibold tracking-tighter">
                     My work experiences
                 </h1>
                 <p>
