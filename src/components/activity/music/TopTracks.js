@@ -1,6 +1,6 @@
-import Loading from "@/components/ui/Loading";
+// import Loading from "@/components/ui/Loading";
 import useSWR from "swr";
-import MusicCard from "./MusicCard";
+import TopTracksCard from "./TopTracksCard";
 
 const fetcher = async (url) => {
     const res = await fetch(url);
@@ -17,7 +17,8 @@ const TopTracks = () => {
         {}
     );
 
-    if (!MUSIC_ACTIVITIES) return <Loading />;
+    // if (!MUSIC_ACTIVITIES) return <Loading />;
+    if (!MUSIC_ACTIVITIES) return null;
 
     if (error) return null;
 
@@ -29,7 +30,7 @@ const TopTracks = () => {
             </p>
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
                 {MUSIC_ACTIVITIES.map((activity) => (
-                    <MusicCard key={activity.url} activity={activity} />
+                    <TopTracksCard key={activity.url} activity={activity} />
                 ))}
             </ol>
         </>

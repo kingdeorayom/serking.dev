@@ -2,7 +2,7 @@
 
 import Loading from "@/components/ui/Loading";
 import useSWR from "swr";
-import MusicCard from "./MusicCard";
+import CurrentlyPlayingCard from "./CurrentlyPlayingCard";
 
 const fetcher = async (url) => {
     const res = await fetch(url);
@@ -25,9 +25,11 @@ const CurrentlyPlaying = () => {
 
     return (
         <div className="flex flex-col space-y-8">
-            <p>Currently Playing</p>
+            {CURRENTLY_PLAYING.isPlaying ? (
+                <p>Serking is currently playing a song on Spotify.</p>
+            ) : null}
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
-                <MusicCard activity={CURRENTLY_PLAYING} />
+                <CurrentlyPlayingCard activity={CURRENTLY_PLAYING} />
             </ol>
         </div>
     );

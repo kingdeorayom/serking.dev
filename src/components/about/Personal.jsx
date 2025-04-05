@@ -1,6 +1,4 @@
 import Gallery from "../ui/Gallery";
-import Separator from "../ui/Separator";
-import Recommendations from "./Recommendations";
 
 const Personal = () => {
     return (
@@ -17,8 +15,6 @@ const Personal = () => {
                 </p>
             </div>
             <Gallery />
-            <Separator />
-            <Recommendations />
         </section>
     );
 };

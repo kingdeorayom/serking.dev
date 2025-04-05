@@ -35,7 +35,7 @@ const MenuToggler = () => {
     return (
         <>
             <button
-                className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm hover:ring-zinc-900/10 sm:hidden dark:bg-neutral-800 dark:text-neutral-50 dark:ring-white/10 dark:hover:ring-white/20"
+                className="group flex items-center rounded-full border border-gray-200 bg-white/90 px-4 py-2 text-xs font-medium text-zinc-800 shadow shadow-zinc-800/5 backdrop-blur-sm sm:hidden dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-50"
                 aria-expanded="false"
                 onClick={openMenu}
             >
@@ -51,7 +51,7 @@ const MenuToggler = () => {
                 )}
 
                 {menuOpen && (
-                    <div className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800">
+                    <div className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl border border-gray-200 bg-white p-8 dark:border-neutral-700 dark:bg-zinc-900">
                         <div className="flex flex-row-reverse items-center justify-between">
                             <button
                                 aria-label="Close menu"

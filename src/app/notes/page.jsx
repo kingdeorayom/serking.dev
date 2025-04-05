@@ -3,7 +3,7 @@ import { getBlogPosts } from "@/lib/blog";
 
 export const metadata = {
     title: "Notes - Serking de Orayom",
-    description: "Software developer, designer, gamer",
+    description: "Software developer, designer, digital explorer",
 };
 
 export default function BlogPage() {

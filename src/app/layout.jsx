@@ -15,8 +15,7 @@ const geistSans = Geist({
 
 export const metadata = {
     title: "Serking de Orayom",
-    description:
-        "I'm a software developer from the Philippines specializing in building responsive and user-focused applications for web and mobile.",
+    description: "Software developer, designer, digital explorer",
 };
 
 export default async function RootLayout({ children }) {
@@ -26,7 +25,7 @@ export default async function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "mx-auto my-10 flex min-h-screen max-w-3xl flex-col px-6 antialiased dark:bg-[#111010] dark:text-white",
+                    "dark:bg-primary mx-auto my-10 flex min-h-screen max-w-3xl flex-col px-6 antialiased dark:text-white",
                     geistSans.className
                 )}
             >

@@ -6,7 +6,7 @@ const Navbar = ({ pathname }) => {
         (item) => item.path !== "/"
     );
     return (
-        <nav className="group hidden flex-row items-center justify-center space-x-6 rounded-full bg-white/90 px-5 py-2 text-center text-sm text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur hover:ring-zinc-900/10 sm:flex dark:bg-neutral-800 dark:text-neutral-50 dark:ring-white/10 dark:hover:ring-white/20">
+        <nav className="group hidden flex-row items-center justify-center space-x-6 rounded-full border border-gray-200 bg-white/90 px-5 py-2 text-center text-sm text-zinc-800 shadow-lg shadow-zinc-800/5 backdrop-blur sm:flex dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-50 dark:ring-white/10">
             {FILTERED_NAVIGATION_LINKS.map((item) => {
                 const isSelected = item.path === pathname;
                 return (

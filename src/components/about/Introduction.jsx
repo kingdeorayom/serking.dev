@@ -6,11 +6,12 @@ const Introduction = () => {
         <section className="flex flex-col space-y-6">
             <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 {/* Hi, I&apos;m Serking de Orayom. A web and mobile app developer. */}
-                Hi, I&apos;m Serking&mdash;software developer, designer, gamer.
+                Hi, I&apos;m Serking&mdash;software developer, designer, digital
+                explorer.
             </h1>
             <div className="grid gap-y-10 py-10 md:grid-cols-2 md:gap-y-0">
                 <div className="flex items-center md:order-first">
-                    <div className="flex flex-col space-y-6 md:text-lg">
+                    <div className="flex flex-col space-y-6">
                         <p>
                             I'm a software developer from the Philippines
                             specializing in building responsive and user-focused

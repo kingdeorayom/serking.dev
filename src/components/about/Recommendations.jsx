@@ -17,7 +17,7 @@ const Recommendations = () => {
             <div className="py-6">
                 <Image
                     alt="Work and Gaming Setup"
-                    className="block h-full w-3/4 rounded-2xl object-cover object-center"
+                    className="block h-full w-full rounded-2xl object-cover object-center"
                     src={setup}
                 />
             </div>

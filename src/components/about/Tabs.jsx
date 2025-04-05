@@ -4,6 +4,7 @@ import { useState } from "react";
 import Work from "./Work";
 import Education from "./Education";
 import Personal from "./Personal";
+import Recommendations from "./Recommendations";
 
 const Tabs = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -14,6 +15,7 @@ const Tabs = () => {
         { label: "Career" },
         { label: "Education" },
         { label: "Personal" },
+        { label: "Uses" },
     ];
 
     return (
@@ -48,8 +50,10 @@ const Tabs = () => {
                 <Work />
             ) : tabIndex === 1 ? (
                 <Education />
-            ) : (
+            ) : tabIndex === 2 ? (
                 <Personal />
+            ) : (
+                <Recommendations />
             )}
         </>
     );

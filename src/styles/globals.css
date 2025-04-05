@@ -2,6 +2,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+
+  --color-primary: oklch(0.17 0.0017 17.32);
+  
   --color-gray-200: oklch(92.8% 0.006 264.531);
   --color-gray-300: oklch(87.2% 0.01 258.338);
   --color-gray-500: oklch(55.1% 0.027 264.364);
@@ -13,6 +16,8 @@
   --color-neutral-600: oklch(43.9% 0 0);
   --color-neutral-700: oklch(37.1% 0 0);
   --color-neutral-900: oklch(20.5% 0 0);
+
+  /* --animate-spin-slow: 'spin 8s linear infinite', */
 }
 
 :root {

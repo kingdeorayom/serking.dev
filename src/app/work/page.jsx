@@ -4,7 +4,7 @@ import Stack from "@/components/work/Stack";
 
 export const metadata = {
     title: "Work - Serking de Orayom",
-    description: "Software developer, designer, gamer",
+    description: "Software developer, designer, digital explorer",
 };
 
 export default function WorkPage() {

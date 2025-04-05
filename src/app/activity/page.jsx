@@ -2,7 +2,7 @@ import Tabs from "@/components/activity/Tabs";
 
 export const metadata = {
     title: "Activity - Serking de Orayom",
-    description: "Software developer, designer, gamer",
+    description: "Software developer, designer, digital explorer",
 };
 
 export default async function ActivityPage() {

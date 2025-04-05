@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="flex flex-col space-y-6">
                 <h1 className="text-3xl font-semibold tracking-tighter md:text-4xl md:font-bold">
                     Hi, I&apos;m Serking&mdash;software developer, designer,
-                    gamer.
+                    digital explorer.
                 </h1>
                 <p>
                     I&apos;m a software developer from the Philippines
