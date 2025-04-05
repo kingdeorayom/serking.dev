@@ -7,7 +7,7 @@ const BlogCard = ({ post }) => {
     return (
         <Link
             key={post.slug}
-            className="group border-b border-neutral-200 pb-8 dark:border-neutral-800"
+            className="group border-b border-gray-200 pb-8 dark:border-neutral-800"
             href={`/notes/${post.slug}`}
         >
             <div className="flex w-full flex-col space-y-2">

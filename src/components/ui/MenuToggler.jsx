@@ -80,7 +80,7 @@ const MenuToggler = () => {
                                                 onClick={closeMenu}
                                                 className="flex items-center justify-between"
                                             >
-                                                <p className="relative flex py-4 align-middle text-sm capitalize transition-all hover:text-neutral-800 dark:hover:text-neutral-200">
+                                                <p className="relative flex py-4 align-middle text-sm capitalize transition-all hover:text-neutral-800 dark:hover:text-gray-200">
                                                     {item.label}
                                                 </p>
 

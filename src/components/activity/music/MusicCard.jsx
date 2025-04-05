@@ -28,7 +28,7 @@ const MusicCard = ({ activity }) => {
                     {/* <Link
                         target="_blank"
                         href={activity?.url}
-                        className="flex items-center space-x-1 rounded-md h-6 px-2 py-1 w-fit border border-neutral-200 dark:border-neutral-700 hover:bg-slate-50 dark:bg-neutral-900 dark:hover:bg-neutral-800"
+                        className="flex items-center space-x-1 rounded-md h-6 px-2 py-1 w-fit border border-gray-200 dark:border-neutral-700 hover:bg-slate-50 dark:bg-neutral-900 dark:hover:bg-neutral-800"
                     >
                         <div>
                             <FaPlay size={14} />

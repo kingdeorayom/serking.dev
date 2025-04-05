@@ -26,7 +26,7 @@ const CurrentlyPlaying = () => {
     return (
         <div className="flex flex-col space-y-8">
             <p>Currently Playing</p>
-            <ol className="relative border-s border-neutral-200 dark:border-gray-700">
+            <ol className="relative border-s border-gray-200 dark:border-gray-700">
                 <MusicCard activity={CURRENTLY_PLAYING} />
             </ol>
         </div>
