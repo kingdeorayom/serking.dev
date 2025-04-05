@@ -6,7 +6,7 @@ const DownloadCV = () => {
     const router = useRouter();
 
     const handleClick = () => {
-        router.push(window.location.origin + "/Serking-de-Orayom-CV.pdf");
+        router.push(`${window?.location?.origin}/Serking-de-Orayom-CV.pdf`);
     };
 
     return (
