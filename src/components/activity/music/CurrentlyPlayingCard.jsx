@@ -29,7 +29,7 @@ const CurrentlyPlayingCard = ({ activity }) => {
                             {`${activity?.artist}`}
                         </time>
                     </div>
-                    <Link
+                    {/* <Link
                         target="_blank"
                         href={activity?.songUrl}
                         className="flex h-6 w-fit items-center space-x-1 rounded-md border border-gray-200 px-2 py-1 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-800"
@@ -38,9 +38,9 @@ const CurrentlyPlayingCard = ({ activity }) => {
                             <FaPlay size={14} />
                         </div>
                         <p className="text-xs font-semibold">Play</p>
-                    </Link>
+                    </Link> */}
                 </div>
-                <div className="my-4">
+                <div className="rounded-md border border-gray-200 dark:border-neutral-700">
                     <Image
                         src={activity?.albumImageUrl}
                         alt={activity?.title}

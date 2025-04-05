@@ -1,5 +1,6 @@
 import Image from "next/image";
 import serkingdeorayom from "../../../public/images/me/studio.jpg";
+// import DownloadCV from "../ui/DownloadCV";
 
 const Introduction = () => {
     return (
@@ -25,6 +26,7 @@ const Introduction = () => {
                             If you want to know more about my personal life,
                             keep reading.
                         </p>
+                        {/* <DownloadCV /> */}
                     </div>
                 </div>
                 <div className="order-first flex items-center justify-center md:order-last">

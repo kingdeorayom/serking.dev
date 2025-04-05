@@ -22,7 +22,7 @@ const TopTracksCard = ({ activity }) => {
                             {`Last Played: ${activity?.lastPlayed} mins ago`}
                         </time> */}
                     </div>
-                    <Link
+                    {/* <Link
                         target="_blank"
                         href={activity?.url}
                         className="flex h-6 w-fit items-center space-x-1 rounded-md border border-gray-200 px-2 py-1 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-800"
@@ -31,7 +31,7 @@ const TopTracksCard = ({ activity }) => {
                             <FaPlay size={14} />
                         </div>
                         <p className="text-xs font-semibold">Play</p>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="my-4">
                     <Image

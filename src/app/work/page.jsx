@@ -1,3 +1,4 @@
+// import DownloadCV from "@/components/ui/DownloadCV";
 import Separator from "@/components/ui/Separator";
 import Experiences from "@/components/work/Experiences";
 import Stack from "@/components/work/Stack";
@@ -19,6 +20,7 @@ export default function WorkPage() {
                     collaborate with a team, contribute to impactful projects,
                     and continue growing as a developer.
                 </p>
+                {/* <DownloadCV /> */}
             </section>
             <Separator />
             <Experiences />
