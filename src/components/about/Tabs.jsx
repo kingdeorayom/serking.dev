@@ -47,15 +47,17 @@ const Tabs = () => {
                 </div>
             </div>
 
-            {tabIndex === 0 ? (
-                <Career />
-            ) : tabIndex === 1 ? (
-                <Education />
-            ) : tabIndex === 2 ? (
-                <Personal />
-            ) : (
-                <Recommendations />
-            )}
+            <div className="py-4">
+                {tabIndex === 0 ? (
+                    <Career />
+                ) : tabIndex === 1 ? (
+                    <Education />
+                ) : tabIndex === 2 ? (
+                    <Personal />
+                ) : (
+                    <Recommendations />
+                )}
+            </div>
         </>
     );
 };
