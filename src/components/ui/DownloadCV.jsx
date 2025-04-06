@@ -1,12 +1,12 @@
 "use client";
-import { useRouter } from "next/navigation";
 import { MdArrowDownward } from "react-icons/md";
 
 const DownloadCV = () => {
-    const router = useRouter();
-
     const handleClick = () => {
-        router.push(`${window?.location?.origin}/Serking-de-Orayom-CV.pdf`);
+        window.open(
+            `${window?.location?.origin}/Serking-de-Orayom-CV.pdf`,
+            "_blank"
+        );
     };
 
     return (
