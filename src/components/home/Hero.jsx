@@ -5,13 +5,14 @@ const Hero = () => {
         <section className="flex flex-col space-y-8">
             <Avatar className="h-16 w-16" />
             <div className="flex flex-col space-y-6">
-                <h1 className="text-3xl font-semibold tracking-tighter md:text-4xl md:font-bold">
-                    Hi, I&apos;m Serking&mdash;software developer, designer,
+                <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">
+                    {/* Software Engineer & UI/UX Designer. */}
+                    Hi, I&apos;m Serking&mdash;software engineer, designer,
                     digital explorer.
                 </h1>
                 <p>
-                    I&apos;m a software developer from the Philippines
-                    specializing in{" "}
+                    I&apos;m a software engineer from the Philippines
+                    specializing in building websites with{" "}
                     <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
                         React
                     </span>{" "}
@@ -19,11 +20,11 @@ const Hero = () => {
                     <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
                         Next.js
                     </span>{" "}
-                    for frontend development,{" "}
+                    for frontend,{" "}
                     <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
                         React Native
                     </span>{" "}
-                    and{" "}
+                    with{" "}
                     <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
                         Expo SDK
                     </span>{" "}
@@ -33,8 +34,8 @@ const Hero = () => {
                     </span>{" "}
                     and{" "}
                     <span className="border-b border-dashed border-neutral-400 dark:border-neutral-500">
-                        MySQL
-                    </span>{" "}
+                        MySQL{" "}
+                    </span>
                     for the backend.
                 </p>
             </div>
