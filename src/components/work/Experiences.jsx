@@ -37,8 +37,8 @@ const Experiences = () => {
                 </p>
 
                 <p>
-                    Below are the projects I&apos;ve designed and developed the
-                    UI during my stay at the company.
+                    Below are the projects I&apos;ve designed and developed
+                    during my stay at the company.
                 </p>
 
                 <Projects company="padtech" />
