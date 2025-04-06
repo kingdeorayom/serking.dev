@@ -19,7 +19,7 @@ const CurrentlyPlayingCard = ({ activity }) => {
                 {activity?.icon}
                 <FaSpotify size={18} color="#1DB954" />
             </span>
-            <div className="justify-between md:flex">
+            <div className="justify-between space-y-4 md:flex md:space-y-0">
                 <div className="space-y-2">
                     <h3 className="line-clamp-1 font-medium text-neutral-900 dark:text-neutral-100">
                         {activity?.title}
@@ -40,7 +40,7 @@ const CurrentlyPlayingCard = ({ activity }) => {
                         <p className="text-xs font-semibold">Play</p>
                     </Link> */}
                 </div>
-                <div className="rounded-md border border-gray-200 dark:border-neutral-700">
+                <div className="w-fit rounded-md border border-gray-200 dark:border-neutral-700">
                     <Image
                         src={activity?.albumImageUrl}
                         alt={activity?.title}
