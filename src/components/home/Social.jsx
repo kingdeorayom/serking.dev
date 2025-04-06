@@ -26,7 +26,7 @@ const Social = () => {
                                         <div>{item.icon}</div>
                                         <div className="flex flex-col">
                                             {/* or text-xs */}
-                                            <p className="line-clamp-1 text-sm font-medium text-neutral-900 dark:text-neutral-100">
+                                            <p className="line-clamp-1 text-sm text-neutral-900 dark:text-neutral-100">
                                                 {item.description}
                                             </p>
                                             {/* <p className=" text-xs text-neutral-500 dark:text-neutral-100">
