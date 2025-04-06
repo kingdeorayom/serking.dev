@@ -1,4 +1,4 @@
-import Gallery from "../ui/Gallery";
+// import Gallery from "../ui/Gallery";
 
 const Personal = () => {
     return (
@@ -14,7 +14,7 @@ const Personal = () => {
                     enjoying quality time with friends and family.
                 </p>
             </div>
-            <Gallery />
+            {/* <Gallery /> */}
         </section>
     );
 };
