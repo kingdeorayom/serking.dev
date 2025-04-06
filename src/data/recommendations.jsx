@@ -50,17 +50,16 @@ const RECOMMENDATIONS = [
             {
                 title: "Visual Studio Code",
                 description:
-                    "Has many useful extensions that speed up my development.",
+                    "Has many useful extensions that help speed up my development.",
             },
             {
                 title: "Postman",
-                description:
-                    "When you start to create and use APIs, Postman will always be your trusted little friend.",
+                description: "Has everything I need to test my APIs.",
             },
             {
                 title: "Android Virtual Device (Android Studio)",
                 description:
-                    "As if I have a choice not to use it. (I know, I know, I can just use my hardware device)",
+                    "I use this to test my Android apps, but I also have a physical device to test on.",
             },
             {
                 title: "MySQL Workbench",
@@ -95,7 +94,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Adobe Photoshop",
                 description:
-                    "My go-to app when I need to quickly create and edit images. I'm not proficient at Photoshop, though.",
+                    "I use this for photo editing and manipulation. My go-to app when I need to quickly edit images. I'm not proficient at Photoshop, though.",
             },
         ],
     },
@@ -112,7 +111,7 @@ const RECOMMENDATIONS = [
             {
                 title: "Chess",
                 description:
-                    "A good game of chess every now and then is a must-have for me.",
+                    "I play chess to relax and unwind. I play online and with friends. A good game of chess every now and then is a must-have for me.",
             },
             {
                 title: "Acoustic Guitar",
