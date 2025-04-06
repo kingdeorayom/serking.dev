@@ -1,6 +1,6 @@
 import Image from "next/image";
 import serkingdeorayom from "../../../public/images/me/studio.jpg";
-import DownloadCV from "../ui/DownloadCV";
+// import DownloadCV from "../ui/DownloadCV";
 
 const Introduction = () => {
     return (
@@ -8,8 +8,10 @@ const Introduction = () => {
             <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 {/* Hi, I&apos;m Serking&mdash;software engineer, designer, digital
                 explorer. */}
-                {/* I'm a Software Engineer and a UI/UX Designer. */}I turn
-                ideas into beautiful, functional products.
+                {/* I'm a Software Engineer and a UI/UX Designer. */}
+                {/* I turn ideas into beautiful, functional products. */}
+                Hi, I&apos;m Serking&mdash;software engineer &amp; UI/UX
+                designer.
             </h1>
             {/* <p>I turn ideas into beautiful, functional products.</p> */}
             <div className="grid gap-y-10 py-10 md:grid-cols-2 md:gap-y-0">
@@ -28,7 +30,7 @@ const Introduction = () => {
                             If you want to know more about my personal life,
                             keep reading.
                         </p> */}
-                        <DownloadCV />
+                        {/* <DownloadCV /> */}
                     </div>
                 </div>
                 <div className="order-first flex items-center justify-center md:order-last">

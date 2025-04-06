@@ -6,9 +6,8 @@ const Hero = () => {
             <Avatar className="h-16 w-16" />
             <div className="flex flex-col space-y-6">
                 <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">
-                    {/* Software Engineer & UI/UX Designer. */}
-                    Hi, I&apos;m Serking&mdash;software engineer, designer,
-                    digital explorer.
+                    Hi, I&apos;m Serking&mdash;software engineer &amp; UI/UX
+                    designer.
                 </h1>
                 <p>
                     I&apos;m a software engineer from the Philippines

@@ -4,7 +4,7 @@ import Notice from "@/components/guestbook/Notice";
 
 export const metadata = {
     title: "Guestbook - Serking de Orayom",
-    description: "Software developer, designer, digital explorer",
+    description: "Software Engineer & UI/UX designer",
 };
 
 export default function GuestBookPage() {

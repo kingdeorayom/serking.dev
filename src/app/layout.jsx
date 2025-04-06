@@ -15,7 +15,7 @@ const geistSans = Geist({
 
 export const metadata = {
     title: "Serking de Orayom",
-    description: "Software developer, designer, digital explorer",
+    description: "Software Engineer & UI/UX designer",
 };
 
 export default async function RootLayout({ children }) {
