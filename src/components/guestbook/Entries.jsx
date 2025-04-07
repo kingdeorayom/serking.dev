@@ -1,6 +1,6 @@
 "use client";
 
-import { useGetEntries } from "@/app/hooks/guestbook";
+import { useGetEntries } from "@/hooks/guestbook";
 import Loading from "../ui/Loading";
 import Message from "./Message";
 
@@ -21,7 +21,7 @@ const Entries = () => {
     return (
         <div className="space-y-4">
             {entries.map((entry) => (
-                <Message key={entry.id} entry={entry} />
+                <Message key={entry._id} entry={entry} />
             ))}
         </div>
     );

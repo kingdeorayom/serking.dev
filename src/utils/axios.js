@@ -3,7 +3,7 @@ import axios from "axios";
 
 const ApiClient = () => {
     const instance = axios.create({
-        baseURL: "https://jsonplaceholder.typicode.com",
+        baseURL: process.env.NEXT_PUBLIC_API_URL,
         // withCredentials: true,
         headers: {
             "Content-Type": "application/json",

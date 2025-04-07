@@ -2,12 +2,19 @@ import axiosInterceptor from "@/utils/axios";
 
 export const getEntries = async () => {
     try {
-        const response = await axiosInterceptor.get("/users");
+        const response = await axiosInterceptor.get("/guestbook");
         return response.data;
     } catch (error) {
-        // console.log("Request Error:", error);
-        throw error; // Ensure React Query handles the error
+        throw error;
     }
 };
 
-// export const addEntry = async () => {};
+export const addEntry = async ({ payload, form }) => {
+    try {
+        const response = await axiosInterceptor.post("/guestbook", payload);
+        form?.reset();
+        return response.data;
+    } catch (error) {
+        throw error;
+    }
+};
