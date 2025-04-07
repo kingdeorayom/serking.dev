@@ -16,7 +16,38 @@ const Experiences = () => {
                         Sep 2022 - Mar 2025
                     </p>
                 </div>
-                <p>
+
+                <ul className="flex list-disc flex-col space-y-4 px-8 py-4">
+                    <li>
+                        Led the development of responsive and scalable user
+                        interfaces using Next.js, React Native, and Tailwind CSS
+                        for both web and mobile platforms.
+                    </li>
+                    <li>
+                        Handled UI/UX design tasks, helping create simple but
+                        effective, user-friendly, and modern-looking apps and
+                        websites.
+                    </li>
+                    <li>
+                        Improved overall mobile apps and website&apos;s
+                        performance by enhancing load times, UI responsiveness,
+                        and user experience.
+                    </li>
+                    <li>
+                        Made the frontend codebase easier to scale and maintain
+                        by writing clean, modular, and reusable components.
+                    </li>
+                    <li>
+                        Helped upgrade old code by moving legacy components and
+                        systems to newer frameworks and tools.
+                    </li>
+                    <li>
+                        Built and used Laravel APIs to handle data and business
+                        logic for frontend features.
+                    </li>
+                </ul>
+
+                {/* <p>
                     Over the course of <em>over two and a half years</em>, I've
                     had the privilege of making significant contributions to the
                     company, notably as one of the primary frontend developers
@@ -35,6 +66,11 @@ const Experiences = () => {
                     development, and gradually migrating legacy components and
                     codebase to modern frameworks and infrastructure.
                 </p>
+
+                <p>
+                    Below are the projects I&apos;ve designed and developed
+                    during my stay at the company.
+                </p> */}
 
                 <p>
                     Below are the projects I&apos;ve designed and developed
