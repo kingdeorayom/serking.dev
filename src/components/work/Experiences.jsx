@@ -20,30 +20,34 @@ const Experiences = () => {
                 <ul className="flex list-disc flex-col space-y-4 px-8 py-4">
                     <li>
                         Led the development of responsive and scalable user
-                        interfaces using Next.js, React Native, and Tailwind CSS
-                        for both web and mobile platforms.
+                        interfaces using <strong>Next.js</strong>,{" "}
+                        <strong>React Native</strong>, and{" "}
+                        <strong>Tailwind CSS</strong> for both web and mobile
+                        platforms.
                     </li>
                     <li>
-                        Handled UI/UX design tasks, helping create simple but
-                        effective, user-friendly, and modern-looking apps and
-                        websites.
+                        Handled <strong>UI/UX design tasks</strong>, helping
+                        create simple but effective, user-friendly, and
+                        modern-looking apps and websites.
                     </li>
                     <li>
-                        Improved overall mobile apps and website&apos;s
-                        performance by enhancing load times, UI responsiveness,
-                        and user experience.
+                        Improved overall mobile apps and website&apos;s{" "}
+                        <strong>performance</strong> by enhancing load times, UI
+                        responsiveness, and user experience.
                     </li>
                     <li>
                         Made the frontend codebase easier to scale and maintain
-                        by writing clean, modular, and reusable components.
+                        by writing <strong>clean, modular</strong>, and{" "}
+                        <strong>reusable components</strong>.
                     </li>
                     <li>
-                        Helped upgrade old code by moving legacy components and
-                        systems to newer frameworks and tools.
+                        Helped <strong>upgrade old code</strong> by moving
+                        legacy components and systems to newer frameworks and
+                        tools.
                     </li>
                     <li>
-                        Built and used Laravel APIs to handle data and business
-                        logic for frontend features.
+                        Built and used <strong>Laravel APIs</strong> to handle
+                        data and business logic for frontend features.
                     </li>
                 </ul>
 
