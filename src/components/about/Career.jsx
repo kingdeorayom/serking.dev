@@ -11,8 +11,9 @@ const Career = () => {
                 opened its doors to me.{" "}
             </p>
             <p>
-                My journey has been a whirlwind of exploration: picture a
-                younger version of me, huddled in a local computer shop&apos;s{" "}
+                {/* My journey has been a whirlwind of exploration: picture a */}
+                Picture a younger version of me, huddled in a local computer
+                shop&apos;s{" "}
                 <Link
                     href="https://en.wikipedia.org/wiki/Pisonet"
                     target="_blank"

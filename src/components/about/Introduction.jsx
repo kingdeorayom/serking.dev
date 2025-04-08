@@ -19,8 +19,8 @@ const Introduction = () => {
                     <div className="flex flex-col space-y-6">
                         <p>
                             I'm a software engineer from the Philippines
-                            specializing in building responsive and user-focused
-                            applications for web and mobile.
+                            specializing in building responsive, functional, and
+                            user-focused applications for web and mobile.
                         </p>
                         <p>
                             Check my projects and work history to see what I've
