@@ -36,7 +36,7 @@ const Projects = ({ company = "" }) => {
                                         <Link
                                             href={project.webUrl}
                                             target="_blank"
-                                            className="group-hover:hovered-link"
+                                            className="group-hover:border-b group-hover:border-gray-300 hover:border-gray-600 dark:text-white dark:group-hover:border-gray-500 dark:hover:border-white"
                                         >
                                             {project?.title}
                                         </Link>
