@@ -1,0 +1,38 @@
+---
+title: "Adding Multi-language Support to a Mobile App"
+publishedAt: "2024-11-11"
+summary: "Was tasked to localize our mobile app. Panicked a little. Pulled it off anyway."
+tag: "journal"
+image: "/images/blog/placeholder.webp"
+duration: 2
+---
+
+## Content Management
+
+So one day during our usual team planning, our boss asked:  
+**“We need to support multiple languages for the app. Can you handle that?”**
+
+I was like, “Yes, I can do it.” Internally? I'm screaming.
+
+I had zero real experience with internationalization (i18n) or localization (l10n), and now I was responsible for making sure our app could talk to users from different regions—8 different languages-and not embarrass myself in the process.
+
+After a short panic, I got to work. I ended up using `i18next` with `react-i18next`, and surprisingly, it wasn’t as scary as I thought. Here’s the gist of what I did:
+
+- Created JSON files for each language we needed (starting with `en.json` and `es.json`)
+- Used the `useTranslation` hook in our components
+- Stored the language preference with `AsyncStorage` so it would persist between sessions
+- Updated our UI to adapt to longer strings and minor layout shifts
+
+The tricky parts were:
+
+- Handling plural forms and dynamic values in translation strings
+- Making sure dates and currencies formatted correctly based on locale
+- Testing every screen to avoid weird UI breaks (some translations were _looooooong_)
+
+But hey — it worked! The app now supports multiple languages, and I actually learned a lot about building for users beyond the default “English-speaking dev” assumption.
+
+Moral of the story: When you're tasked with something you’re unsure about, lean into it. You might just surprise yourself.
+
+I’ll be doing the same setup soon for a Next.js project. Now that I’ve been through the pain once, I feel way more confident tackling it on the web side.
+
+Next stop: RTL support. Wish me luck. 😅

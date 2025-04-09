@@ -28,6 +28,22 @@ function Table({ data }) {
     );
 }
 
+function List({ children }) {
+    return (
+        <ul className="mx-5 my-4 list-inside list-disc space-y-4">
+            {children}
+        </ul>
+    );
+}
+
+function ListItem({ children }) {
+    return <li>{children}</li>;
+}
+
+function Separator() {
+    return <hr className={"border-gray-200 dark:border-neutral-700"} />;
+}
+
 function CustomLink(props) {
     let href = props.href;
 
@@ -143,7 +159,7 @@ function createHeading(level) {
         let slug = slugify(children);
         return React.createElement(
             `h${level}`,
-            { id: slug },
+            { id: slug, className: "font-semibold" }, // Added font-bold class
             [
                 React.createElement("a", {
                     href: `#${slug}`,
@@ -172,6 +188,9 @@ let components = {
     code: Code,
     Table,
     LiveCode,
+    ul: List,
+    li: ListItem,
+    hr: Separator,
 };
 
 export default function CustomMDX(props) {
