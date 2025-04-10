@@ -7,6 +7,7 @@ import "@/styles/globals.css";
 import { cn } from "@/utils/cn";
 import { getServerSession } from "next-auth";
 import { Geist } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default async function RootLayout({ children }) {
                         </SessionProvider>
                     </ThemeProvider>
                 </TanstackProvider>
+                <Analytics />
             </body>
         </html>
     );

@@ -14,6 +14,7 @@
         "@hookform/resolvers": "^5.0.1",
         "@tailwindcss/typography": "^0.5.16",
         "@tanstack/react-query": "^5.71.10",
+        "@vercel/analytics": "^1.5.0",
         "@vercel/postgres": "^0.10.0",
         "axios": "^1.8.4",
         "clsx": "^2.1.1",
