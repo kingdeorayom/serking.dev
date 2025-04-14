@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 import Image from "next/image";
 import Link from "next/link";
-import serkingdeorayom from "../../../public/images/me/serking.jpg";
+import serking from "../../../public/images/me/serking.jpg";
 
 const Avatar = ({ className }) => {
     return (
@@ -11,7 +11,7 @@ const Avatar = ({ className }) => {
                     "h-10 w-10 rounded-full dark:border dark:border-white/10",
                     className
                 )}
-                src={serkingdeorayom}
+                src={serking}
                 alt="Serking de Orayom"
                 width={512}
                 height={512}
