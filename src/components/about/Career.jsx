@@ -12,7 +12,7 @@ const Career = () => {
             </p>
             <p>
                 {/* My journey has been a whirlwind of exploration: picture a */}
-                Picture a younger version of me, huddled in a local computer
+                Picture a younger version of me huddled in a local computer
                 shop&apos;s{" "}
                 <Link
                     href="https://en.wikipedia.org/wiki/Pisonet"
@@ -21,16 +21,18 @@ const Career = () => {
                 >
                     pisonet
                 </Link>
-                , learning the ropes by tinkering with PCs and indulging in a
-                bit of digital mischief (after playing{" "}
+                , learning the ropes by tinkering with PCs and doing a bit of
+                "digital mischief" by exploring the Windows system and sometimes
+                actually causing trouble to the pisonet's owner. That&apos;s
+                after playing{" "}
                 <Link
                     href="https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
                     target="_blank"
-                    className="hovered-link italic"
+                    className="hovered-link"
                 >
                     Grand Theft Auto: Vice City
                 </Link>
-                , when my piso credits are low).
+                , when my piso credits are low.
             </p>
             {/* <div className="animate-pulse">
                 <div className="rounded-md bg-slate-200 dark:bg-slate-900 h-40"></div>
