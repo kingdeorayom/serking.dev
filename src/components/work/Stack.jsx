@@ -19,9 +19,9 @@ const Stack = () => {
                                 {stack?.icon}
                             </div>
                             <div className="space-y-1 px-2 py-3 text-sm">
-                                <h3 className="text-center text-xs font-normal">
+                                <h4 className="text-center text-xs font-normal">
                                     {stack?.name}
-                                </h3>
+                                </h4>
                             </div>
                         </div>
                     );

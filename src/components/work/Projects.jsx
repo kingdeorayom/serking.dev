@@ -7,9 +7,9 @@ const Projects = ({ company = "all" }) => {
     return (
         <div className="flex flex-col space-y-6">
             <p className="text-xs text-neutral-600 dark:text-neutral-300">
-                DISCLAIMER: Some projects may have changed in both looks and
-                functionality since I&apos;m no longer maintaining them. Certain
-                projects&mdash;including those owned by previous
+                DISCLAIMER: Some projects may have changed in both appearance
+                and functionality since I&apos;m no longer maintaining them.
+                Certain projects&mdash;including those owned by previous
                 companies&mdash;are permitted to be showcased in this website.
             </p>
             <div className="grid grid-cols-2 gap-6 py-4 md:grid-cols-3">

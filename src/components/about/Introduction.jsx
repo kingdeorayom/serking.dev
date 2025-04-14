@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serkingdeorayom from "../../../public/images/me/studio.jpg";
+import serkingdeorayom from "../../../public/images/me/serking.jpg";
 // import DownloadCV from "../ui/DownloadCV";
 
 const Introduction = () => {
