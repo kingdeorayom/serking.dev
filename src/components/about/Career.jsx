@@ -20,29 +20,22 @@ const Career = () => {
                 >
                     pisonet
                 </Link>
-                , learning the ropes by tinkering with PCs and doing a bit of
-                "digital mischief" by exploring the Windows system and sometimes
-                actually causing trouble to the pisonet's owner. That&apos;s
-                after playing{" "}
-                <Link
-                    href="https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
-                    target="_blank"
-                    className="hovered-link"
-                >
-                    Grand Theft Auto: Vice City
-                </Link>
-                , when my piso credits are low.
+                , learning by tinkering with PCs and doing a bit of "digital
+                mischief" by exploring the Windows system and sometimes actually
+                causing trouble to the pisonet's owner. That&apos;s after
+                playing games and when my piso credits are low.
             </p>
             <p>
-                It was a wild introduction to computing technology. Years passed
-                and I found myself tinkering with smartphones and laptops,
-                changing its stock ROM to custom ROMs and changing the OS
-                installed, respectively. I had a lot of fun doing it, making me
-                curious how software worked in general.
+                It was a good introduction to computing technology. Years passed
+                and I found myself messing with smartphones and laptops,
+                changing stock ROMs to custom ROMs and changing the OS,
+                respectively. I had a lot of fun doing it, making me curious how
+                software worked in general.
             </p>
             <p>
                 It was then that I realized what career I wanted to pursue and
-                so I took BS Information Technology in college.
+                so I took BS Information Technology in college, but also for
+                practical purposes.
             </p>
             <p>Now, I am into software development.</p>
         </section>

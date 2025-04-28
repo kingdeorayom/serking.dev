@@ -37,6 +37,7 @@ const Hero = () => {
                     </span>
                     for the backend.
                 </p>
+                <p>Feel free to explore my work and projects.</p>
                 {/* <p>Check my works below.</p> */}
             </div>
         </section>

@@ -11,21 +11,24 @@ const Stack = () => {
                 services I use to build and run a website, application, or any
                 project.
             </p>
-            <div className="grid grid-cols-4 gap-6 sm:grid-cols-6">
-                {STACKS.map((stack, index) => {
-                    return (
-                        <div key={index}>
-                            <div className="aspect-h-1 aspect-w-1 flex h-20 w-full items-center justify-center rounded-md border border-gray-200 p-1 shadow-xs dark:border-neutral-700">
-                                {stack?.icon}
-                            </div>
-                            <div className="space-y-1 px-2 py-3 text-sm">
-                                <h4 className="text-center text-xs font-normal">
+            <div>
+                <ul className="grid grid-cols-2 gap-8 py-6 md:grid-cols-3">
+                    {STACKS.map((stack, index) => {
+                        return (
+                            <li
+                                key={index}
+                                className="flex items-center space-x-4"
+                            >
+                                <div className="flex h-10 w-10 items-center justify-center rounded-md border border-gray-200 p-1 shadow-xs dark:border-neutral-700">
+                                    {stack?.icon}
+                                </div>
+                                <h4 className="text-sm font-normal">
                                     {stack?.name}
                                 </h4>
-                            </div>
-                        </div>
-                    );
-                })}
+                            </li>
+                        );
+                    })}
+                </ul>
             </div>
         </section>
     );

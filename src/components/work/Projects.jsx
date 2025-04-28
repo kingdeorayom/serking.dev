@@ -12,7 +12,7 @@ const Projects = ({ company = "all" }) => {
                 Certain projects&mdash;including those owned by previous
                 companies&mdash;are permitted to be showcased in this website.
             </p>
-            <div className="grid grid-cols-2 gap-6 py-4 md:grid-cols-3">
+            <div className="grid grid-cols-2 gap-6 py-10 md:grid-cols-3">
                 {PROJECTS.filter(
                     (project) =>
                         !company ||

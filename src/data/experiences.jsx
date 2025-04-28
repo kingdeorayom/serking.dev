@@ -13,6 +13,7 @@ export const WORK_EXPERIENCES = [
             "Made the frontend codebase easier to scale and maintain by writing **clean, modular**, and **reusable components**.",
             "Helped **upgrade old code** by moving legacy components and systems to newer frameworks and tools.",
             "Built and used **Laravel APIs** to handle data and business logic for frontend features.",
+            "Filling whatever role is needed at the time.",
         ],
         companyKey: "padtech",
     },
@@ -32,7 +33,7 @@ export const WORK_EXPERIENCES = [
         title: "Frontend Developer",
         duration: "2021 (Internship)",
         description: [
-            "During my internship, I worked on the company's official website using React.js and Tailwind CSS, which was my first hands-on experience with React.",
+            "During my internship, I worked on the company's official website using **React.js** and **Tailwind CSS**, which was my first hands-on experience with React.",
         ],
         bulletPoints: [],
         companyKey: null,

@@ -3,6 +3,10 @@ import Separator from "../ui/Separator";
 import Projects from "./Projects";
 
 const Experiences = () => {
+    const parseMarkdownToHtml = (text) => {
+        return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    };
+
     return (
         <section className="flex flex-col space-y-6">
             {WORK_EXPERIENCES.map((exp, index) => (
@@ -25,17 +29,19 @@ const Experiences = () => {
                                 <li
                                     key={i}
                                     dangerouslySetInnerHTML={{
-                                        __html: point.replace(
-                                            /\*\*(.*?)\*\*/g,
-                                            "<strong>$1</strong>"
-                                        ),
+                                        __html: parseMarkdownToHtml(point),
                                     }}
                                 />
                             ))}
                         </ul>
                     )}
                     {exp.description?.map((paragraph, i) => (
-                        <p key={i}>{paragraph}</p>
+                        <p
+                            key={i}
+                            dangerouslySetInnerHTML={{
+                                __html: parseMarkdownToHtml(paragraph),
+                            }}
+                        />
                     ))}
                     {exp.companyKey && <Projects company={exp.companyKey} />}
                     <Separator />

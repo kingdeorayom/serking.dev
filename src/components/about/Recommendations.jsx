@@ -10,9 +10,9 @@ const Recommendations = () => {
                 Software I use, gadgets I love, and other things I recommend.
             </h2>
             <p>
-                Things I use to build software, stay productive, or buy to fool
-                myself into thinking I&apos;m being productive when I&apos;m
-                really just procrastinating.
+                Things I use to build software, stay productive, or buy to
+                delude myself into thinking I&apos;m being productive when
+                I&apos;m really just procrastinating.
             </p>
             {/* <div className="flex justify-center py-6">
                 <Image
@@ -21,7 +21,7 @@ const Recommendations = () => {
                     src={setup}
                 />
             </div> */}
-            <p>Here&apos;s a big list of all of my favorite stuff:</p>
+            <p>Here&apos;s a short list of all of my favorite stuff:</p>
 
             {RECOMMENDATIONS.map((recommendation, index) => (
                 <React.Fragment key={index}>
