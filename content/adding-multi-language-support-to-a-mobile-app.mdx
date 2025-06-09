@@ -16,11 +16,11 @@ I was like, “Yes, I can do it.” Internally? I'm screaming.
 
 I had zero real experience with internationalization (i18n) or localization (l10n), and now I was responsible for making sure our app could talk to users from different regions—8 different languages-and not embarrass myself in the process.
 
-After a short panic, I got to work. I ended up using `i18next` with `react-i18next`, and surprisingly, it wasn’t as scary as I thought. Here’s the gist of what I did:
+After a short panic, I got to work. I ended up using **i18next** with **react-i18next**, and surprisingly, it wasn’t as scary as I thought. Here’s the gist of what I did:
 
-- Created JSON files for each language we needed (starting with `en.json` and `es.json`)
-- Used the `useTranslation` hook in our components
-- Stored the language preference with `AsyncStorage` so it would persist between sessions
+- Created JSON files for each language we needed (starting with **en.json** and **es.json**)
+- Used the **useTranslation** hook in our components
+- Stored the language preference with **AsyncStorage** so it would persist between sessions
 - Updated our UI to adapt to longer strings and minor layout shifts
 
 The tricky parts were:

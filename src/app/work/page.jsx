@@ -1,7 +1,7 @@
 import DownloadCV from "@/components/ui/DownloadCV";
 import Separator from "@/components/ui/Separator";
 import Experiences from "@/components/work/Experiences";
-import Stack from "@/components/work/Stack";
+// import Stack from "@/components/work/Stack";
 
 export const metadata = {
     title: "Work - Serking de Orayom",
@@ -24,7 +24,7 @@ export default function WorkPage() {
             </section>
             <Separator />
             <Experiences />
-            <Stack />
+            {/* <Stack /> */}
         </div>
     );
 }

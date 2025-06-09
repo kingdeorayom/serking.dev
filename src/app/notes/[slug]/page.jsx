@@ -1,13 +1,9 @@
-import { Suspense, cache } from "react";
-import { notFound } from "next/navigation";
-import { unstable_noStore as noStore } from "next/cache";
-import { getBlogPosts } from "@/lib/blog";
-import { getViewsCount } from "@/db/queries";
-import { increment } from "@/db/actions";
-import ViewCounter from "@/components/blog/ViewCounter";
-import CustomMDX from "@/components/ui/CustomMDX";
 import BackButton from "@/components/ui/BackButton";
-// import BackButton from "@/components/ui/BackButton";
+import CustomMDX from "@/components/ui/CustomMDX";
+import { getBlogPosts } from "@/lib/blog";
+import { unstable_noStore as noStore } from "next/cache";
+import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 export async function generateMetadata({ params }) {
     let post = getBlogPosts().find((post) => post.slug === params.slug);

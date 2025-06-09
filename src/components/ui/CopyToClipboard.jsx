@@ -39,7 +39,8 @@ const CopyToClipboard = () => {
                     <FaRegCopy size={16} className="cursor-pointer" />
 
                     <label className="ml-2 cursor-pointer text-sm">
-                        {isCopied ? "copied" : "copy email address"}
+                        {/* {isCopied ? "copied" : "copy email address"} */}
+                        {isCopied ? "copied" : "kingdeorayom@gmail.com"}
                     </label>
                 </label>
             </button>

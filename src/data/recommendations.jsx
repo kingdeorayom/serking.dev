@@ -22,15 +22,15 @@ const RECOMMENDATIONS = [
                 description:
                     "An entry-level laptop that offers performance enough to demo projects when meeting with a client. It also gets the job done when presenting web-based projects.",
             },
-            {
-                title: "Apple iPad (6th Generation)",
-                description:
-                    "Enough to run iOS apps I develop. I only use React Native for iOS development anyway.",
-            },
+            // {
+            //     title: "Apple iPad (6th Generation)",
+            //     description:
+            //         "Enough to run iOS apps I develop. I only use React Native for iOS development anyway.",
+            // },
             {
                 title: "AULA F75: Premium Gasket Mechanical Keyboard",
                 description:
-                    "With all the typing, a very good keyboard is a necessity. And this is a very good keyboard for me.",
+                    "With all the typing, a very good keyboard is a necessity. And this keyboard does not disappoint. I love the sound it makes when typing.",
             },
             {
                 title: "Logitech G304 Lightspeed Wireless Gaming Mouse",
@@ -106,12 +106,12 @@ const RECOMMENDATIONS = [
                 // description:
                 //     "A Nintendo fan boy since I was a little kid, started on Game Boy Color, Game Boy Advance SP, moved up to DS, 3DS, and now the Switch. I chose the Lite as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you're a gamer. Make time to change pace.",
                 description:
-                    "I chose the Switch as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer. Play, if you're a gamer. Make time to change pace.",
+                    "I chose the Switch as my personal gaming device so I can play while lying down whenever I get tired sitting for hours in front of the computer.",
             },
             {
                 title: "Chess",
                 description:
-                    "I play chess to relax and unwind. I play online and with friends. A good game of chess every now and then is a must-have for me.",
+                    "A good game of chess every now and then is a must-have for me. I play chess to relax and unwind. I play online and with friends.",
             },
             {
                 title: "Acoustic Guitar",
