@@ -17,7 +17,7 @@ const Gallery = () => {
                         <Link href={about1.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about1}
                             />
                         </Link>
@@ -26,7 +26,7 @@ const Gallery = () => {
                         <Link href={about5.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about5}
                             />
                         </Link>
@@ -35,7 +35,7 @@ const Gallery = () => {
                         <Link href={about3.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about3}
                             />
                         </Link>
@@ -46,7 +46,7 @@ const Gallery = () => {
                         <Link href={about2.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about2}
                             />
                         </Link>
@@ -55,7 +55,7 @@ const Gallery = () => {
                         <Link href={about6.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about6}
                             />
                         </Link>
@@ -64,7 +64,7 @@ const Gallery = () => {
                         <Link href={about4.src} target="_blank">
                             <Image
                                 alt="gallery"
-                                className="block h-full w-full rounded-2xl object-cover object-center"
+                                className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
                                 src={about4}
                             />
                         </Link>

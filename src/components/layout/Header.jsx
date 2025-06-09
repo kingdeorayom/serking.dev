@@ -10,12 +10,14 @@ const Header = () => {
     const pathname = usePathname();
     const isAvatarShown = pathname !== "/";
 
+    const isNavbarHidden = "/den" === pathname;
+
     return (
         <header className="mb-12 flex items-center justify-between tracking-tight sm:mb-14">
             <div className="flex flex-1 justify-start">
                 {isAvatarShown ? <Avatar /> : null}
             </div>
-            <Navbar pathname={pathname} />
+            {isNavbarHidden ? null : <Navbar pathname={pathname} />}
             <div className="flex flex-1 justify-end gap-x-2.5">
                 <MenuToggler />
                 <ThemeToggler />
