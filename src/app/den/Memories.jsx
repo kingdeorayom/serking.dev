@@ -354,11 +354,11 @@ const Memories = () => {
                                     </Link>
                                 </div>
                                 <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
-                                    <Link href={t3.src} target="_blank">
+                                    <Link href={t5.src} target="_blank">
                                         <Image
                                             alt="gallery"
                                             className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
-                                            src={t3}
+                                            src={t5}
                                         />
                                     </Link>
                                 </div>
@@ -383,11 +383,11 @@ const Memories = () => {
                                     </Link>
                                 </div>
                                 <div className="w-1/2 cursor-pointer p-1 hover:opacity-90 md:p-2">
-                                    <Link href={t5.src} target="_blank">
+                                    <Link href={t3.src} target="_blank">
                                         <Image
                                             alt="gallery"
                                             className="block h-full w-full rounded object-cover object-center md:rounded-2xl"
-                                            src={t5}
+                                            src={t3}
                                         />
                                     </Link>
                                 </div>
@@ -485,7 +485,7 @@ const Memories = () => {
                 </div>
             </div>
 
-            <div className="py-6">
+            <div className="flex flex-col space-y-5 py-6">
                 <p>
                     I gathered these pictures because they were attached to the
                     memories that always remind me of you&mdash;the smiles, the
@@ -494,6 +494,12 @@ const Memories = () => {
                     wanted to hold onto these little pieces, somehow. Not
                     because they&apos;re perfect shots, but because they&apos;re
                     you. And maybe that&apos;s all they ever needed to be.
+                </p>
+
+                <p>
+                    Hindi kita tinitingnan na parang tanong na kailangan
+                    sagutin, kundi parang awit na gusto ko lang pakinggan,
+                    paulit-ulit, kahit kabisado ko na.
                 </p>
             </div>
 

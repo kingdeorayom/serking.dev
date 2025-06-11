@@ -17,9 +17,8 @@ const Blockquote = () => {
                     There are days I forget how to say things right, so
                     I&apos;ll let these pictures speak a little for me. Just a
                     simple gift, left where you can find it. If even one of them
-                    makes you feel remembered, then I&apos;ve done what I came
-                    here to do. If this made you smile, then that&apos;s more
-                    than enough for me.
+                    made you feel remembered or made you smile, then that&apos;s
+                    more than enough for me.
                 </p>
 
                 {/* <p className="mt-5">
