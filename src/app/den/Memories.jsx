@@ -487,19 +487,20 @@ const Memories = () => {
 
             <div className="flex flex-col space-y-5 py-6">
                 <p>
-                    I gathered these pictures because they were attached to the
-                    memories that always remind me of you&mdash;the smiles, the
-                    quiet looks, the warmth, your light, your laugh, the way you
-                    show up even when you don&apos;t know it. I guess I just
-                    wanted to hold onto these little pieces, somehow. Not
-                    because they&apos;re perfect shots, but because they&apos;re
-                    you. And maybe that&apos;s all they ever needed to be.
+                    I gathered these pictures because they are attached to the
+                    memories na palaging nagpapaalala sa akin sa
+                    iyo&mdash;&apos;yung mga ngiti mo, &apos;yung pagtingin mo,
+                    the warmth, your light, &apos;yung tawa mo, the way you show
+                    up even when you don&apos;t know it. I guess I just wanted
+                    to hold onto these little pieces, somehow. Hindi dahil
+                    they&apos;re perfect shots, but because they&apos;re you.
+                    And maybe that&apos;s all they ever needed to be.
                 </p>
 
                 <p>
-                    Hindi kita tinitingnan na parang tanong na kailangan
-                    sagutin, kundi parang awit na gusto ko lang pakinggan,
-                    paulit-ulit, kahit kabisado ko na.
+                    At Denise, baby, hindi kita tinitingnan na parang tanong na
+                    kailangan sagutin, kundi parang awit na gusto ko lang
+                    pakinggan, paulit-ulit, kahit kabisado ko na.
                 </p>
             </div>
 

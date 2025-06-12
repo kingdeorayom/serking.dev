@@ -14,11 +14,12 @@ const Blockquote = () => {
                 <p>
                     {/* I&apos;m not here to rewrite the past or rush the future. No
                     promises, no expectations. */}
-                    There are days I forget how to say things right, so
-                    I&apos;ll let these pictures speak a little for me. Just a
-                    simple gift, left where you can find it. If even one of them
-                    made you feel remembered or made you smile, then that&apos;s
-                    more than enough for me.
+                    There are days I forget how to say things right, especially
+                    with all the mistakes I made, so I&apos;ll let these
+                    pictures speak a little for me. Simpleng regalo lang na
+                    iiwan ko sa iyo rito. If even one of them made you feel
+                    remembered or made you smile, then that&apos;s more than
+                    enough for me.
                 </p>
 
                 {/* <p className="mt-5">
