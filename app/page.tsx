@@ -1,62 +1,60 @@
 import Link from "next/link";
 
-export default function Home() {
+const LINKS = [
+  {
+    name: "Experiences",
+    href: "/work",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Things I Believe In",
+    href: "/beliefs",
+  },
+];
+
+export default function HomePage() {
   return (
     <div className="flex flex-col space-y-4">
       <p>
-        I&apos;m a software engineer from the Philippines specializing in
-        building websites and mobile applications. I always aim to build
-        responsive, functional, and user-focused systems.
+        I specialize in designing and developing responsive, scalable, and
+        user-focused web and mobile applications that are intuitive and highly
+        functional.
       </p>
       <p>
-        Outside of work, I&apos;m a gamer, avid reader, and a massive music fan.
-        I last listened to Old Man by Neil Young.
-      </p>
-      <p>Some more things about me:</p>
-      <ul className="list-disc list-inside px-2">
-        <li>
-          <Link
-            href="/projects"
-            className="underline hover:opacity-75 transition-opacity"
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/experiences"
-            className="underline hover:opacity-75 transition-opacity"
-          >
-            Experiences
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/beliefs"
-            className="underline hover:opacity-75 transition-opacity"
-          >
-            Things I Believe In
-          </Link>
-        </li>
-      </ul>
-      <p>
-        You can check out my work on{" "}
+        Outside of work, I usually play video games, read books, or listen to a
+        lot of{" "}
         <Link
-          href="https://github.com/kingdeorayom"
+          href="/music"
+          className="underline hover:opacity-75 transition-opacity"
+        >
+          music
+        </Link>
+        . I last listened to{" "}
+        <Link
+          href="/music"
           className="underline hover:opacity-75 transition-opacity"
           target="_blank"
         >
-          GitHub
+          Always On My Mind
         </Link>{" "}
-        or connect with me on{" "}
-        <Link
-          href="https://www.linkedin.com/in/kingdeorayom"
-          className="underline hover:opacity-75 transition-opacity"
-        >
-          LinkedIn
-        </Link>
-        .
+        by Elvis Presley.
       </p>
+      <p>Some more things about me:</p>
+      <ul className="list-disc list-inside px-2">
+        {LINKS.map((link) => (
+          <li key={link.href}>
+            <Link
+              href={link.href}
+              className="underline hover:opacity-75 transition-opacity"
+            >
+              {link.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
       <p>
         If you&apos;re looking to collaborate on a project, hire a developer, or
         just say hello, feel free to reach out via{" "}
@@ -67,7 +65,7 @@ export default function Home() {
         >
           email
         </Link>{" "}
-        or on{" "}
+        or{" "}
         <Link
           href="https://www.linkedin.com/in/kingdeorayom/"
           className="underline hover:opacity-75 transition-opacity"
