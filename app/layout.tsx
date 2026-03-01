@@ -26,7 +26,7 @@ export default function RootLayout({
         className={cn(
           "mx-auto min-h-screen max-w-2xl px-6 pt-12 md:pt-24 pb-4 antialiased flex flex-1 flex-col space-y-6",
           stixTwoText.className,
-          stixTwoText.variable,
+          stixTwoText.variable
         )}
       >
         <Header />
