@@ -13,7 +13,6 @@ const BELIEF_SECTIONS = [
       "You can just change your mind if wrong",
       "Have strong opinions, loosely held",
       "Maximize your exposure hours",
-      '"Anecdata" > data',
       "Seek the collective truth, not just one opinion",
     ],
   },
