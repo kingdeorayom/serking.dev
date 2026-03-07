@@ -1,19 +1,5 @@
 import Link from "next/link";
-
-const LINKS = [
-  {
-    name: "Experiences",
-    href: "/work",
-  },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
-  {
-    name: "Things I Believe In",
-    href: "/beliefs",
-  },
-];
+import Navigation from "./Navigation";
 
 const Introduction = () => {
   return (
@@ -32,29 +18,10 @@ const Introduction = () => {
         >
           music
         </Link>
-        . I last listened to{" "}
-        <Link
-          href="/music"
-          className="underline hover:opacity-75 transition-opacity"
-          target="_blank"
-        >
-          Always On My Mind
-        </Link>{" "}
-        by Elvis Presley.
+        .
       </p>
       <p>Some more things about me:</p>
-      <ul className="list-disc list-inside px-2">
-        {LINKS.map((link) => (
-          <li key={link.href}>
-            <Link
-              href={link.href}
-              className="underline hover:opacity-75 transition-opacity"
-            >
-              {link.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Navigation />
     </>
   );
 };
