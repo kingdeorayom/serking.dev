@@ -13,6 +13,7 @@
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "swr": "^2.4.1",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
@@ -22,8 +23,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "prettier-plugin-tailwindcss": "^0.7.2"
+    "typescript": "^5"
   }
 }

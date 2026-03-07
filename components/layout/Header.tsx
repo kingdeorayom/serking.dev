@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Description from "./Description";
+import Subheader from "./Subheader";
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
       <Link href="/" className="text-xl md:text-2xl font-semibold">
         <h1>Serking de Orayom</h1>
       </Link>
-      <Description />
+      <Subheader />
     </header>
   );
 }

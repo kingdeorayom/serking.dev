@@ -1,9 +1,9 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 import { STIX_Two_Text } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const stixTwoText = STIX_Two_Text({
   variable: "--font-stix-two-text",
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body
         className={cn(
           "mx-auto min-h-screen max-w-2xl px-10 pt-12 md:pt-24 pb-4 antialiased flex flex-1 flex-col space-y-6",
