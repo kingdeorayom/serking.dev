@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "mx-auto min-h-screen max-w-2xl px-6 pt-12 md:pt-24 pb-4 antialiased flex flex-1 flex-col space-y-6",
+          "mx-auto min-h-screen max-w-2xl px-10 pt-12 md:pt-24 pb-4 antialiased flex flex-1 flex-col space-y-6",
           stixTwoText.className,
           stixTwoText.variable
         )}

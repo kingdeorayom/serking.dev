@@ -14,6 +14,23 @@ interface Experience {
 
 const EXPERIENCES: Experience[] = [
   {
+    company: "Vertere Global Solutions, Inc.",
+    position: "Software Engineer",
+    period: "Oct 2025 - Present",
+    description: [
+      "Frontend engineer for the client's FinEd Digital Banking platform using Next.js and React Native.",
+    ],
+  },
+  {
+    company: "Freelancing",
+    position: "Full-Stack Developer",
+    period: "2023 - present",
+    description: [
+      "I occasionally take on freelance projects.",
+      "Below are some of my freelance works.",
+    ],
+  },
+  {
     company: "Padtech Industries Corporation",
     position: "Frontend Developer",
     period: "Sep 2022 - Apr 2025",
@@ -25,15 +42,6 @@ const EXPERIENCES: Experience[] = [
       "Helped upgrade old code by moving legacy components and systems to newer frameworks and tools.",
       "Built and used Laravel APIs to handle data and business logic for frontend features.",
       "Filling whatever role is needed at the time.",
-    ],
-  },
-  {
-    company: "Freelancing",
-    position: "Full-Stack Developer",
-    period: "2023 - present",
-    description: [
-      "I occasionally take on freelance projects.",
-      "Below are some of my freelance works.",
     ],
   },
   {
@@ -56,7 +64,7 @@ export default function WorkPage() {
             <p className="text-sm">{exp.position}</p>
             <p className="mb-3 text-sm">{exp.period}</p>
           </div>
-          <ul className="list-disc list-inside px-3 space-y-1">
+          <ul className="list-disc list-inside px-2 space-y-1">
             {exp.description.map((item, index) => (
               <li key={index}>{item}</li>
             ))}

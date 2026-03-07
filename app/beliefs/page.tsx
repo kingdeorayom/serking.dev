@@ -11,10 +11,35 @@ const BELIEF_SECTIONS = [
     items: [
       "The truth can be painful",
       "You can just change your mind if wrong",
-      "Have strong opinions, loosely held",
+      "Have strong opinions",
       "Maximize your exposure hours",
-      '"Anecdata" > data',
       "Seek the collective truth, not just one opinion",
+    ],
+  },
+  {
+    title: "Communication is the most important skill",
+    items: [
+      "Clear writing is clear thinking",
+      "Everyone (yes, you) needs to become a better writer",
+      "Have strong opinions",
+      "Be the person taking notes, even if it's just for yourself",
+      "Ideas only matter if people understand them",
+    ],
+  },
+  {
+    title: "Work can also be your hobby",
+    items: [
+      "This doesn't mean you can't have other hobbies",
+      "Your best work comes from following your curiosity",
+      "Follow what genuinely interests you",
+    ],
+  },
+  {
+    title: "Start before you feel ready",
+    items: [
+      "Small progress daily compounds into massive results",
+      "Doing a little every day beats bursts of motivation",
+      "Don't let the perfect be the enemy of the good",
     ],
   },
 ];
