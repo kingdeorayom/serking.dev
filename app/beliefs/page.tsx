@@ -5,11 +5,10 @@ export const metadata: Metadata = {
   description: "Software Engineer",
 };
 
-const BELIEF_SECTIONS = [
+const BELIEFS = [
   {
     title: "Be ruthlessly truth seeking",
     items: [
-      "The truth can be painful",
       "You can just change your mind if wrong",
       "Have strong opinions",
       "Maximize your exposure hours",
@@ -20,8 +19,7 @@ const BELIEF_SECTIONS = [
     title: "Communication is the most important skill",
     items: [
       "Clear writing is clear thinking",
-      "Everyone (yes, you) needs to become a better writer",
-      "Have strong opinions",
+      "Everyone (including yourself) needs to become a better writer",
       "Be the person taking notes, even if it's just for yourself",
       "Ideas only matter if people understand them",
     ],
@@ -47,11 +45,11 @@ const BELIEF_SECTIONS = [
 export default function BeliefsPage() {
   return (
     <div className="flex flex-col space-y-8">
-      {BELIEF_SECTIONS.map((section, index) => (
+      {BELIEFS.map((belief, index) => (
         <section key={index}>
-          <h3 className="text-lg font-semibold mb-3">{section.title}</h3>
+          <h3 className="text-lg font-semibold mb-3">{belief.title}</h3>
           <ul className="list-disc list-inside px-2 space-y-1">
-            {section.items.map((item, itemIndex) => (
+            {belief.items.map((item, itemIndex) => (
               <li key={itemIndex}>{item}</li>
             ))}
           </ul>

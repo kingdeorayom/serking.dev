@@ -8,7 +8,6 @@ export default function Subheader() {
     "/beliefs": "Core principles that guide my thinking and decisions.",
     "/work": "My professional experience and career journey.",
     "/projects": "Projects I've built and contributed to.",
-    "/music": "My top artists and tracks from Spotify.",
   };
 
   const subheader = subheaders[pathname] || "Software Engineer";

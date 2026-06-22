@@ -15,20 +15,24 @@ interface Experience {
 const EXPERIENCES: Experience[] = [
   {
     company: "Vertere Global Solutions, Inc.",
-    position: "Software Engineer",
+    position: "Programmer Analyst S3",
     period: "Oct 2025 - Present",
     description: [
       "Frontend engineer for the client's FinEd Digital Banking platform using Next.js and React Native.",
+      "Build and ship cross-platform mobile features end-to-end, owning the full development lifecycle from specification to release.",
+      "Develop full-stack solutions across frontend and backend, ensuring seamless integration between client applications and server-side services.",
+      "Lead an engineering team as a development sub-lead, delegating tasks, reviewing work, and collaborating with engineers to keep delivery on track.",
+      "Manage CI/CD pipelines and deployment workflows, configuring automated builds to streamline the release process.",
+      "Author technical documentation and Architecture Decision Records (ADRs) to align the team on design choices and preserve engineering context.",
+      "Diagnose and resolve critical production issues and high-priority bug tickets to minimize downtime and protect the user experience.",
+      "Collaborate with architects, product owners, and cross-functional teams to translate requirements into reliable, maintainable code.",
     ],
   },
   {
     company: "Freelancing",
     position: "Full-Stack Developer",
-    period: "2023 - present",
-    description: [
-      "I occasionally take on freelance projects.",
-      "Below are some of my freelance works.",
-    ],
+    period: "July 2023 - October 2025",
+    description: ["I occasionally take on freelance projects."],
   },
   {
     company: "Padtech Industries Corporation",
@@ -57,15 +61,15 @@ const EXPERIENCES: Experience[] = [
 export default function WorkPage() {
   return (
     <div className="flex flex-col space-y-8">
-      {EXPERIENCES.map((exp) => (
-        <div key={exp.company} className="flex flex-col space-y-2">
+      {EXPERIENCES.map((experience) => (
+        <div key={experience.company} className="flex flex-col space-y-2">
           <div>
-            <h3 className="font-bold">{exp.company}</h3>
-            <p className="text-sm">{exp.position}</p>
-            <p className="mb-3 text-sm">{exp.period}</p>
+            <h3 className="font-bold">{experience.company}</h3>
+            <p className="text-sm">{experience.position}</p>
+            <p className="mb-3 text-sm">{experience.period}</p>
           </div>
           <ul className="list-disc list-inside px-2 space-y-1">
-            {exp.description.map((item, index) => (
+            {experience.description.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
