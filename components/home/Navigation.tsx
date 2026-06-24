@@ -9,15 +9,23 @@ const LINKS = [
     name: "Projects",
     href: "/projects",
   },
+  // {
+  //   name: "About",
+  //   href: "/about",
+  // },
+  // {
+  //   name: "Blog",
+  //   href: "/blog",
+  // },
   {
-    name: "Things I Believe In",
+    name: "How I Think",
     href: "/beliefs",
   },
 ];
 
 const Navigation = () => {
   return (
-    <ul className="list-disc list-inside px-2">
+    <ul className="list-disc list-inside px-2 flex flex-col space-y-0.5">
       {LINKS.map((link) => (
         <li key={link.href}>
           <Link
