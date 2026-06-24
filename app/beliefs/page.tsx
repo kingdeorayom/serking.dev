@@ -34,7 +34,7 @@ const BELIEFS = [
     ],
   },
   {
-    title: "Communication is a force multiplier",
+    title: "Learn how to communicate effectively",
     items: [
       "Clear writing is clear thinking",
       "Everyone (including yourself) needs to become a better writer",
