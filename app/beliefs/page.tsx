@@ -22,7 +22,7 @@ const BELIEFS = [
       "Write code once, benefit many times",
       "Documentation is leverage",
       "Tools multiply output more than effort alone",
-      "Teams using A.I. will move 10x faster than those not willing to change",
+      "Teams using AI will move 10x faster than those not willing to change",
     ],
   },
   {
