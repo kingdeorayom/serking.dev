@@ -1,7 +1,6 @@
 import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 import { STIX_Two_Text } from "next/font/google";
-// @ts-expect-error: global CSS side-effect import type declarations are handled by Next.js
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
