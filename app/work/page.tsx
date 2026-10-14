@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-// Test commit
 export const metadata: Metadata = {
   title: "Work - Serking de Orayom",
   description:
