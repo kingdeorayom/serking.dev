@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 export default function Subheader() {
   const pathname = usePathname();
   const subheaders: Record<string, string> = {
+    "/about": "My background, interests, and everything in between.",
     "/beliefs": "Core principles that guide my thinking and decisions.",
     "/work": "My professional experience and career journey.",
     "/projects": "Projects I've built and contributed to.",

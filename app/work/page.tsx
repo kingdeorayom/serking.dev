@@ -1,8 +1,9 @@
 import { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: "Work - Serking de Orayom",
   description:
-    "I currently work on digital banking products, where I care a lot about architecture, root-cause debugging, managing multiple project releases, enhancing developer experience, and writing things down so the next person, sometimes future me, isn't lost.",
+    "I build software, solve problems, and think about how things can be made better.",
 };
 
 interface Experience {
@@ -22,7 +23,6 @@ const EXPERIENCES: Experience[] = [
       "Build and ship cross-platform mobile features end-to-end, owning the full development lifecycle from specification to release.",
       "Develop full-stack solutions across frontend and backend, ensuring seamless integration between client applications and server-side services.",
       "Lead an engineering team as a development sub-lead, delegating tasks, reviewing work, and collaborating with engineers to keep delivery on track.",
-      "Manage CI/CD pipelines and deployment workflows, configuring automated builds to streamline the release process.",
       "Author technical documentation and Architecture Decision Records (ADRs) to align the team on design choices and preserve engineering context.",
       "Diagnose and resolve critical production issues and high-priority bug tickets to minimize downtime and protect the user experience.",
       "Collaborate with architects, product owners, and cross-functional teams to translate requirements into reliable, maintainable code.",

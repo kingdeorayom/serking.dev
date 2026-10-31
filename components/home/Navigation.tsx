@@ -2,25 +2,29 @@ import Link from "next/link";
 
 const LINKS = [
   {
+    name: "About",
+    href: "/about",
+  },
+  {
     name: "Experiences",
     href: "/work",
   },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
+  // {
+  //   name: "Projects",
+  //   href: "/projects",
+  // },
   // {
   //   name: "About",
   //   href: "/about",
-  // },
-  // {
-  //   name: "Blog",
-  //   href: "/blog",
   // },
   {
     name: "How I Think",
     href: "/beliefs",
   },
+  // {
+  //   name: "Blog",
+  //   href: "/blog",
+  // },
 ];
 
 const Navigation = () => {

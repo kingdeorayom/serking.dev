@@ -13,7 +13,7 @@ const stixTwoText = STIX_Two_Text({
 export const metadata: Metadata = {
   title: "Serking de Orayom",
   description:
-    "I currently work on digital banking products, where I care a lot about architecture, root-cause debugging, managing multiple project releases, enhancing developer experience, and writing things down so the next person, sometimes future me, isn't lost.",
+    "I build software, solve problems, and think about how things can be made better.",
 };
 
 export default function RootLayout({
